@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_player",
+  "%Name":"Obj_npc_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_player",
+  "name":"Obj_npc_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -24,25 +24,14 @@
   "physicsObject":false,
   "physicsRestitution":0.1,
   "physicsSensor":false,
-  "physicsShape":0,
-  "physicsShapePoints":[
-    {"x":8.0,"y":10.0,},
-    {"x":10.0,"y":10.0,},
-  ],
+  "physicsShape":1,
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"moveSpeed","filters":[],"listItems":[],"multiselect":false,"name":"moveSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_player_idle_down",
-    "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
-  },
-  "spriteMaskId":{
-    "name":"PlayerCollision",
-    "path":"sprites/PlayerCollision/PlayerCollision.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }
