@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"DialogueSystem","folderPath":"folders/DialogueSystem.yy","name":"DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Video","folderPath":"folders/Video.yy","name":"Video","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object","folderPath":"folders/Object.yy","name":"Object","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Script","folderPath":"folders/Script.yy","name":"Script","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -20,7 +21,9 @@
     {"$GMFolder":"","%Name":"TileSets","folderPath":"folders/TileSets.yy","name":"TileSets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"videoplayback.mp4","CopyToMask":-1,"filePath":"datafiles","name":"videoplayback.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -37,6 +40,7 @@
     {"id":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},},
     {"id":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
+    {"id":{"name":"Obj_video","path":"objects/Obj_video/Obj_video.yy",},},
     {"id":{"name":"RoomTest","path":"rooms/RoomTest/RoomTest.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"PlayerCollision","path":"sprites/PlayerCollision/PlayerCollision.yy",},},

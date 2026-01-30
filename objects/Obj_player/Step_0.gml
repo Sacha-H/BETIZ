@@ -9,18 +9,24 @@ if(instance_exists(Obj_dialogue)) exit;
     //}
     //])
 //}
-
-var horizontalValue = keyboard_check(ord("D")) - keyboard_check((ord("Q")));
-var VerticalValue = keyboard_check(ord("S")) - keyboard_check((ord("Z")));
-
-move_and_collide(horizontalValue * moveSpeed, VerticalValue * moveSpeed, tilemapCol, undefined, undefined,undefined, moveSpeed, moveSpeed);
-
-
-
-if (horizontalValue != 0 or VerticalValue != 0 )
+if (can_move)
 {
-    if ( VerticalValue > 0 ) {sprite_index = spr_player_walk_down}
-    else if ( VerticalValue < 0 ) {sprite_index = spr_player_walk_up}
+    horizontalValue = keyboard_check(ord("D")) - keyboard_check((ord("Q")));
+    verticalValue = keyboard_check(ord("S")) - keyboard_check((ord("Z")));   
+}
+else {
+    horizontalValue =0;
+	verticalValue = 0;
+}
+
+move_and_collide(horizontalValue * moveSpeed, verticalValue * moveSpeed, tilemapCol, undefined, undefined,undefined, moveSpeed, moveSpeed);
+
+
+
+if (horizontalValue != 0 or verticalValue != 0 )
+{
+    if ( verticalValue > 0 ) {sprite_index = spr_player_walk_down}
+    else if ( verticalValue < 0 ) {sprite_index = spr_player_walk_up}
     else if ( horizontalValue > 0 ) {sprite_index = spr_player_walk_right}
     else if ( horizontalValue < 0 ) {sprite_index = spr_player_walk_left}
 }
