@@ -1,3 +1,3 @@
-with (Obj_npc_parent && Obj_enemy_parent) {
+with (all ) {
 	depth = -bbox_bottom
 }

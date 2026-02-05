@@ -1,0 +1,52 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 377,-90
+__PrivCrochet_tags: 
+title: Start
+---
+Boy: Where are you going?
+    -> The classroom
+        Boy : Let's go !
+        <<jump Option A>>
+    -> The music classroom
+        Boy : Let's go !
+        <<jump Option B>>
+    -> The bathroom <<if visited("Option c") == false>>
+        Boy: Let's go!
+        <<jump Option C>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1116,-301
+__PrivCrochet_tags: 
+title: Option A
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1089,329
+__PrivCrochet_tags: 
+title: Option B
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1063,932
+__PrivCrochet_tags: 
+title: Option C
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1053,704
+__PrivCrochet_tags: 
+title: Node
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 827,-427
+__PrivCrochet_tags: 
+title: Node_2
+---
+Empty Text
+===
