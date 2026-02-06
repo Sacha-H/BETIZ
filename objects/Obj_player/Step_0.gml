@@ -1,4 +1,4 @@
-if(instance_exists(Obj_dialogue)) exit;
+if(instance_exists(Obj_text)) exit;
 
 //if (keyboard_check_pressed(vk_space))
 //{
