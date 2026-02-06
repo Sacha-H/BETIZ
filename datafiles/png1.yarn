@@ -1,43 +1,42 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 277,21
+__PrivCrochet_position: -69,-56
 __PrivCrochet_tags: 
 title: Start
 ---
-<<set $moveSpeed = 1>>
-
 Bienvenue dans Betiz ! Que viens tu faire ici ?
     -> Decouvrir le monde de betiz
         <<jump Option A>>
     -> Faire des betiz
         <<jump Option B>>
-    -> Speedrun
+    -> Speedrun <<if visited("Option C") == false>>
         <<jump Option C>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 823,-222
+__PrivCrochet_position: 598,-250
 __PrivCrochet_tags: 
 title: Option A
 ---
 Génial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 830,51
+__PrivCrochet_position: 560,89
 __PrivCrochet_tags: 
 title: Option B
 ---
 Non Alexis tu est trop vieux pour faire des bétiz
     -> allez ranger sa chambre
-        <<jump Option B>>
+        <<jump Option chambre>>
     -> affronter le npc
         <<jump Option Fight>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 828,306
+__PrivCrochet_position: 566,437
 __PrivCrochet_tags: 
 title: Option C
 ---
-Tiens ! Voila des chaussures de courses <<set $moveSpeed = 3>>
+<<set $moveSpeed to 1.8>>
+Tiens ! Voila des chaussures de courses
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 827,-427
@@ -47,9 +46,17 @@ title: Node_2
 Empty Text
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1275,41
+__PrivCrochet_position: 921,275
 __PrivCrochet_tags: 
 title: Option Fight
 ---
 Mais non voyons ! tu peux faire autant de bétiz que tu veux dans bétiz
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 912,-11
+__PrivCrochet_tags: 
+title: Option chambre
+---
+...
+<<jump Option B>>
 ===

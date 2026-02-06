@@ -19,7 +19,7 @@ else {
 	verticalValue = 0;
 }
 
-move_and_collide(horizontalValue * moveSpeed, verticalValue * moveSpeed, tilemapCol, undefined, undefined,undefined, moveSpeed, moveSpeed);
+move_and_collide(horizontalValue * moveSpeed, verticalValue * moveSpeed, [tilemapCol, Obj_door], undefined, undefined,undefined, moveSpeed, moveSpeed);
 
 
 

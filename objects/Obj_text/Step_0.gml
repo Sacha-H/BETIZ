@@ -1,5 +1,6 @@
 if Chatterbox {
     Obj_player.moveSpeed = ChatterboxVariableGet("moveSpeed")
+    show_debug_message(ChatterboxVariableGet("moveSpeed"))
 }
 
 var _count = ChatterboxGetOptionCount(Chatterbox)

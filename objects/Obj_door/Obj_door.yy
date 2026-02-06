@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_key",
+  "%Name":"Obj_door",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_key",
+  "name":"Obj_door",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -26,15 +25,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"keyName","filters":[],"listItems":[],"multiselect":false,"name":"keyName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"SimpleKey","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_key_simple",
-    "path":"sprites/sprite_key_simple/sprite_key_simple.yy",
+    "name":"sprite_door",
+    "path":"sprites/sprite_door/sprite_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
