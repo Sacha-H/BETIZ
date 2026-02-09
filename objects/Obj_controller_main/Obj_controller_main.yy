@@ -9,8 +9,8 @@
   "name":"Obj_controller_main",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Dialogue",
+    "path":"folders/Object/Dialogue.yy",
   },
   "parentObjectId":null,
   "persistent":false,

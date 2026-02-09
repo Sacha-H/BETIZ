@@ -1,3 +1,8 @@
+if (alarm[1] >= 0){
+    targetX = x + kb_x
+    targetY = y + kb_y
+}
+
 if(instance_exists(Obj_dialogue)) exit;
 
 var _hor = clamp(targetX - x, -1,1);

@@ -1,6 +1,6 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -69,-56
+__PrivCrochet_position: -231,-79
 __PrivCrochet_tags: 
 title: Start
 ---
@@ -31,7 +31,7 @@ Non Alexis tu est trop vieux pour faire des bétiz
         <<jump Option Fight>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 566,437
+__PrivCrochet_position: 460,398
 __PrivCrochet_tags: 
 title: Option C
 ---
@@ -59,4 +59,12 @@ title: Option chambre
 ---
 ...
 <<jump Option B>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -24,250
+__PrivCrochet_tags: 
+title: Declaration
+---
+<<set $hashat to false>>
+<<set $pnjhashat to false>>
 ===

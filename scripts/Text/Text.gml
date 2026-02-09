@@ -1,9 +1,10 @@
-function create_text(name, dialogue_path){
+function create_text(name, start_node){
     if (instance_exists(Obj_text)) 
     {return}
   
-    ChatterboxLoadFromFile(dialogue_path)
-    var _inst = instance_create_depth(0,0,0,Obj_text)
+    
+    var _inst = instance_create_depth(0,0,0,Obj_text,{start_node : start_node})
+    
     Obj_text.name = name
 }
 

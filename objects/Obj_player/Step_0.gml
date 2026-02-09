@@ -13,6 +13,12 @@ if (can_move)
 {
     horizontalValue = keyboard_check(ord("D")) - keyboard_check((ord("Q")));
     verticalValue = keyboard_check(ord("S")) - keyboard_check((ord("Z")));   
+    
+    if (keyboard_check_pressed(vk_space)){
+      var _inst = instance_create_depth(x,y,depth, obj_attack)
+      _inst.image_angle = facing;
+      _inst.damage *= damage    
+    }
 }
 else {
     horizontalValue =0;
@@ -29,6 +35,8 @@ if (horizontalValue != 0 or verticalValue != 0 )
     else if ( verticalValue < 0 ) {sprite_index = spr_player_walk_up}
     else if ( horizontalValue > 0 ) {sprite_index = spr_player_walk_right}
     else if ( horizontalValue < 0 ) {sprite_index = spr_player_walk_left}
+    
+    facing = point_direction(0,0, horizontalValue, verticalValue);
 }
 else 
 {

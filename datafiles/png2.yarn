@@ -1,0 +1,65 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: -1922,-180
+__PrivCrochet_tags: 
+title: chapeau
+---
+je ne trouve pas mon chapeau <<if $hashat == false>>
+    -> pourquoi tu veux un chapeau ? <<if $hashat == false>>
+        <<jump Option pourquoi>>
+    -> donner le chapeau <<if $hashat == true>>
+        <<jump Option donner>>
+    -> mettre le chapeau puis partir <<if $hashat == true>>
+        <<jump Option partir>>
+    -> voler le chapeau <<if $pnjhashat == true>>
+        <<jump Option voler>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1086,-441
+__PrivCrochet_tags: 
+title: Option pourquoi
+---
+Je veux mon chapeau ! c'est tout !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -988,-220
+__PrivCrochet_tags: 
+title: Option donner
+---
+<<set $hashat to false>>
+<<set $pnjhashat to true>>
+Merci !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -973,35
+__PrivCrochet_tags: 
+title: Option partir
+---
+NOOOOOON !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1091,377
+__PrivCrochet_tags: 
+title: Option voler
+---
+<< set $pnjhashat to false >>
+<<set $hashat to true >>
+REVIENS ICI CHENAPAN !!!
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: -2197,-492
+__PrivCrochet_tags: 
+title: Declaration
+---
+<<set $moveSpeed to 1>>
+<<set $hashat to false>>
+<<set $pnjhashat to false>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -2251,-185
+__PrivCrochet_tags: 
+title: Start
+---
+j'adore les chapeaux
+<<jump chapeau>>
+===

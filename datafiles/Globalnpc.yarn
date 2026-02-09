@@ -1,0 +1,126 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: -1200,-282
+__PrivCrochet_tags: 
+title: chapeau
+---
+je ne trouve pas mon chapeau <<if $hashat == false>>
+    -> pourquoi tu veux un chapeau ? <<if $hashat == false>>
+        <<jump Option pourquoi>>
+    -> donner le chapeau <<if $hashat == true>>
+        <<jump Option donner>>
+    -> mettre le chapeau puis partir <<if $hashat == true>>
+        <<jump Option partir>>
+    -> voler le chapeau <<if $pnjhashat == true>>
+        <<jump Option voler>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -726,-637
+__PrivCrochet_tags: 
+title: Option pourquoi
+---
+Je veux mon chapeau ! c'est tout !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -730,-407
+__PrivCrochet_tags: 
+title: Option donner
+---
+<<set $hashat to false>>
+<<set $pnjhashat to true>>
+Merci !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -731,-177
+__PrivCrochet_tags: 
+title: Option partir
+---
+NOOOOOON !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -717,53
+__PrivCrochet_tags: 
+title: Option voler
+---
+<< set $pnjhashat to false >>
+<<set $hashat to true >>
+REVIENS ICI CHENAPAN !!!
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: -1967,-1504
+__PrivCrochet_tags: 
+title: Declaration
+---
+<<set $moveSpeed to 1>>
+<<set $hashat to false>>
+<<set $pnjhashat to false>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1529,-287
+__PrivCrochet_tags: 
+title: Png2
+---
+j'adore les chapeaux
+<<jump chapeau>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1207,-947
+__PrivCrochet_tags: 
+title: Option Speedrun
+---
+<<set $moveSpeed to 1.8>>
+Tiens ! Voila des chaussures de courses
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1202,-1240
+__PrivCrochet_tags: 
+title: Option B
+---
+Non Alexis tu est trop vieux pour faire des bétiz
+    -> allez ranger sa chambre
+        <<jump Option chambre>>
+    -> affronter le npc
+        <<jump Option Fight>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1630,-1235
+__PrivCrochet_tags: 
+title: Png1
+---
+Bienvenue dans Betiz ! Que viens tu faire ici ?
+    -> Decouvrir le monde de betiz
+        <<jump Option A>>
+    -> Faire des betiz
+        <<jump Option B>>
+    -> Speedrun <<if visited("Option C") == false>>
+        <<jump Option Speedrun>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -784,-1377
+__PrivCrochet_tags: 
+title: Option chambre
+---
+...
+<<jump Option B>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -801,-1079
+__PrivCrochet_tags: 
+title: Option Fight
+---
+Mais non voyons ! tu peux faire autant de bétiz que tu veux dans bétiz
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1206,-1535
+__PrivCrochet_tags: 
+title: Option A
+---
+Génial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1996,-725
+__PrivCrochet_tags: 
+title: Node
+---
+Empty Text
+===

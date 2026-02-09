@@ -1,6 +1,12 @@
 if Chatterbox {
+    
     Obj_player.moveSpeed = ChatterboxVariableGet("moveSpeed")
-    show_debug_message(ChatterboxVariableGet("moveSpeed"))
+    Obj_player.hashat = ChatterboxVariableGet("hashat")
+    Obj_npc_1.pnjhashat = ChatterboxVariableGet("pnjhashat")
+    //show_debug_message(ChatterboxVariableGet("hashat"))
+}
+else {
+	
 }
 
 var _count = ChatterboxGetOptionCount(Chatterbox)
@@ -26,6 +32,6 @@ else if _count {
 }
 
 if ChatterboxIsStopped(Chatterbox){
-    instance_destroy()
+    instance_destroy(Obj_text)
 }
 

@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_enemy1",
-  "eventList":[],
+  "%Name":"Obj_object",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_enemy1",
+  "name":"Obj_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Combat",
-    "path":"folders/Object/Combat.yy",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_enemy_parent",
-    "path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

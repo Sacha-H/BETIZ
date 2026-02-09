@@ -10,8 +10,8 @@
   "name":"Obj_npc_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Dialogue",
+    "path":"folders/Object/Dialogue.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-    {"$GMObjectProperty":"v2","%Name":"dialogue_path","filters":[],"listItems":[],"multiselect":false,"name":"dialogue_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TestChatterBox.yarn","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"start_node","filters":[],"listItems":[],"multiselect":false,"name":"start_node","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TestChatterBox.yarn","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
