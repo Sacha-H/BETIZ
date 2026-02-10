@@ -2,13 +2,13 @@
 
 tilemapCol = layer_tilemap_get_id("Tiles_Col");
 
-can_move = true;
+can_move = false;
 
 keyCount = 0
 
 hashat = false
 
-
+alarm[1] = 10
 
 // combat
 hp = 10 ;
@@ -18,5 +18,21 @@ damage = 1
 facing = 0
 
 
+level = 1
+xp = 0
+xp_require = 100
 
-ChatterboxLoadFromFile("Globalnpc.yarn")
+function add_xp(_xp_to_add){
+    xp += _xp_to_add
+    if(xp >= xp_require){
+        level++
+        xp -= xp_require
+        xp_require *= 1.4
+        
+        hp_total += 5
+        hp += 5
+        
+        damage += 0.8
+    }
+}
+

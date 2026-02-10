@@ -1,6 +1,6 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: -1200,-282
+__PrivCrochet_position: -1307,-292
 __PrivCrochet_tags: 
 title: chapeau
 ---
@@ -15,14 +15,14 @@ je ne trouve pas mon chapeau <<if $hashat == false>>
         <<jump Option voler>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -726,-637
+__PrivCrochet_position: -833,-647
 __PrivCrochet_tags: 
 title: Option pourquoi
 ---
-Je veux mon chapeau ! c'est tout !
+mange mon chapeau !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -730,-407
+__PrivCrochet_position: -837,-417
 __PrivCrochet_tags: 
 title: Option donner
 ---
@@ -31,14 +31,14 @@ title: Option donner
 Merci !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -731,-177
+__PrivCrochet_position: -838,-187
 __PrivCrochet_tags: 
 title: Option partir
 ---
 NOOOOOON !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -717,53
+__PrivCrochet_position: -824,43
 __PrivCrochet_tags: 
 title: Option voler
 ---
@@ -51,12 +51,12 @@ __PrivCrochet_position: -1967,-1504
 __PrivCrochet_tags: 
 title: Declaration
 ---
-<<set $moveSpeed to 1>>
+<<set $moveSpeed to 10>>
 <<set $hashat to false>>
 <<set $pnjhashat to false>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1529,-287
+__PrivCrochet_position: -1636,-297
 __PrivCrochet_tags: 
 title: Png2
 ---
@@ -68,7 +68,7 @@ __PrivCrochet_position: -1207,-947
 __PrivCrochet_tags: 
 title: Option Speedrun
 ---
-<<set $moveSpeed to 1.8>>
+<<set $moveSpeed to 15>>
 Tiens ! Voila des chaussures de courses
 ===
 __PrivCrochet_colorID: 0
@@ -83,7 +83,7 @@ Non Alexis tu est trop vieux pour faire des bétiz
         <<jump Option Fight>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1630,-1235
+__PrivCrochet_position: -1654,-1232
 __PrivCrochet_tags: 
 title: Png1
 ---
@@ -118,9 +118,9 @@ title: Option A
 Génial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1996,-725
+__PrivCrochet_position: -1620,126
 __PrivCrochet_tags: 
-title: Node
+title: Chien
 ---
-Empty Text
+BARK BARK !!!
 ===

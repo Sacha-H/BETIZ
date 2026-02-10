@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"sprite_door",
   "bboxMode":0,
-  "bbox_bottom":63,
-  "bbox_left":23,
-  "bbox_right":39,
+  "bbox_bottom":639,
+  "bbox_left":230,
+  "bbox_right":399,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":640,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c22c546f-851b-475a-8f73-39d08be47981","blendMode":0,"displayName":"default","isLocked":false,"name":"c22c546f-851b-475a-8f73-39d08be47981","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":640,
 }

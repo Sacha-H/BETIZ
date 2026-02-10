@@ -1,0 +1,1 @@
+ChatterboxLoadFromFile("Globalnpc.yarn")

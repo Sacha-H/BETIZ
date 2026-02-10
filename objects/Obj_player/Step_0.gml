@@ -17,7 +17,8 @@ if (can_move)
     if (keyboard_check_pressed(vk_space)){
       var _inst = instance_create_depth(x,y,depth, obj_attack)
       _inst.image_angle = facing;
-      _inst.damage *= damage    
+      _inst.damage *= damage
+        audio_play_sound(snd_sword,0,false,1,0.2)
     }
 }
 else {
