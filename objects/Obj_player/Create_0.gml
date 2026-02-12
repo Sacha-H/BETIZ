@@ -1,3 +1,12 @@
+
+//global.index_entrence = 0
+
+var inst_obj_entrence = instance_find(Obj_entrence,global.index_entrence)
+if (instance_exists(inst_obj_entrence)){
+    x = inst_obj_entrence.x
+    y = inst_obj_entrence.y
+}
+
 //moveSpeed = 1;
 
 tilemapCol = layer_tilemap_get_id("Tiles_Col");
@@ -21,6 +30,9 @@ facing = 0
 level = 1
 xp = 0
 xp_require = 100
+
+
+
 
 function add_xp(_xp_to_add){
     xp += _xp_to_add

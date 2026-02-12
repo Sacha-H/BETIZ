@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_title",
+  "%Name":"fnt_dungeon",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":42,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":42,
   "maintainGms1Font":false,
-  "name":"fnt_title",
+  "name":"fnt_dungeon",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

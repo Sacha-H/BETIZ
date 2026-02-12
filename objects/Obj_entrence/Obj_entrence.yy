@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_tp",
+  "%Name":"Obj_entrence",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_tp",
+  "name":"Obj_entrence",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -28,13 +28,15 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"index_room","filters":[],"listItems":[],"multiselect":false,"name":"index_room","rangeEnabled":false,"rangeMax":99.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"SpawnLocationX","filters":[],"listItems":[],"multiselect":false,"name":"SpawnLocationX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"SpawnLocationY","filters":[],"listItems":[],"multiselect":false,"name":"SpawnLocationY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tp",
-    "path":"sprites/spr_tp/spr_tp.yy",
+    "name":"spr_entrence",
+    "path":"sprites/spr_entrence/spr_entrence.yy",
   },
   "spriteMaskId":null,
   "visible":true,
