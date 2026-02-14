@@ -1,5 +1,4 @@
 
-//global.index_entrence = 0
 
 var inst_obj_entrence = instance_find(Obj_entrence,global.index_entrence)
 if (instance_exists(inst_obj_entrence)){

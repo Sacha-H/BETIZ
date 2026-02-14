@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_sword",
   "parent":{
-    "name":"Audio",
-    "path":"folders/Audio.yy",
+    "name":"Sfx",
+    "path":"folders/Audio/Sfx.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
