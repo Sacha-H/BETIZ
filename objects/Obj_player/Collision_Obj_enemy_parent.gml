@@ -1,10 +1,10 @@
 if (alarm[0] < 0)
 {
-    hp -= other.Damage
+    global.player_hp -= other.Damage
     alarm[0] = 60
     image_blend = c_red
     
-    if (hp <= 0){
+    if (global.player_hp <= 0){
         room_restart()
     }
 }

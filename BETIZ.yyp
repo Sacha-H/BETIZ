@@ -11,8 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Audio","folderPath":"folders/Audio.yy","name":"Audio","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sfx","folderPath":"folders/Audio/Sfx.yy","name":"Sfx","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Audio/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sfx","folderPath":"folders/Audio/Sfx.yy","name":"Sfx","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Chatterbox","folderPath":"folders/Chatterbox.yy","name":"Chatterbox","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"(System) (Don't look in here)","folderPath":"folders/Chatterbox/(System) (Don't look in here).yy","name":"(System) (Don't look in here)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"omg i can't believe you looked in here","folderPath":"folders/Chatterbox/(System) (Don't look in here)/omg i can't believe you looked in here.yy","name":"omg i can't believe you looked in here","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -235,6 +235,7 @@
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"IsChatterbox","path":"scripts/IsChatterbox/IsChatterbox.yy",},},
     {"id":{"name":"key","path":"scripts/key/key.yy",},},
+    {"id":{"name":"Object","path":"scripts/Object/Object.yy",},},
     {"id":{"name":"Text","path":"scripts/Text/Text.yy",},},
     {"id":{"name":"DelfinoPlaza","path":"sounds/DelfinoPlaza/DelfinoPlaza.yy",},},
     {"id":{"name":"msc_egouts","path":"sounds/msc_egouts/msc_egouts.yy",},},

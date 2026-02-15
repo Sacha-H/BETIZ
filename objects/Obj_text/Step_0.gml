@@ -1,8 +1,9 @@
 if Chatterbox {
     
-    Obj_player.moveSpeed = ChatterboxVariableGet("moveSpeed")
-    Obj_player.hashat = ChatterboxVariableGet("hashat")
-    Obj_npc_1.pnjhashat = ChatterboxVariableGet("pnjhashat")
+    global.move_speed = ChatterboxVariableGet("moveSpeed")
+    global.hashat = ChatterboxVariableGet("hashat")
+    global.hashatequiped = ChatterboxVariableGet("pnjhashatequiped")
+    global.pnjhashat = ChatterboxVariableGet("pnjhashat")
     //show_debug_message(ChatterboxVariableGet("hashat"))
 }
 else {

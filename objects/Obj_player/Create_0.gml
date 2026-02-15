@@ -1,49 +1,28 @@
 
-
-var inst_obj_entrence = instance_find(Obj_entrence,global.index_entrence)
-if (instance_exists(inst_obj_entrence)){
-    x = inst_obj_entrence.x
-    y = inst_obj_entrence.y
-}
-
 //moveSpeed = 1;
 
 tilemapCol = layer_tilemap_get_id("Tiles_Col");
 
 can_move = false;
 
-keyCount = 0
-
-hashat = false
 
 alarm[1] = 10
 
-// combat
-hp = 10 ;
-hp_total = hp
-damage = 1
 
 facing = 0
 
 
-level = 1
-xp = 0
-xp_require = 100
-
-
-
-
 function add_xp(_xp_to_add){
-    xp += _xp_to_add
-    if(xp >= xp_require){
-        level++
-        xp -= xp_require
-        xp_require *= 1.4
+    global.player_xp += _xp_to_add
+    if(global.player_xp >= global.player_xp_require){
+        global.player_level++
+        global.player_xp -= global.player_xp_require
+        global.player_xp_require *= 1.4
         
-        hp_total += 5
-        hp += 5
+        global.player_hp_total += 5
+        global.player_hp += 5
         
-        damage += 0.8
+        global.player_damage += 0.8
     }
 }
 

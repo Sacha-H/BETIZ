@@ -4,15 +4,18 @@ __PrivCrochet_position: -1307,-292
 __PrivCrochet_tags: 
 title: chapeau
 ---
-je ne trouve pas mon chapeau <<if $hashat == false>>
-    -> pourquoi tu veux un chapeau ? <<if $hashat == false>>
+<<if $pnjhashat == false>> je ne trouve pas mon chapeau 
+    -> pourquoi tu veux un chapeau ?
         <<jump Option pourquoi>>
     -> donner le chapeau <<if $hashat == true>>
         <<jump Option donner>>
-    -> mettre le chapeau puis partir <<if $hashat == true>>
+    -> mettre le chapeau puis partir <<if $hashat == true && $pnjhashatequiped == false >>
         <<jump Option partir>>
+<<endif>>
+<<if $pnjhashat == true>> j'ai enfin mon chapeau
     -> voler le chapeau <<if $pnjhashat == true>>
         <<jump Option voler>>
+ <<endif>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -833,-647
@@ -28,6 +31,7 @@ title: Option donner
 ---
 <<set $hashat to false>>
 <<set $pnjhashat to true>>
+<<set $pnjhashatequiped to false>>
 Merci !
 ===
 __PrivCrochet_colorID: 0
@@ -35,6 +39,7 @@ __PrivCrochet_position: -838,-187
 __PrivCrochet_tags: 
 title: Option partir
 ---
+<<set $pnjhashatequiped to true>>
 NOOOOOON !
 ===
 __PrivCrochet_colorID: 0
@@ -54,6 +59,7 @@ title: Declaration
 <<set $moveSpeed to 10>>
 <<set $hashat to false>>
 <<set $pnjhashat to false>>
+<<set $pnjhashatequiped to false>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -1636,-297
@@ -76,7 +82,7 @@ __PrivCrochet_position: -1202,-1240
 __PrivCrochet_tags: 
 title: Option B
 ---
-Non Alexis tu est trop vieux pour faire des bétiz
+Non Alexis tu est trop vieux pour faire des betiz
     -> allez ranger sa chambre
         <<jump Option chambre>>
     -> affronter le npc
@@ -92,7 +98,7 @@ Bienvenue dans Betiz ! Que viens tu faire ici ?
         <<jump Option A>>
     -> Faire des betiz
         <<jump Option B>>
-    -> Speedrun <<if visited("Option C") == false>>
+    -> Speedrun <<if visited("Option Speedrun") == false>>
         <<jump Option Speedrun>>
 ===
 __PrivCrochet_colorID: 0
@@ -115,7 +121,7 @@ __PrivCrochet_position: -1206,-1535
 __PrivCrochet_tags: 
 title: Option A
 ---
-Génial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
+Genial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -1620,126
