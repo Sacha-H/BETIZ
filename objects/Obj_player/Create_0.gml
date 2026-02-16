@@ -6,10 +6,17 @@ tilemapCol = layer_tilemap_get_id("Tiles_Col");
 can_move = false;
 
 
-alarm[1] = 10
+alarm[1] = 15
 
 
 facing = 0
+
+
+
+entrence = instance_find(Obj_entrence,global.index_entrence);
+
+x = entrence.x
+y = entrence.y
 
 
 function add_xp(_xp_to_add){

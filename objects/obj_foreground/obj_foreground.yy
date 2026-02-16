@@ -8,8 +8,8 @@
   "name":"obj_foreground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Other",
+    "path":"folders/Object/Other.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"IMG_9740",
-    "path":"sprites/IMG_9740/IMG_9740.yy",
+    "name":"LicheFeu_FG",
+    "path":"sprites/LicheFeu_FG/LicheFeu_FG.yy",
   },
   "spriteMaskId":null,
   "visible":true,

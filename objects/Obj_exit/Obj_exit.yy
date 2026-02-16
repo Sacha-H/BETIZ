@@ -9,8 +9,8 @@
   "name":"Obj_exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Movement",
+    "path":"folders/Object/Movement.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -24,3 +24,7 @@ global.player_damage = 1
 global.player_level = 1
 global.player_xp = 0
 global.player_xp_require = 100
+
+global.audio_main = 0.2
+
+audio_master_gain(global.audio_main)

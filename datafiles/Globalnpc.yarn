@@ -124,9 +124,16 @@ title: Option A
 Genial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1620,126
+__PrivCrochet_position: -1624,-25
 __PrivCrochet_tags: 
 title: Chien
 ---
 BARK BARK !!!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1628,212
+__PrivCrochet_tags: 
+title: DefaultJump
+---
+Salut ! je n'ai pas encore de dialogue !
 ===

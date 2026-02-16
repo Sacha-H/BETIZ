@@ -8,7 +8,6 @@
   "name":"Obj_npc_1",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"NPC1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"start_node","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TestChatterBox.yarn",},
   ],
   "parent":{
     "name":"Dialogue",

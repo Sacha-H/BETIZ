@@ -28,8 +28,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-    {"$GMObjectProperty":"v2","%Name":"start_node","filters":[],"listItems":[],"multiselect":false,"name":"start_node","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TestChatterBox.yarn","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Default","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"start_node","filters":[],"listItems":[],"multiselect":false,"name":"start_node","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"DefaultJump","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

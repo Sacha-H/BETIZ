@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Tiles",
+    "path":"folders/Sprites/Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
