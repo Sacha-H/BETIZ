@@ -32,8 +32,29 @@ move_and_collide(horizontalValue * global.move_speed, verticalValue * global.mov
 
 if (horizontalValue != 0 or verticalValue != 0 )
 {
-    if ( verticalValue > 0 ) {sprite_index = spr_player_walk_down}
-    else if ( verticalValue < 0 ) {sprite_index = spr_player_walk_up}
+    if ( verticalValue > 0 ) {
+       
+        if ( horizontalValue > 0 ){
+             sprite_index = spr_player_walk_down
+        }
+        else if ( horizontalValue < 0 ) {
+        	 sprite_index = spr_player_walk_down
+        }
+        else {
+        	 sprite_index = spr_player_walk_down
+        }
+        }
+    else if ( verticalValue < 0 ) {
+        if ( horizontalValue > 0 ){
+             sprite_index = spr_player_walk_up
+        }
+        else if ( horizontalValue < 0 ) {
+        	 sprite_index = spr_player_walk_up
+        }
+        else {
+        	 sprite_index = spr_player_walk_up
+        }
+        }
     else if ( horizontalValue > 0 ) {sprite_index = spr_player_walk_right}
     else if ( horizontalValue < 0 ) {sprite_index = spr_player_walk_left}
     
