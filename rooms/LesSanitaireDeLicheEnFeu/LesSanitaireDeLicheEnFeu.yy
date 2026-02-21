@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_7C23001C1","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
-    {"name":"inst_2ED5D52A1","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
     {"name":"inst_1FB427AA1","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
     {"name":"inst_25EC3672_1","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
     {"name":"inst_4FBF8FD5","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
@@ -22,6 +21,8 @@
     {"name":"inst_238011C8","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
     {"name":"inst_2C46CE35","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
     {"name":"inst_116DF56B1","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
+    {"name":"inst_2314C8A0","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
+    {"name":"inst_5D9471AF","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,8 +35,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"Speed","path":"objects/obj_light/obj_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.05",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_329DB9E4_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_329DB9E4_1","objectId":{"name":"Obj_hat","path":"objects/Obj_hat/Obj_hat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5760.0,"y":1376.0,},
-        {"$GMRInstance":"v4","%Name":"inst_4FBF8FD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4FBF8FD5","objectId":{"name":"obj_foreground","path":"objects/obj_foreground/obj_foreground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-        {"$GMRInstance":"v4","%Name":"inst_2ED5D52A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ED5D52A1","objectId":{"name":"Obj_video","path":"objects/Obj_video/Obj_video.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":120.0,"y":15.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4FBF8FD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4FBF8FD5","objectId":{"name":"obj_foreground","path":"objects/obj_foreground/obj_foreground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":-32.0,},
         {"$GMRInstance":"v4","%Name":"inst_7944041D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7944041D","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"PNJ1_idle_","path":"sprites/PNJ1_idle_/PNJ1_idle_.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"NPC1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"start_node","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Png1",},
@@ -65,6 +65,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"NPC2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"start_node","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Png2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4960.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2314C8A0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2314C8A0","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"previewSprite":{"name":"spr_circle","path":"sprites/spr_circle/spr_circle.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_room","path":"objects/Obj_exit/Obj_exit.yy",},"resource":{"name":"LesSanitaireDeLicheEnFeu_1","path":"rooms/LesSanitaireDeLicheEnFeu_1/LesSanitaireDeLicheEnFeu_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"LesSanitaireDeLicheEnFeu_1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.8125,"scaleY":2.8125,"x":4512.0,"y":736.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5D9471AF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D9471AF","objectId":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"propertyId":{"name":"video_name","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cinematic_RingUp.mov",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1312.0,"y":1472.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":128,"SerialiseWidth":393,"TileCompressedData":[
           -11,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-41,-2147483648,

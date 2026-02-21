@@ -1,3 +1,7 @@
+if (can_draw_GUI == true){
+    
+
+
 var _dx = 16
 var _dy = 16
 var _barw = 256
@@ -27,3 +31,5 @@ draw_text(_dx +_barw / 2, _dy + _barh / 2, $"LEVEL {global.player_level}")
 
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
+    
+}

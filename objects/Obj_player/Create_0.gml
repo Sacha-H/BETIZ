@@ -5,6 +5,8 @@ tilemapCol = layer_tilemap_get_id("Tiles_Col");
 
 can_move = false;
 
+can_draw_GUI = true
+
 
 alarm[1] = 15
 
