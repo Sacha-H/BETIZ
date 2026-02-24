@@ -23,7 +23,7 @@ y = entrence.y
 
 function add_xp(_xp_to_add){
     global.player_xp += _xp_to_add
-    if(global.player_xp >= global.player_xp_require){
+    while(global.player_xp >= global.player_xp_require){
         global.player_level++
         global.player_xp -= global.player_xp_require
         global.player_xp_require *= 1.4
