@@ -35,10 +35,10 @@ if (horizontalValue != 0 or verticalValue != 0 )
     if ( verticalValue > 0 ) {
        
         if ( horizontalValue > 0 ){
-             sprite_index = spr_player_walk_down
+             sprite_index = spr_player_walk_down_right
         }
         else if ( horizontalValue < 0 ) {
-        	 sprite_index = spr_player_walk_down
+        	 sprite_index = spr_player_walk_down_left
         }
         else {
         	 sprite_index = spr_player_walk_down
@@ -46,17 +46,17 @@ if (horizontalValue != 0 or verticalValue != 0 )
         }
     else if ( verticalValue < 0 ) {
         if ( horizontalValue > 0 ){
-             sprite_index = spr_player_walk_up
+             sprite_index = spr_player_walk_up_right
         }
         else if ( horizontalValue < 0 ) {
-        	 sprite_index = spr_player_walk_up
+        	 sprite_index = spr_player_walk_up_left
         }
         else {
         	 sprite_index = spr_player_walk_up
         }
         }
-    else if ( horizontalValue > 0 ) {sprite_index = spr_player_walk_right}
-    else if ( horizontalValue < 0 ) {sprite_index = spr_player_walk_left}
+    else if ( horizontalValue > 0 ) {sprite_index = spr_player_walk_down_right}
+    else if ( horizontalValue < 0 ) {sprite_index = spr_player_walk_down_left}
     
     facing = point_direction(0,0, horizontalValue, verticalValue);
 }
@@ -64,6 +64,8 @@ else
 {
 	if (sprite_index == spr_player_walk_down) {sprite_index = spr_player_idle_down}
     else if (sprite_index == spr_player_walk_up) {sprite_index = spr_player_idle_up}
-    else if (sprite_index == spr_player_walk_right) {sprite_index = spr_player_idle_right}
-    else if (sprite_index == spr_player_walk_left) {sprite_index = spr_player_idle_left}
+    else if (sprite_index == spr_player_walk_down_left) {sprite_index = spr_player_idle_down_left}
+    else if (sprite_index == spr_player_walk_down_right) {sprite_index = spr_player_idle_down_right}
+    else if (sprite_index == spr_player_walk_up_left) {sprite_index = spr_player_idle_up_left}
+    else if (sprite_index == spr_player_walk_up_right) {sprite_index = spr_player_idle_up_right}
 }
