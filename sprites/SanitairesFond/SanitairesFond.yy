@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Sprites/Rooms.yy",
+    "name":"SanitairesDeChaudeLiche",
+    "path":"folders/Sprites/Rooms/SanitairesDeChaudeLiche.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

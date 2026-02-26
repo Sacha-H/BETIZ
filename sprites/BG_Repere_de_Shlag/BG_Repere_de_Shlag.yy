@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"66d51547-b532-4960-be36-a3f2ed52f07b","name":"66d51547-b532-4960-be36-a3f2ed52f07b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a99a40f5-3065-41b5-a63c-0e73d9d424ca","name":"a99a40f5-3065-41b5-a63c-0e73d9d424ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":2508,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c16adef8-d262-46e9-b425-e98ab9694829","blendMode":0,"displayName":"default","isLocked":false,"name":"c16adef8-d262-46e9-b425-e98ab9694829","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"88ae81e4-ec0b-43ed-b077-2154ff7ddb60","blendMode":0,"displayName":"default","isLocked":false,"name":"88ae81e4-ec0b-43ed-b077-2154ff7ddb60","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"BG_Repere_de_Shlag",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"DarSul",
-    "path":"folders/Sprites/Rooms/DarSul.yy",
+    "name":"DomaineSchlag",
+    "path":"folders/Sprites/Rooms/DomaineSchlag.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"66d51547-b532-4960-be36-a3f2ed52f07b","path":"sprites/BG_Repere_de_Shlag/BG_Repere_de_Shlag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3615281f-f700-4a27-9cf0-86918685e4ea","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a99a40f5-3065-41b5-a63c-0e73d9d424ca","path":"sprites/BG_Repere_de_Shlag/BG_Repere_de_Shlag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"75114f34-dcba-465d-b949-c46d22338773","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

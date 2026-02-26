@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"DarSul",
-    "path":"folders/Sprites/Rooms/DarSul.yy",
+    "name":"ValleeDeKendrick",
+    "path":"folders/Sprites/Rooms/ValleeDeKendrick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

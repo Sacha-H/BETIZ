@@ -108,8 +108,8 @@
   ],
   "name":"ForteresseDeSexe",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"ForteresseDeSexe",
+    "path":"folders/Rooms/ForteresseDeSexe.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
