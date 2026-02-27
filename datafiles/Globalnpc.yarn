@@ -18,7 +18,7 @@ title: chapeau
  <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -833,-647
+__PrivCrochet_position: -801,-697
 __PrivCrochet_tags: 
 title: Option pourquoi
 ---
@@ -43,7 +43,7 @@ title: Option partir
 NOOOOOON !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -824,43
+__PrivCrochet_position: -839,83
 __PrivCrochet_tags: 
 title: Option voler
 ---
@@ -52,25 +52,30 @@ title: Option voler
 REVIENS ICI CHENAPAN !!!
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: -1967,-1504
+__PrivCrochet_position: -2369,-1703
 __PrivCrochet_tags: 
 title: Declaration
 ---
 <<set $moveSpeed to 10>>
+<<set $playerLevel to 0>>
+<<set $combatFinal to false>>
 <<set $hashat to false>>
 <<set $pnjhashat to false>>
 <<set $pnjhashatequiped to false>>
+<<set $Sabluss1 to false>>
+<<set $Sabluss2 to false>>
+<<set $Sabluss3 to false>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1636,-297
+__PrivCrochet_position: -1637,-298
 __PrivCrochet_tags: 
-title: Png2
+title: NPC2
 ---
 j'adore les chapeaux
 <<jump chapeau>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1207,-947
+__PrivCrochet_position: -1190,-1010
 __PrivCrochet_tags: 
 title: Option Speedrun
 ---
@@ -78,7 +83,7 @@ title: Option Speedrun
 Tiens ! Voila des chaussures de courses
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1202,-1240
+__PrivCrochet_position: -1184,-1310
 __PrivCrochet_tags: 
 title: Option B
 ---
@@ -89,9 +94,9 @@ Non Alexis tu est trop vieux pour faire des betiz
         <<jump Option Fight>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1654,-1232
+__PrivCrochet_position: -1641,-1308
 __PrivCrochet_tags: 
-title: Png1
+title: PngDefault
 ---
 Bienvenue dans Betiz ! Que viens tu faire ici ?
     -> Decouvrir le monde de betiz
@@ -102,7 +107,7 @@ Bienvenue dans Betiz ! Que viens tu faire ici ?
         <<jump Option Speedrun>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -784,-1377
+__PrivCrochet_position: -767,-1440
 __PrivCrochet_tags: 
 title: Option chambre
 ---
@@ -110,30 +115,577 @@ title: Option chambre
 <<jump Option B>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -801,-1079
+__PrivCrochet_position: -784,-1142
 __PrivCrochet_tags: 
 title: Option Fight
 ---
 Mais non voyons ! tu peux faire autant de bétiz que tu veux dans bétiz
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1206,-1535
+__PrivCrochet_position: -1189,-1598
 __PrivCrochet_tags: 
 title: Option A
 ---
 Genial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1624,-25
+__PrivCrochet_position: -1633,-50
 __PrivCrochet_tags: 
 title: Chien
 ---
 BARK BARK !!!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1628,212
+__PrivCrochet_position: -1655,258
 __PrivCrochet_tags: 
 title: DefaultJump
 ---
 Salut ! je n'ai pas encore de dialogue !
+===
+__PrivCrochet_colorID: 7
+__PrivCrochet_position: -1628,665
+__PrivCrochet_tags: 
+title: Sabluss
+---
+<<if visited("Sabluss") >= 2 >>
+<<jump SablussStart2>>
+<<endif>>
+... Quoi ????
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1316,659
+__PrivCrochet_tags: 
+title: SablussStart2
+---
+<<if visited("SablussStart2") >= 2 >>
+<<jump SablussStart3>>
+<<endif>>
+J'en ai marre de tous ces crabes qui infestent la plage. Ma vie est mediocre a cause d'eux. J'aimerai qu'ils meurent tous dans d'atroces souffrances.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -985,654
+__PrivCrochet_tags: 
+title: SablussStart3
+---
+<<if visited("SablussStart3") == 1 || (visited("SablussOpinion") && visited("SablussReptilien") && visited("SablussGrave"))  >>
+Ma femme veut divorcer en ce moment.
+<<else>>
+<<jump SablussQuestion>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -621,651
+__PrivCrochet_tags: 
+title: SablussQuestion
+---
+Et toi, tu penses que les elites de ce monde sont plutot des reptiliens ou des amphibiens ?
+    -> Je... n'ai pas d'opinion. <<if !visited("SablussOpinion")>>
+        <<jump SablussOpinion>>
+    -> C'est assez evident, ils sont des reptiliens.  <<if !visited("SablussReptilien")>>
+        <<jump SablussReptilien>>
+    ->  C'est grave ce que tu dis.<<if !visited("SablussGrave")>>
+        <<jump SablussGrave>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -318,375
+__PrivCrochet_tags: 
+title: SablussOpinion
+---
+Evidemment. C'est a cause de ce genre de mentalite que les choses n'avancent pas.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -318,636
+__PrivCrochet_tags: 
+title: SablussReptilien
+---
+... T'es un fracasse de la tete toi. Pire que moi hein.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -318,947
+__PrivCrochet_tags: 
+title: SablussGrave
+---
+C'est ce que ma femme me dit aussi.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1584,1620
+__PrivCrochet_tags: 
+title: Wallace
+---
+<<if visited("Wallace") >= 2 >>
+<<jump WallaceStart2>>
+<<endif>>
+Eyh ! Comment ca va l'ami ? J'espere que tu profites bien de chaque instant qui passe.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1298,1626
+__PrivCrochet_tags: 
+title: WallaceStart2
+---
+<<if visited("WallaceStart2") == 1 || visited("WallaceQuestion") >= 3 >>
+<<random option>>
+    -> 
+        T'as deja essaye de mettre de la maizena à la place de la farine ? Ça donne un rendu completement different !
+    -> 
+        J'aspire a un mode de vie alternatif.
+<<else>>
+<<jump WallaceQuestion>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -473,1385
+__PrivCrochet_tags: 
+title: WallaceTete
+---
+J'essaye des trucs. T'aimes bien ?
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -513,1883
+__PrivCrochet_tags: 
+title: WallaceConseil
+---
+Ca arrive des fois. Dans ces moments la, il faut toujours ecouter son coeur.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -506,1636
+__PrivCrochet_tags: 
+title: WallacePerdu
+---
+Je pense que t'es sur la bonne voie, mec. Continue comme ca.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -992,1626
+__PrivCrochet_tags: 
+title: WallaceQuestion
+---
+...
+    -> Sur ta tete, c'est... c'est quoi ? <<if !visited("WallaceTete")>>
+        <<jump WallaceTete>>
+    -> Tu as quoi comme conseils a me donner ? <<if !visited("WallaceConseil")>>
+        <<jump WallaceConseil>>
+    ->  Je suis completement perdu. Je sais pas ou aller. <<if !visited("WallacePerdu")>>
+        <<jump WallacePerdu>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -6,1074
+__PrivCrochet_tags: 
+title: Node
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1555,2700
+__PrivCrochet_tags: 
+title: Guss
+---
+<< if visited("Guss") == 1>>
+Gobeli... Qui es tu... Gobelo...
+<<else>>
+<<jump RandomGuss>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1200,2703
+__PrivCrochet_tags: 
+title: RandomGuss
+---
+<<random option>>
+    -> 
+        MMmhmm..... C'est pas sur... Gobelo....
+    -> 
+        Gobeli... Ca doit etre ca... Gobelo...
+    -> 
+        Gobeli !!!! La reponse !!!! Non... Impossible... Gobelo...
+    -> 
+        Gob... tousse violemment eli.....
+<<if visited("GussQuestion") < 3>>
+<<jump GussQuestion>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -888,2711
+__PrivCrochet_tags: 
+title: GussQuestion
+---
+Gobeli... qu'est ce qui a 2 bras, 3 nez, 4 jambes et 6 cheveux...? Gobelo...?
+    -> Un menteur !  <<if !visited("GussMenteur")>>
+        <<jump GussMenteur>>
+    -> Une saucisse avec 2 bras, 3 nez, 4 jambes, et 6 cheveux <<if !visited("GussSaucisse")>>
+        <<jump GussSaucisse>>
+    -> Je sais pas ! Mince alors ! <<if !visited("GussReflechis")>>
+        <<jump GussReflechis>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -511,2383
+__PrivCrochet_tags: 
+title: GussMenteur
+---
+C'est faux... gobelo...
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -520,2726
+__PrivCrochet_tags: 
+title: GussSaucisse
+---
+Mmhf... Gobelo...
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -519,3014
+__PrivCrochet_tags: 
+title: GussReflechis
+---
+Gobeli... reflechis...
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1540,3972
+__PrivCrochet_tags: 
+title: ChienVagabond
+---
+<< if visited("ChienVagabond") == 1>>
+Salut mec ! Pas facile de se promener ici en ce moment pas vrai ?
+<<else>>
+<<jump ChienVagabonStart2>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -739,3967
+__PrivCrochet_tags: 
+title: ChienVagabonQuestion
+---
+...
+    -> Et sinon... tu as des hobbys ?
+        <<jump ChienVagabonHobbys>>
+    -> C'est quoi ton signe astrologique ?
+        <<jump ChienVagabonAstrologique>>
+    ->  Est ce que tu es celib ?  <<if !visited("ChienVagabonCelib")>>
+        <<jump ChienVagabonCelib>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1287,3967
+__PrivCrochet_tags: 
+title: ChienVagabonStart2
+---
+<< if visited("ChienVagabondStart2") == 1>>
+Alors comme ça tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
+<<else>>
+<<jump ChienVagabonStart3>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1009,3966
+__PrivCrochet_tags: 
+title: ChienVagabonStart3
+---
+<< if visited("ChienVagabondStart3") == 1>>
+Alors comme ça tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
+<<else>>
+<<jump ChienVagabonQuestion>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -385,3410
+__PrivCrochet_tags: 
+title: ChienVagabonHobbys
+---
+J'aime bien trainer a Leroy Merlin pour me renseigner sur les prix de porte-saucisses. C'est... une facon de me relaxer.
+<<jump ChienVagabonHobbys2>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -426,3964
+__PrivCrochet_tags: 
+title: ChienVagabonAstrologique
+---
+Mon signe ? Pourquoi tu me demandes ? 
+<<jump ChienVagabonCelib2>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -426,4285
+__PrivCrochet_tags: 
+title: ChienVagabonCelib
+---
+*** long soupire *** C'est complique en ce moment...
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -72,3965
+__PrivCrochet_tags: 
+title: ChienVagabonCelib2
+---
+...
+    -> C'est pour un pote qui s'interesse a toi 
+        <<jump ChienVagabonInteresse>>
+    -> Je t'aime bien donc je veux apprendre a te connaitre
+        <<jump ChienVagabonConnaitre>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 226,3820
+__PrivCrochet_tags: 
+title: ChienVagabonInteresse
+---
+Dis lui que je ne suis pas interesse. Mais c'est gentil.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 233,4103
+__PrivCrochet_tags: 
+title: ChienVagabonConnaitre
+---
+Ca Ca me fait plaisir. Je suis content. Passe une bonne journee.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -85,3411
+__PrivCrochet_tags: 
+title: ChienVagabonHobbys2
+---
+...
+    -> C'est vraiment ennuyeux comme hobby.
+        <<jump ChienVagabonEnnuyeux>>
+    -> T'es hyper cool comme mec toi ! 
+        <<jump ChienVagabonCool>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 213,3228
+__PrivCrochet_tags: 
+title: ChienVagabonEnnuyeux
+---
+Moi j'aime bien.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 217,3553
+__PrivCrochet_tags: 
+title: ChienVagabonCool
+---
+Tu... tu trouves...? Haha.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1596,4887
+__PrivCrochet_tags: 
+title: Neanphedralius
+---
+<<if visited("Neanphedralius") == 1>>
+Ca alors.... un etranger... tu... tu es vraiment la ? Ou tu es le fruit de mon imagination ? Parfois notre conscience nous joue des tours...
+<<else>>
+<<jump NeanphedraliusQuestion>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1260,4886
+__PrivCrochet_tags: 
+title: NeanphedraliusQuestion
+---
+<<if visited("NeanphedraliusCoeur") && visited("NeanphedraliusPif") >>
+<<jump NeanphedraliusQuestion2>>
+<<else>>
+Dis moi, etranger... voyages-tu avec le coeur...? Ou bien avec ton instinct ?
+    -> Toujours avec le coeur.
+        <<jump NeanphedraliusCoeur>>
+    -> Toujours au pif.
+        <<jump NeanphedraliusPif>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -896,4727
+__PrivCrochet_tags: 
+title: NeanphedraliusCoeur
+---
+C'est noble. Interessant.
+<<jump NeanphedraliusQuestion2>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -901,5115
+__PrivCrochet_tags: 
+title: NeanphedraliusPif
+---
+Au pif... tu cherches a m'insulter ?
+<<jump NeanphedraliusQuestion2>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -605,4906
+__PrivCrochet_tags: 
+title: NeanphedraliusQuestion2
+---
+<<if visited("NeanphedraliusBocal") && visited("NeanphedraliusEtrange") >>
+<<jump NeanphedraliusQuestion3>>
+<<else>>
+Parfois je me demande si on peut mettre tous les cheveux de la Terre dans un seul bocal...
+    -> Si on prend un gros bocal, ca devrait faire l'affaire.
+        <<jump NeanphedraliusBocal>>
+    -> Tu te poses d'etranges questions.
+        <<jump NeanphedraliusEtrange>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -328,4640
+__PrivCrochet_tags: 
+title: NeanphedraliusBocal
+---
+...Interessant...
+<<jump NeanphedraliusQuestion3>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -316,5142
+__PrivCrochet_tags: 
+title: NeanphedraliusEtrange
+---
+Il n'y a pas d'etranges questions. Il n'y a que d'etranges reponses.
+<<jump NeanphedraliusQuestion3>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -45,4906
+__PrivCrochet_tags: 
+title: NeanphedraliusQuestion3
+---
+Tu preferes l'oeuf ou la poule ? Et si tu preferes la poule, pourquoi ?
+    -> Personnellement je ne me prononcerai pas sur cette question.
+        <<jump NeanphedraliusPersonnellement>>
+    -> Je dois partir.
+        <<jump NeanphedraliusPartir>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 283,4644
+__PrivCrochet_tags: 
+title: NeanphedraliusPersonnellement
+---
+Je vois, tres malin... tu m'as bien eu...  Tu es un philosophe accompli maintenant. Mais ce n'est que le debut. Les vrais philosophes connaissent tous au moins l'une de ces techniques. Laisse moi te les enseigner...
+Ecole des techniques de manipulation avec le maitre : 
+CTn 1 : “Au moment ou vous sentez que quelqu’un prend part avec insouciance a une situation sociale agreable, vous lui glissez en aparte et avec assertion la construction semantique suivante : “Tu vois, la tu devrais avoir plus confiance en toi par exemple.”. On cree ainsi le doute la ou il y avait la confiance et la sensation est tres plaisante. La personne se soumet à votre jugement ou se rebelle,
+mais pensera longtemps à ce que vous lui avez dit. Continuez ainsi jusqu’a ouvrir une breche significative. ”
+CTn 2 : Technique du TUNNEL INSIPIDE (ou monotone) “Pour commencer à instaurer la gene, une facon consiste a raconter une histoire avec un rythme plutot piano, et en glissant le plus de details que vous pouvez ajouter. Racontez chacun d’eux comme un evenement à part entiere, avec une intensité dramatique plus elevee qu’a l’habitude. Plus les details sont implicites, plus l’effet sera au rendez-vous.
+Vous passerez alors à coup sûr pour une personne profondément ennuyeuse. Une variante veut qu’on hausse le ton et que l’on cherche le regard dès que l’intérêt de l’interlocuteur commence à décliner. 
+Une autre, (dite “du LABYRINTHE” et qui peut être considérée comme une technique à part entière) nous dit qu’il faut cultiver subtilement l’impression que l’histoire ne va nulle part, et que vous avez vous-même oublié la chute en passant d’une idée à l’autre. La détresse de votre interlocuteur sera alors si grande qu’il risque de chercher à s'échapper.
+Maintenez alors bien son attention en conservant un air innocent et sincèrement enthousiaste. Le risque augmente mais la victime sera tenue par la bienséance si elle vous perçoit comme bienveillante, ayant un statut important, ou si elle a un intérêt caché dans votre relation. À double tranchant donc.”
+CT n°3 : “Demandez l’autorisation de faire une plaisanterie à chaque fois que vient l’envie, l’effet de celle-ci en sera alors tellement diminué que vous obtiendrez au mieux un rire forcé de votre adversaire. Attaquez-le alors de toutes vos forces avec la phrase suivante : “T’es pas obligé de rire si tu trouves pas ça drôle.” Vous aurez alors l’ascendant sur lui.
+CT n°4 : “Technique simple. Expliquer à quelqu’un des choses qu’il ou elle sait déjà très bien. Apprenez-lui des faits qu’il ou elle connait parfaitement, renseignez-le/la sur des sujets de notoriété commune. Le/la voilà dans un dilemme : Veut-il/elle faire savoir sa compétence mais risquer de paraître arrogant.e ? Ou va t’il/elle se taire et supporter votre discours, affichant par là son ouverture et son humilité ?
+Assénez-lui dans un cas comme dans l’autre un coup mémorable qui convient.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 288,5156
+__PrivCrochet_tags: 
+title: NeanphedraliusPartir
+---
+C'est facheux. Reviens quand tu auras gagne en maturite.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -2813,725
+__PrivCrochet_tags: 
+title: Node_2
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1599,5821
+__PrivCrochet_tags: 
+title: PlusFort
+---
+<<if visited("PlusFort") == 1>>
+Ah ! En voila un qui est probablement MOINS FORT que moi ! Ca s'annonce interessant.
+<<else>>
+<<jump PlusFortQuestion1>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1178,5831
+__PrivCrochet_tags: 
+title: PlusFortQuestion1
+---
+Alors comme ca... Tu essayes de retrouver quelqu'un...? Je paris que tu n'y arriveras pas. Tu t'y prends de la mauvaise facon.
+    -> Qu'est ce que tu ferais a ma place ?
+        <<jump PlusFortPlace>>
+    -> Ton avis ne m'interesse pas. Tu n'as pas l'air si fort que ca.
+        <<jump PlusFortPasFort>>
+    -> [passer] <<if visited("PlusFortPlace") || visited("PlusFortPasFort") >>
+        <<jump PlusFortQuestion2>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -843,6062
+__PrivCrochet_tags: 
+title: PlusFortPlace
+---
+Deja, je commencerai par chercher des monstres a tuer. Tu vois de quoi je parle...? Au cas ou tu ne sais pas ce que sont les monstres, essaye d'ouvrir les yeux et de faire attention a des formes de vies hostiles. Ca prendra peut etre un peu de temps mais ca viendra a force. Ensuite... tu n'es probablement pas au courant, car tu debutes dans le milieu, et c'est normal... mais il faut TUER les monstres pour gagner des niveaux.
+Plus tu as de niveaux, plus tu es fort. Tu saisis ? Personne n'a jamais depasse le niveau 30, mais bon, moi je n'ai pas besoin de niveaux pour être fort. Je suis avant tout un guerrier rockeur. Bref, il faudra que tu trouves une cle pour libérer ton ami. J'imagine que tu ne savais pas ça non plus, pas vrai ? Tu me remercieras plus tard pour le temps que je t'ai fait gagner en t'expliquant tout ça. C'est normal que les plus forts aident les plus faibles.
+<<jump PlusFortQuestion2>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -871,5676
+__PrivCrochet_tags: 
+title: PlusFortPasFort
+---
+Tu fais erreur. Je suis bien plus fort que toi. Ça se voit quand meme, mais un débutant ne pourrait pas s'en rendre compte tout de suite, je comprend.
+<<jump PlusFortQuestion2>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -482,5836
+__PrivCrochet_tags: 
+title: PlusFortQuestion2
+---
+Tu veux que je t'explique quelque chose ? Je sens que tu as beaucoup à apprendre de moi. 
+    -> Comment on fait ses lacets ?
+        <<jump PlusFortLacet>>
+    -> Comment faire pour etre aussi fort que toi ? 
+        <<jump PlusFortAussiFort>>
+    ->  Ca va, merci.
+        <<jump PlusFortMerci>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -114,5573
+__PrivCrochet_tags: 
+title: PlusFortLacet
+---
+Question facile pour moi. Commence par trouver des chaussures, ca sera un bon debut. Je te montrerai.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -108,5824
+__PrivCrochet_tags: 
+title: PlusFortAussiFort
+---
+Alors ca, ca va te prendre du temps. Moi, j'ai appris assez vite, je suis un peu en avance par rapport a tout le monde. Toi tu auras besoin de t'entrainer, mais garde espoir.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -114,6116
+__PrivCrochet_tags: 
+title: PlusFortMerci
+---
+Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: -1472,6463
+__PrivCrochet_tags: 
+title: PraireVouivre
+---
+<<if visited("PraireVouivre") == 1>>
+Ah mince, pour le golem de smegma il fallait que je lui preleve le...  Ahem !
+(Qu'est-ce que je vais en faire de celui-la)
+Bonjour et bienvenue dans mon repaire, jeune sbire !
+Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d'a cote
+Ne lui parle pas surtout, il a tendance a mordre.
+Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fosse...
+Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
+<<else>>
+<<jump PraireVouivreQuete>>
+<<endif>>
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: -1151,6456
+__PrivCrochet_tags: 
+title: PraireVouivreQuete
+---
+<<if $playerLevel == 30>>
+<<set $combatFinal to true>>
+<<jump PraireVouivreEnd>>
+<<else>>
+va chercher la gloire jeune champion, tue au moins 30 monstres et revient me voir pour une recompense !
+<<endif>>
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: -811,6462
+__PrivCrochet_tags: 
+title: PraireVouivreEnd
+---
+<<set $combatFinal to true>>
+TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1118,154
+__PrivCrochet_tags: 
+title: Node_3
+---
+Empty Text
 ===

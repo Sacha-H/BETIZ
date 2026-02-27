@@ -26,12 +26,12 @@ function add_xp(_xp_to_add){
     while(global.player_xp >= global.player_xp_require){
         global.player_level++
         global.player_xp -= global.player_xp_require
-        global.player_xp_require *= 1.4
+        //global.player_xp_require += global.player_xp_require
         
-        global.player_hp_total += 5
-        global.player_hp += 5
+        global.player_hp_total += 2
+        global.player_hp += 2
         
-        global.player_damage += 0.8
+        global.player_damage += 0.2
     }
 }
 

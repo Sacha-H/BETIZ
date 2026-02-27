@@ -2,9 +2,13 @@ if Chatterbox {
     
     global.move_speed = ChatterboxVariableGet("moveSpeed")
     global.hashat = ChatterboxVariableGet("hashat")
+    global.player_level = ChatterboxVariableGet("playerLevel")
+    global.combat_final = ChatterboxVariableGet("combatFinal")
+    show_debug_message(ChatterboxVariableGet("combatFinal"))
+    
     global.hashatequiped = ChatterboxVariableGet("pnjhashatequiped")
     global.pnjhashat = ChatterboxVariableGet("pnjhashat")
-    //show_debug_message(ChatterboxVariableGet("hashat"))
+    show_debug_message(ChatterboxVariableGet("hashat"))
 }
 else {
 	

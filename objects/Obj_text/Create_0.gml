@@ -2,17 +2,21 @@
 
 
 Chatterbox = ChatterboxCreate()
-ChatterboxJump(Chatterbox, start_node)
+ChatterboxJump(Chatterbox, name)
 chatterbox_update()
 
 option_index = 0
-name = ""
+
 
 
 ChatterboxVariableSet("moveSpeed",global.move_speed)
+ChatterboxVariableSet("playerLevel",global.player_level)
+ChatterboxVariableSet("combatFinal",global.combat_final)
+
 ChatterboxVariableSet("hashat",global.hashat)
 ChatterboxVariableSet("pnjhashatequiped",global.hashatequiped)
 ChatterboxVariableSet("pnjhashat",global.pnjhashat)
+
 
 
 //ChatterboxVariableSet("moveSpeed",Obj_player.moveSpeed)

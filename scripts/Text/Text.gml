@@ -1,11 +1,10 @@
-function create_text(name, start_node){
+function create_text(name){
     if (instance_exists(Obj_text)) 
     {return}
   
     
-    var _inst = instance_create_depth(0,0,0,Obj_text,{start_node : start_node})
+    var _inst = instance_create_depth(0,0,0,Obj_text,{name : name})
     
-    Obj_text.name = name
 }
 
 function warp(_val,_min,_max){

@@ -1,4 +1,8 @@
+
+
 ChatterboxLoadFromFile("Globalnpc.yarn")
+
+
 
 // ROOM
 global.index_entrence = 0
@@ -8,6 +12,8 @@ global.background_music = noone
 global.inst_list = ds_list_create()
 ds_list_add(global.inst_list, "test")
 global.pnjhashat = false
+
+global.combat_final = false
 
 //PLAYER
 global.keyCount = 0
@@ -21,7 +27,7 @@ global.player_hp = 10 ;
 global.player_hp_total = global.player_hp
 global.player_damage = 1
 
-global.player_level = 1
+global.player_level = 30
 global.player_xp = 0
 global.player_xp_require = 100
 

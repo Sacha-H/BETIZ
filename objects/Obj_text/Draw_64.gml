@@ -18,7 +18,16 @@ if IsChatterbox(Chatterbox) and text != undefined{
     _dx += 16;
     _dy += 40;
      draw_set_font(fnt_text);
-     draw_text(_dx, _dy, text);
+     //draw_text(_dx, _dy, text);
+   
+     draw_text_ext(_dx, _dy, text, 30 ,1300);
+    
+    text_height = string_height_ext(text,30,1300)
+     while (text_height > 18) {
+    	 _dy += 30;
+        text_height -= 30
+    }
+    
     
     if ChatterboxGetOptionCount(Chatterbox){
     

@@ -6,9 +6,7 @@
   ],
   "managed":true,
   "name":"Obj_npc_1",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"NPC1",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Dialogue",
     "path":"folders/Object/Dialogue.yy",

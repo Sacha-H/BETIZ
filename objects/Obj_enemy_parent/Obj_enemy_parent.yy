@@ -34,7 +34,7 @@
     {"$GMObjectProperty":"v2","%Name":"Damage","filters":[],"listItems":[],"multiselect":false,"name":"Damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"DistanceToPlayer","filters":[],"listItems":[],"multiselect":false,"name":"DistanceToPlayer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"800","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"moveSpeed","filters":[],"listItems":[],"multiselect":false,"name":"moveSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"xp_value","filters":[],"listItems":[],"multiselect":false,"name":"xp_value","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"xp_value","filters":[],"listItems":[],"multiselect":false,"name":"xp_value","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
