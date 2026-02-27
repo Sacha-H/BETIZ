@@ -4,7 +4,8 @@ if Chatterbox {
     global.hashat = ChatterboxVariableGet("hashat")
     global.player_level = ChatterboxVariableGet("playerLevel")
     global.combat_final = ChatterboxVariableGet("combatfinal")
-    show_debug_message(ChatterboxVariableGet("combatfinal"))
+    Obj_npc_portail.portal_open = ChatterboxVariableGet("portalopen")
+    show_debug_message(ChatterboxVariableGet("portalopen"))
     
     global.hashatequiped = ChatterboxVariableGet("pnjhashatequiped")
     global.pnjhashat = ChatterboxVariableGet("pnjhashat")

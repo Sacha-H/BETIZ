@@ -63,6 +63,7 @@ title: Declaration
 <<set $hashat to false>>
 <<set $pnjhashat to false>>
 <<set $pnjhashatequiped to false>>
+<<set $portalopen to true>>
 <<set $Sabluss1 to false>>
 <<set $Sabluss2 to false>>
 <<set $Sabluss3 to false>>
@@ -705,4 +706,38 @@ title: CombatFinal
 ---
 <<set $combatfinal to true>>
 TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: 207,-133
+__PrivCrochet_tags: 
+title: portailQuestion
+---
+veux tu ouvrir le portail
+    -> Oui
+        <<jump PortailOuvrir>>
+    -> Non
+        <<jump poratilNon>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -59,-135
+__PrivCrochet_tags: 
+title: portail
+---
+je suis un portail
+<<jump portailQuestion>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 495,-304
+__PrivCrochet_tags: 
+title: PortailOuvrir
+---
+<<set $portalopen to true>>
+le portail s'ouvre
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 503,63
+__PrivCrochet_tags: 
+title: poratilNon
+---
+Bon d'accord
 ===

@@ -12,11 +12,11 @@ option_index = 0
 ChatterboxVariableSet("moveSpeed",global.move_speed)
 ChatterboxVariableSet("playerLevel",global.player_level)
 ChatterboxVariableSet("combatfinal",global.combat_final)
+ChatterboxVariableSet("portalopen",Obj_npc_portail.portal_open)
 
 ChatterboxVariableSet("hashat",global.hashat)
 ChatterboxVariableSet("pnjhashatequiped",global.hashatequiped)
 ChatterboxVariableSet("pnjhashat",global.pnjhashat)
-
 
 
 //ChatterboxVariableSet("moveSpeed",Obj_player.moveSpeed)
