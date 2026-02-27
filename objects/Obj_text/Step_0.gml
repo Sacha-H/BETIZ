@@ -4,12 +4,18 @@ if Chatterbox {
     global.hashat = ChatterboxVariableGet("hashat")
     global.player_level = ChatterboxVariableGet("playerLevel")
     global.combat_final = ChatterboxVariableGet("combatfinal")
+    
+    if instance_exists(Obj_npc_portail){
     Obj_npc_portail.portal_open = ChatterboxVariableGet("portalopen")
-    show_debug_message(ChatterboxVariableGet("portalopen"))
+    }
+    if instance_exists(Obj_npc_combat){
+    Obj_npc_combat.combat = ChatterboxVariableGet("npccombat")
+    }
+
     
     global.hashatequiped = ChatterboxVariableGet("pnjhashatequiped")
     global.pnjhashat = ChatterboxVariableGet("pnjhashat")
-    show_debug_message(ChatterboxVariableGet("hashat"))
+    //show_debug_message(ChatterboxVariableGet("hashat"))
 }
 else {
 	

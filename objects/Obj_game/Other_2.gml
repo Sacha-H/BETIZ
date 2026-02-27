@@ -1,6 +1,7 @@
 
 
 ChatterboxLoadFromFile("Globalnpc.yarn")
+//ChatterboxAddFunction( "startcombat", npc_start_combat)
 
 
 
@@ -11,7 +12,14 @@ global.background_music = noone
 // OBJECT
 global.inst_list = ds_list_create()
 ds_list_add(global.inst_list, "test")
+
+global.npc_combat_list = ds_list_create()
+ds_list_add(global.npc_combat_list, "test")
+
+
 global.pnjhashat = false
+
+// COMBAT
 
 global.combat_final = false
 

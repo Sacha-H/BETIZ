@@ -63,7 +63,11 @@ title: Declaration
 <<set $hashat to false>>
 <<set $pnjhashat to false>>
 <<set $pnjhashatequiped to false>>
-<<set $portalopen to true>>
+<<set $portalopen to false>>
+<<set $npccombat to false>>
+<<set $anakinpere to false>>
+<<set $derogationquantique to false>>
+<<set $piranhaconda to false>>
 <<set $Sabluss1 to false>>
 <<set $Sabluss2 to false>>
 <<set $Sabluss3 to false>>
@@ -256,7 +260,7 @@ title: WallacePerdu
 Je pense que t'es sur la bonne voie, mec. Continue comme ca.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -992,1626
+__PrivCrochet_position: -993,1625
 __PrivCrochet_tags: 
 title: WallaceQuestion
 ---
@@ -269,11 +273,21 @@ title: WallaceQuestion
         <<jump WallacePerdu>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -6,1074
+__PrivCrochet_position: 131,1104
 __PrivCrochet_tags: 
-title: Node
+title: Anakin
 ---
-Empty Text
+Je peux te degotter plein de trucs si tu veux !
+    -> T'as quoi en magasin ?
+Bah regarde, tu veux quoi ?
+    -> L'amour d'un pere <<set $anakinpere to true>>
+    -> Derogation quantique pour baiser meme si on fait du kung-fu <<set $derogationquantique to true>>
+    -> Un ami imaginaire piranhaconda <<set $piranhaconda to true>>
+Ca marche !
+    -> Quoi c’est tout ?
+        <<jump AnakinTout>>
+    -> Merci mille fois !
+        <<jump AnakinMerci>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -1555,2700
@@ -648,29 +662,31 @@ title: PlusFortMerci
 Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 720,-1285
+__PrivCrochet_position: 607,-1273
 __PrivCrochet_tags: 
 title: PraireVouivreQuete
 ---
 <<if $playerLevel == 30 >>
 <<jump CombatFinal>>
 <<else>>
-Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une récompense !
+Va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une recompense !
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 359,-1299
+__PrivCrochet_position: 266,-1270
 __PrivCrochet_tags: 
 title: PraireVouivre
 ---
-Ah mince, pour le golem de smegma il fallait que je lui prélève le…  Ahem !
-(Qu’est-ce que je vais en faire de celui-là)
+<<if visited("PraireVouivre") == 1>>
+Ah mince, pour le golem de smegma il fallait que je lui preleve le...  Ahem !
+(Qu'est-ce que je vais en faire de celui-la)
 Bienvenue dans mon repaire, jeune sbire !
-Tu n’es pas tout à fait ce que j’attendais mais tu feras l’affaire.
-Comme tu peux le voir j’ai enfermé Alexis sans faire exprès dans la cellule d’à côté
+Tu n'es pas tout à fait ce que j'attendais mais tu feras l'affaire.
+Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d’a cote
 Ne lui parle pas surtout, il a tendance à mordre.
-Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fossé….
-Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une récompense !
+Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fossé...
+Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une recompense !
+<<endif>>
 <<jump PraireVouivreQuete>>
 ===
 __PrivCrochet_colorID: 0
@@ -700,7 +716,7 @@ title: Option pourquoi_2
 mange mon chapeau !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1060,-1208
+__PrivCrochet_position: 1037,-1199
 __PrivCrochet_tags: 
 title: CombatFinal
 ---
@@ -708,7 +724,7 @@ title: CombatFinal
 TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 207,-133
+__PrivCrochet_position: 859,-337
 __PrivCrochet_tags: 
 title: portailQuestion
 ---
@@ -719,7 +735,7 @@ veux tu ouvrir le portail
         <<jump poratilNon>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -59,-135
+__PrivCrochet_position: 593,-339
 __PrivCrochet_tags: 
 title: portail
 ---
@@ -727,7 +743,7 @@ je suis un portail
 <<jump portailQuestion>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 495,-304
+__PrivCrochet_position: 1147,-508
 __PrivCrochet_tags: 
 title: PortailOuvrir
 ---
@@ -735,9 +751,188 @@ title: PortailOuvrir
 le portail s'ouvre
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 503,63
+__PrivCrochet_position: 1155,-141
 __PrivCrochet_tags: 
 title: poratilNon
 ---
 Bon d'accord
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 312,288
+__PrivCrochet_tags: 
+title: Marsouin
+---
+<<if visited("Marsouin") == 1>>
+Bonzour ze me prezente ze suis une ssauf-souris mutante adolescente
+Ze ssuis le rezultat d’une EXPERRIANSS SIANTIFFIKK
+Depuis ze me passionne moi-meme pour les essperianss scientiffiquent
+Par egzample celle de la muzique de bouche voyez plutot :
+POUSSH TCHAKK POUSSHpouSHHH TchaKKKKK !!
+et ca continue :
+PISH TCHOUKK pichTOUKKK pouish toukk TOUKFF !!!!!
+Si vous voulez apprendre c’est simple ze peux vous zensaigner les bazes
+Il suffit de dire : «  PATOPESTO KICHEEE KICHKICHE ALACREMMmmeee.. »
+et en suite : PATALAKICH ALAKREMEEE POTOTOPOESTOU kiche...
+Et ce genre de choses.
+Demandez à mes freres zadolescents-mutants ze suis spessialize dans tousse ce qui est TAM-TAM 
+Mais avec la bouche
+Mais aussi sans la bouche
+<<else>>
+<<jump MarsouinTamTam>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 694,287
+__PrivCrochet_tags: 
+title: MarsouinTamTam
+---
+Demandez à mes freres zadolescents-mutants ze suis spessialize dans tousse ce qui est TAM-TAM
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 300,662
+__PrivCrochet_tags: 
+title: James
+---
+<<if visited("James") == 1>>
+salut...
+    -> Salut
+    -> Bonjour
+    -> Wesh
+Euh...
+    -> oui
+Tu preferes la soupe de serpent ou les vermicelles de mycelium ?
+    ->Euh c'est à dire que..
+Tu veux bien etre mon ami ?
+    -> Euh.. oui ?
+    -> Euh...
+Moi c’est James
+    -> Enchante James, moi c’est...
+Tu connais le comble pour un James ?
+    -> Bonder ?
+    -> S’envoler avec sa meuf et son chat vers d’autre cieux ?
+    -> Je donne ma langue au chat
+Non perdu !!! C’est de diner dans un self.
+    -> Ah okay.
+Quel est ton type de pisse prefere ?
+    -> Oulah..
+    ->Lapis-Lazuli ?
+    ->La piscine municipale ?
+    ->La pistache a la creme ?
+NON PERDU !!!!!
+<<endif>>
+<<jump JamesPisse>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 659,659
+__PrivCrochet_tags: 
+title: JamesPisse
+---
+Moi c’est la pisse and love que je prefere
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 844,907
+__PrivCrochet_tags: 
+title: AnakinTelechargement
+---
+Ok je lance le téléchargement supraluminique, ça devrait arriver vers votre chakra
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 321,1681
+__PrivCrochet_tags: 
+title: DarkVador
+---
+<<if visited("DarkVador")>>
+Pii piiiii !!
+    -> pipi ?
+Piiiii pii piii !
+    -> pipi pipi ?
+<<endif>>
+Piii piii piiiii !
+    -> popo ?
+        <<jump PipiPopo>>
+    -> pipo ?
+        <<jump PipiPipo>>
+    -> papa ?
+         <<jump PipiPapa>>
+    -> pipi.
+        <<jump PipiPipi>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 867,1338
+__PrivCrochet_tags: 
+title: PipiPopo
+---
+Ouais je déconne avec toi tu m’as capté.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 866,1561
+__PrivCrochet_tags: 
+title: PipiPipo
+---
+C’est carre t’as vu.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 869,1805
+__PrivCrochet_tags: 
+title: PipiPapa
+---
+Oui. C’est bien moi.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 875,2019
+__PrivCrochet_tags: 
+title: PipiPipi
+---
+<<set $npccombat to true>>
+EN GARDE !!!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 451,2358
+__PrivCrochet_tags: 
+title: Gaston
+---
+Bonjour Voyageur. Je cherche mon petit frere Pipi, l'auriez-vous vu ?
+Il se fait appeler « Dark Vador » et fait semblant de pas savoir parler avant d’attaquer les gens. 
+Ça vous dit quelque chose ?
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 240,-106
+__PrivCrochet_tags: 
+title: Node
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 412,1200
+__PrivCrochet_tags: 
+title: AnakinMerci
+---
+Attends si tu payes pas ça marchera jamais !!
+*Vous sentez une puissance nouvelle déferler en vous.*
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 409,916
+__PrivCrochet_tags: 
+title: AnakinTout
+---
+Ça fera 65 unités
+*Vous tendez toutes vos unités restantes à Anakin.*
+ <<jump AnakinTelechargement>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 456,2619
+__PrivCrochet_tags: 
+title: Niark
+---
+Mmmh.. Je sens sur toi…
+Euhan ?!! 
+<<if $anakinpere == true>>
+L’amour d’un pere ?!!!!
+<<endif>>
+<<if $derogationquantique == true>>
+Boah, c’est bon, j’en ai plein deja..
+<<endif>>
+<<if $piranhaconda == true>>
+T'as qu'a demander a mes potes ils savent très bien eux comment j’en ai... 
+<<endif>>
 ===
