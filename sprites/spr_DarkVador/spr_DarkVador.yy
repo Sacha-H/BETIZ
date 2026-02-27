@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Other",
+    "path":"folders/Sprite/Other.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

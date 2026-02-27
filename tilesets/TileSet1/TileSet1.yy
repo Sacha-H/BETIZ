@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Other",
+    "path":"folders/Sprite/Other.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

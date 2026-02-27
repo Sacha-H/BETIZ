@@ -13,8 +13,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"xp_value","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
   ],
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Combat",
+    "path":"folders/Object/Combat.yy",
   },
   "parentObjectId":{
     "name":"Obj_enemy_parent",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Room",
+    "path":"folders/Sprite/Room.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

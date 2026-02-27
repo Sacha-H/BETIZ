@@ -9,8 +9,8 @@
   "name":"obj_attack",
   "overriddenProperties":[],
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Combat",
+    "path":"folders/Object/Combat.yy",
   },
   "parentObjectId":null,
   "persistent":false,

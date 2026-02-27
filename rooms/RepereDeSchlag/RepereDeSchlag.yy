@@ -135,8 +135,8 @@
   ],
   "name":"RepereDeSchlag",
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Room",
+    "path":"folders/Room.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

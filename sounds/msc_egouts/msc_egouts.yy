@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"msc_egouts",
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

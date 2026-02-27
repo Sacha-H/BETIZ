@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"fnt_name",
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Font",
+    "path":"folders/Font.yy",
   },
   "pointRounding":0,
   "ranges":[

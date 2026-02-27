@@ -8,8 +8,8 @@
   "name":"Obj_npc_hat",
   "overriddenProperties":[],
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Dialogue",
+    "path":"folders/Object/Dialogue.yy",
   },
   "parentObjectId":{
     "name":"Obj_npc_parent",

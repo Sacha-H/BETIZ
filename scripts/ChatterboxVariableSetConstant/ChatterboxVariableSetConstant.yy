@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ChatterboxVariableSetConstant",
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Chatterbox",
+    "path":"folders/Chatterbox.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

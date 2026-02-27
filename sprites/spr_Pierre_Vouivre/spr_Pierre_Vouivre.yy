@@ -45,8 +45,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Npc",
+    "path":"folders/Sprite/Npc.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

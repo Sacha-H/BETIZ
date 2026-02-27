@@ -9,8 +9,8 @@
   "name":"Obj_key",
   "overriddenProperties":[],
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Object",
+    "path":"folders/Object/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,

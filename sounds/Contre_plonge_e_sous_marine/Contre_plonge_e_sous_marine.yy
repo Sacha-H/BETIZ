@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Contre_plonge_e_sous_marine",
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

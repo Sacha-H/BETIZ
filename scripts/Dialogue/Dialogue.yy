@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Dialogue",
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Script",
+    "path":"folders/Script.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

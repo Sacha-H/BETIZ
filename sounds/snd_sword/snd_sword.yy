@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_sword",
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

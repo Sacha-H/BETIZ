@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"BETIZ-rebuilt",
-    "path":"BETIZ-rebuilt.yyp",
+    "name":"Hitbox",
+    "path":"folders/Sprite/Hitbox.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
