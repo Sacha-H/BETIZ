@@ -11,7 +11,7 @@ option_index = 0
 
 ChatterboxVariableSet("moveSpeed",global.move_speed)
 ChatterboxVariableSet("playerLevel",global.player_level)
-ChatterboxVariableSet("combatFinal",global.combat_final)
+ChatterboxVariableSet("combatfinal",global.combat_final)
 
 ChatterboxVariableSet("hashat",global.hashat)
 ChatterboxVariableSet("pnjhashatequiped",global.hashatequiped)

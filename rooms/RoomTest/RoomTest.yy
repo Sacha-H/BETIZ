@@ -18,8 +18,11 @@
     {"name":"inst_24207DD9","path":"rooms/RoomTest/RoomTest.yy",},
     {"name":"inst_47B1F24C","path":"rooms/RoomTest/RoomTest.yy",},
     {"name":"inst_485DE3FC","path":"rooms/RoomTest/RoomTest.yy",},
-    {"name":"inst_669CD4AC","path":"rooms/RoomTest/RoomTest.yy",},
     {"name":"inst_4FBF8FD5_1","path":"rooms/RoomTest/RoomTest.yy",},
+    {"name":"inst_43D48DDB","path":"rooms/RoomTest/RoomTest.yy",},
+    {"name":"inst_52B83BCC","path":"rooms/RoomTest/RoomTest.yy",},
+    {"name":"inst_2B1D5853","path":"rooms/RoomTest/RoomTest.yy",},
+    {"name":"inst_19D76F7E","path":"rooms/RoomTest/RoomTest.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -57,7 +60,16 @@
         {"$GMRInstance":"v4","%Name":"inst_47B1F24C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47B1F24C","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"spr_Guss","path":"sprites/spr_Guss/spr_Guss.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Guss",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4092468,"scaleY":0.40924683,"x":1088.0,"y":1024.0,},
-        {"$GMRInstance":"v4","%Name":"inst_669CD4AC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_669CD4AC","objectId":{"name":"Obj_PraireVouivre","path":"objects/Obj_PraireVouivre/Obj_PraireVouivre.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4704.0,"y":1056.0,},
+        {"$GMRInstance":"v4","%Name":"inst_43D48DDB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43D48DDB","objectId":{"name":"Obj_npc_hat","path":"objects/Obj_npc_hat/Obj_npc_hat.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PraireVouivre",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3808.0,"y":928.0,},
+        {"$GMRInstance":"v4","%Name":"inst_52B83BCC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_52B83BCC","objectId":{"name":"Obj_npc_hat","path":"objects/Obj_npc_hat/Obj_npc_hat.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"NPC2_2",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4224.0,"y":928.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2B1D5853","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B1D5853","objectId":{"name":"Obj_hat","path":"objects/Obj_hat/Obj_hat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4736.0,"y":1120.0,},
+        {"$GMRInstance":"v4","%Name":"inst_19D76F7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19D76F7E","objectId":{"name":"Obj_PraireVouivre","path":"objects/Obj_PraireVouivre/Obj_PraireVouivre.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PraireVouivre",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40597805,"scaleY":0.40597808,"x":4160.0,"y":1440.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":128,"SerialiseWidth":393,"TileCompressedData":[
           -11,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-41,-2147483648,

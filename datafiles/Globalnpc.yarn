@@ -35,11 +35,12 @@ title: Option donner
 Merci !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -838,-187
+__PrivCrochet_position: -577,-181
 __PrivCrochet_tags: 
 title: Option partir
 ---
 <<set $pnjhashatequiped to true>>
+<<set $combatfinal to true>>
 NOOOOOON !
 ===
 __PrivCrochet_colorID: 0
@@ -58,7 +59,7 @@ title: Declaration
 ---
 <<set $moveSpeed to 10>>
 <<set $playerLevel to 0>>
-<<set $combatFinal to false>>
+<<set $combatfinal to false>>
 <<set $hashat to false>>
 <<set $pnjhashat to false>>
 <<set $pnjhashatequiped to false>>
@@ -67,7 +68,7 @@ title: Declaration
 <<set $Sabluss3 to false>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1637,-298
+__PrivCrochet_position: -1680,-281
 __PrivCrochet_tags: 
 title: NPC2
 ---
@@ -129,14 +130,14 @@ title: Option A
 Genial ! Le monde de betiz est vraiment trop bien, tu vas adorer!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1633,-50
+__PrivCrochet_position: -2135,262
 __PrivCrochet_tags: 
 title: Chien
 ---
 BARK BARK !!!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1655,258
+__PrivCrochet_position: -2157,570
 __PrivCrochet_tags: 
 title: DefaultJump
 ---
@@ -646,46 +647,62 @@ title: PlusFortMerci
 Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: -1472,6463
-__PrivCrochet_tags: 
-title: PraireVouivre
----
-<<if visited("PraireVouivre") == 1>>
-Ah mince, pour le golem de smegma il fallait que je lui preleve le...  Ahem !
-(Qu'est-ce que je vais en faire de celui-la)
-Bonjour et bienvenue dans mon repaire, jeune sbire !
-Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d'a cote
-Ne lui parle pas surtout, il a tendance a mordre.
-Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fosse...
-Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
-<<else>>
-<<jump PraireVouivreQuete>>
-<<endif>>
-===
-__PrivCrochet_colorID: 8
-__PrivCrochet_position: -1151,6456
+__PrivCrochet_position: 720,-1285
 __PrivCrochet_tags: 
 title: PraireVouivreQuete
 ---
-<<if $playerLevel == 30>>
-<<set $combatFinal to true>>
-<<jump PraireVouivreEnd>>
+<<if $playerLevel == 30 >>
+<<jump CombatFinal>>
 <<else>>
-va chercher la gloire jeune champion, tue au moins 30 monstres et revient me voir pour une recompense !
+Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une récompense !
 <<endif>>
 ===
-__PrivCrochet_colorID: 8
-__PrivCrochet_position: -811,6462
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 359,-1299
 __PrivCrochet_tags: 
-title: PraireVouivreEnd
+title: PraireVouivre
 ---
-<<set $combatFinal to true>>
-TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
+Ah mince, pour le golem de smegma il fallait que je lui prélève le…  Ahem !
+(Qu’est-ce que je vais en faire de celui-là)
+Bienvenue dans mon repaire, jeune sbire !
+Tu n’es pas tout à fait ce que j’attendais mais tu feras l’affaire.
+Comme tu peux le voir j’ai enfermé Alexis sans faire exprès dans la cellule d’à côté
+Ne lui parle pas surtout, il a tendance à mordre.
+Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fossé….
+Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une récompense !
+<<jump PraireVouivreQuete>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1118,154
+__PrivCrochet_position: 1204,-1433
 __PrivCrochet_tags: 
-title: Node_3
+title: Option donner_2
 ---
-Empty Text
+<<set $hashat to false>>
+<<set $pnjhashat to true>>
+<<set $pnjhashatequiped to false>>
+Merci !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1202,-933
+__PrivCrochet_tags: 
+title: Option voler_2
+---
+<< set $pnjhashat to false >>
+<<set $hashat to true >>
+REVIENS ICI CHENAPAN !!!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1240,-1713
+__PrivCrochet_tags: 
+title: Option pourquoi_2
+---
+mange mon chapeau !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1060,-1208
+__PrivCrochet_tags: 
+title: CombatFinal
+---
+<<set $combatfinal to true>>
+TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
 ===

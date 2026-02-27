@@ -6,7 +6,7 @@
   "name":"Obj_enemyPraireVouivre",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"hp","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"Damage","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"Damage","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"xp_value","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
   ],
   "parent":{
