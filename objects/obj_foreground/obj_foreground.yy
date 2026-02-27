@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"LicheFeu_FG",
-    "path":"sprites/LicheFeu_FG/LicheFeu_FG.yy",
+    "name":"_04_FG",
+    "path":"sprites/_04_FG/_04_FG.yy",
   },
   "spriteMaskId":null,
   "visible":true,
