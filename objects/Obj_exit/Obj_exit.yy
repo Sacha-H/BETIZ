@@ -9,8 +9,8 @@
   "name":"Obj_exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Movement",
-    "path":"folders/Object/Movement.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

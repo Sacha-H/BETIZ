@@ -25,8 +25,8 @@
         {"$GMRInstance":"v4","%Name":"inst_36747905_2_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36747905_2_2_1","objectId":{"name":"Obj_room","path":"objects/Obj_room/Obj_room.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_room","path":"objects/Obj_room/Obj_room.yy",},"propertyId":{"name":"snd_room","path":"objects/Obj_room/Obj_room.yy",},"resource":{"name":"msc_Intro_Village","path":"sounds/msc_Intro_Village/msc_Intro_Village.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"msc_Intro_Village",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
-        {"$GMRInstance":"v4","%Name":"inst_E75C6A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E75C6A8","objectId":{"name":"obj_foreground","path":"objects/obj_foreground/obj_foreground.yy",},"previewSprite":{"name":"FG_Repere_de_Shlag","path":"sprites/FG_Repere_de_Shlag/FG_Repere_de_Shlag.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9999316,"scaleY":0.9999315,"x":0.0,"y":0.0,},
-        {"$GMRInstance":"v4","%Name":"inst_5D75C24A2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D75C24A2_1","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"previewSprite":{"name":"spr_circle","path":"sprites/spr_circle/spr_circle.yy",},"properties":[
+        {"$GMRInstance":"v4","%Name":"inst_E75C6A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E75C6A8","objectId":{"name":"obj_foreground","path":"objects/obj_foreground/obj_foreground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9999316,"scaleY":0.9999315,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5D75C24A2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D75C24A2_1","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_room","path":"objects/Obj_exit/Obj_exit.yy",},"resource":{"name":"Schlag_Tour","path":"rooms/Schlag_Tour/Schlag_Tour.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Schlag_Tour",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":359.2392,"scaleX":9.720871,"scaleY":6.863693,"x":1414.0,"y":1192.0,},
         {"$GMRInstance":"v4","%Name":"inst_69E41977_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69E41977_2_1","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"properties":[
@@ -135,8 +135,8 @@
   ],
   "name":"RepereDeSchlag",
   "parent":{
-    "name":"DomaineSchlag",
-    "path":"folders/Rooms/DomaineSchlag.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

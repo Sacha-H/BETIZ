@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ChatterboxGetContentSpeaker",
   "parent":{
-    "name":"Content Getters",
-    "path":"folders/Chatterbox/Content Getters.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__ChatterboxClassNode",
   "parent":{
-    "name":"Classes",
-    "path":"folders/Chatterbox/(System) (Don't look in here)/omg i can't believe you looked in here/Classes.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -108,8 +108,8 @@
   ],
   "name":"ForteresseDeSexe",
   "parent":{
-    "name":"ForteresseDeSexe",
-    "path":"folders/Rooms/ForteresseDeSexe.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

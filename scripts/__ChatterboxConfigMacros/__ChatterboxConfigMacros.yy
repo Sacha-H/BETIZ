@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__ChatterboxConfigMacros",
   "parent":{
-    "name":"Chatterbox",
-    "path":"folders/Chatterbox.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

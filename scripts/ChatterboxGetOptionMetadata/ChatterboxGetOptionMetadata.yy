@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ChatterboxGetOptionMetadata",
   "parent":{
-    "name":"Option Getters",
-    "path":"folders/Chatterbox/Option Getters.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

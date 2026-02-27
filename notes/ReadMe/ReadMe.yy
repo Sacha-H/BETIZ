@@ -4,8 +4,8 @@
   "name":"ReadMe",
   "openedOnFirstLoad":true,
   "parent":{
-    "name":"BETIZ",
-    "path":"BETIZ.yyp",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

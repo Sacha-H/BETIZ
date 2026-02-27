@@ -45,8 +45,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"Pnj",
-    "path":"folders/Sprites/Pnj.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

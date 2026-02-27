@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ChatterboxSourceGetNodeMetadata",
   "parent":{
-    "name":"Setup",
-    "path":"folders/Chatterbox/Setup.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

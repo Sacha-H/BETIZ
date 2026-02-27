@@ -10,8 +10,8 @@
   "name":"Obj_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

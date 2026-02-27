@@ -90,8 +90,8 @@
   ],
   "name":"Schlag_Tour",
   "parent":{
-    "name":"DomaineSchlag",
-    "path":"folders/Rooms/DomaineSchlag.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

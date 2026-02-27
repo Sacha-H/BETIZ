@@ -100,8 +100,8 @@
   ],
   "name":"Schlag_Couloir_3",
   "parent":{
-    "name":"DomaineSchlag",
-    "path":"folders/Rooms/DomaineSchlag.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ChatterboxStop",
   "parent":{
-    "name":"Flow",
-    "path":"folders/Chatterbox/Flow.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

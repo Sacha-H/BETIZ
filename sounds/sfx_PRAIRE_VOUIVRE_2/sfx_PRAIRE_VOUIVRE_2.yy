@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_PRAIRE_VOUIVRE_2",
   "parent":{
-    "name":"PraireVouivre",
-    "path":"folders/Audio/Sfx/PraireVouivre.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "preload":false,
   "resourceType":"GMSound",

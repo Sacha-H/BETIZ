@@ -10,8 +10,8 @@
   "name":"Obj_dialogue",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialogue",
-    "path":"folders/Object/Dialogue.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

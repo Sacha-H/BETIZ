@@ -36,9 +36,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_room","path":"objects/Obj_exit/Obj_exit.yy",},"resource":{"name":"LesSanitaireDeLicheEnFeu","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"LesSanitaireDeLicheEnFeu",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_exit/Obj_exit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-0.0,"scaleX":2.8,"scaleY":1.0,"x":1648.0,"y":1216.0,},
-        {"$GMRInstance":"v4","%Name":"inst_3FCC8ABD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FCC8ABD1","objectId":{"name":"obj_foreground","path":"objects/obj_foreground/obj_foreground.yy",},"previewSprite":{"name":"Vallee_de_Kendrick_FG","path":"sprites/Vallee_de_Kendrick_FG/Vallee_de_Kendrick_FG.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3FCC8ABD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FCC8ABD1","objectId":{"name":"obj_foreground","path":"objects/obj_foreground/obj_foreground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_72CD64F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72CD64F","objectId":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":2080.0,},
-        {"$GMRInstance":"v4","%Name":"inst_18BD2607","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18BD2607","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"previewSprite":{"name":"spr_circle","path":"sprites/spr_circle/spr_circle.yy",},"properties":[
+        {"$GMRInstance":"v4","%Name":"inst_18BD2607","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18BD2607","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_room","path":"objects/Obj_exit/Obj_exit.yy",},"resource":{"name":"Sanitaires","path":"rooms/Sanitaires/Sanitaires.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sanitaires",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0000005,"scaleY":3.0000005,"x":1312.0,"y":2240.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
@@ -183,8 +183,8 @@
   ],
   "name":"ValleeDeKendrick",
   "parent":{
-    "name":"ValeeDeKendrick",
-    "path":"folders/Rooms/ValeeDeKendrick.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

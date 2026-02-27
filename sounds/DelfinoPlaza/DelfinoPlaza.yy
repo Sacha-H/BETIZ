@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"DelfinoPlaza",
   "parent":{
-    "name":"Music",
-    "path":"folders/Audio/Music.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "preload":false,
   "resourceType":"GMSound",

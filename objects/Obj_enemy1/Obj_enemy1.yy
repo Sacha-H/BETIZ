@@ -6,8 +6,8 @@
   "name":"Obj_enemy1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Combat",
-    "path":"folders/Object/Combat.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentObjectId":{
     "name":"Obj_enemy_parent",

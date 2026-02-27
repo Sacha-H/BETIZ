@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"key",
   "parent":{
-    "name":"Script",
-    "path":"folders/Script.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

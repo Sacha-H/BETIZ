@@ -8,8 +8,8 @@
   "name":"Obj_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Object/Other.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

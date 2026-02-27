@@ -9,8 +9,8 @@
   "name":"Obj_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Key",
-    "path":"folders/Object/Key.yy",
+    "name":"BETIZ-rebuilt",
+    "path":"BETIZ-rebuilt.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
