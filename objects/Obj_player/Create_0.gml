@@ -1,14 +1,18 @@
 
 //moveSpeed = 1;
 
+
+
 tilemapCol = layer_tilemap_get_id("Tiles_Col");
 
 can_move = false;
+xspd = 0
+yspd = 0
 
 can_draw_GUI = true
 
 
-alarm[1] = 15
+alarm[1] = 20
 
 
 facing = 0

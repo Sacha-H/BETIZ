@@ -46,8 +46,8 @@
     "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
   },
   "spriteMaskId":{
-    "name":"PlayerCollision",
-    "path":"sprites/PlayerCollision/PlayerCollision.yy",
+    "name":"PlayerCollision_1",
+    "path":"sprites/PlayerCollision_1/PlayerCollision_1.yy",
   },
   "visible":true,
 }

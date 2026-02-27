@@ -7,5 +7,14 @@ if(instance_exists(Obj_dialogue)) exit;
 
 var _hor = clamp(targetX - x, -1,1);
 var _ver = clamp(targetY - y, -1,1);
+magnitude = sqrt(sqr(_hor) + sqr(_ver))
+    
+if (magnitude > 0){
+    _hor /= magnitude
+    _ver /= magnitude
+}
 
-move_and_collide(_hor * moveSpeed, _ver * moveSpeed, [tileMapCol, Obj_enemy_parent], 4,undefined,undefined,10,10);
+xspd = _hor * moveSpeed
+yspd = _ver * moveSpeed
+
+move_and_collide(xspd, yspd, [tileMapCol, Obj_enemy_parent], 4,undefined,undefined,10,10);

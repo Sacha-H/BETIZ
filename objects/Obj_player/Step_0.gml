@@ -13,6 +13,13 @@ if (can_move)
 {
     horizontalValue = keyboard_check(ord("D")) - keyboard_check((ord("Q")));
     verticalValue = keyboard_check(ord("S")) - keyboard_check((ord("Z")));   
+    magnitude = sqrt(sqr(horizontalValue) + sqr(verticalValue))
+    
+    if (magnitude > 0){
+        horizontalValue /= magnitude; // Normalize your vector
+        verticalValue /= magnitude;
+    }
+   
     
     if (keyboard_check_pressed(vk_space)){
       var _inst = instance_create_depth(x,y,depth, obj_attack)
@@ -26,7 +33,12 @@ else {
 	verticalValue = 0;
 }
 
-move_and_collide(horizontalValue * global.move_speed, verticalValue * global.move_speed, [tilemapCol, Obj_door], undefined, undefined,undefined, global.move_speed, global.move_speed);
+xspd = horizontalValue * global.move_speed
+yspd = verticalValue * global.move_speed
+
+
+
+move_and_collide(xspd,yspd, [tilemapCol, Obj_door], undefined, undefined,undefined, global.move_speed, global.move_speed);
 
 
 
