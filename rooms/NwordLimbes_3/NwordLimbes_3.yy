@@ -13,6 +13,7 @@
     {"name":"inst_2123A0C3_2_2_1_2_1_1","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
     {"name":"inst_3F057FFC","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
     {"name":"inst_41CF4155","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
+    {"name":"inst_3C0279AB","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -35,6 +36,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.13591222,"scaleY":0.23,"x":464.0,"y":124.429565,},
         {"$GMRInstance":"v4","%Name":"inst_41CF4155","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41CF4155","objectId":{"name":"obj_foreground","path":"objects/obj_foreground/obj_foreground.yy",},"previewSprite":{"name":"_03_FG","path":"sprites/_03_FG/_03_FG.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3C0279AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C0279AB","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"PlayerCollision","path":"sprites/PlayerCollision/PlayerCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2375,"scaleY":0.72,"x":596.0,"y":285.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":63,"TileCompressedData":[
           -27,0,1,34,-62,0,-2,34,-55,0,1,34,-6,0,1,34,-5,0,1,34,-49,0,-2,34,-5,0,-2,34,-2,0,-5,34,-2,0,-3,34,-43,
