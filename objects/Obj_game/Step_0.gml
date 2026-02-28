@@ -1,4 +1,4 @@
 if keyboard_check_pressed(vk_anykey){
     //room_goto(LesSanitaireDeLicheEnFeu)
-    room_goto(NotreAnar_4)
+    room_goto(NotreAnar_1)
 }

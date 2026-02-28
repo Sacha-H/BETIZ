@@ -461,9 +461,9 @@
     {"roomId":{"name":"NotreAnar_6_portail","path":"rooms/NotreAnar_6_portail/NotreAnar_6_portail.yy",},},
     {"roomId":{"name":"NotreAnar_1","path":"rooms/NotreAnar_1/NotreAnar_1.yy",},},
     {"roomId":{"name":"NotreAnar_2","path":"rooms/NotreAnar_2/NotreAnar_2.yy",},},
-    {"roomId":{"name":"NotreAnar_4","path":"rooms/NotreAnar_4/NotreAnar_4.yy",},},
     {"roomId":{"name":"NotreAnar_3","path":"rooms/NotreAnar_3/NotreAnar_3.yy",},},
     {"roomId":{"name":"NotreAnar_5","path":"rooms/NotreAnar_5/NotreAnar_5.yy",},},
+    {"roomId":{"name":"NotreAnar_4","path":"rooms/NotreAnar_4/NotreAnar_4.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

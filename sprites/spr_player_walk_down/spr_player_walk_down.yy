@@ -26,7 +26,7 @@
   ],
   "name":"spr_player_walk_down",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Player",
     "path":"folders/Sprite/Player.yy",
@@ -88,7 +88,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":196,
-    "yorigin":235,
+    "yorigin":380,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
