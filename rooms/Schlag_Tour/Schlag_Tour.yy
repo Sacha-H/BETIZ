@@ -10,6 +10,7 @@
     {"name":"inst_36747905_2_2_2","path":"rooms/Schlag_Tour/Schlag_Tour.yy",},
     {"name":"inst_5D75C24A2_2","path":"rooms/Schlag_Tour/Schlag_Tour.yy",},
     {"name":"inst_2123A0C3_2_2","path":"rooms/Schlag_Tour/Schlag_Tour.yy",},
+    {"name":"inst_22FF4FB4","path":"rooms/Schlag_Tour/Schlag_Tour.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +24,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_exit/Obj_exit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":269.74072,"scaleX":0.6,"scaleY":6.44,"x":1344.0,"y":1248.0,},
         {"$GMRInstance":"v4","%Name":"inst_2123A0C3_2_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2123A0C3_2_2","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6,"scaleY":1.0,"x":960.0,"y":512.0,},
+        {"$GMRInstance":"v4","%Name":"inst_22FF4FB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22FF4FB4","objectId":{"name":"Obj_key","path":"objects/Obj_key/Obj_key.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pouvoir de l'amitier",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1162.0,"y":178.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":111,"SerialiseWidth":171,"TileCompressedData":[
           -29,0,-4,-2147483648,-44,0,-18,34,-76,-2147483648,-77,0,-18,34,-76,-2147483648,-77,0,-18,34,-76,-2147483648,
