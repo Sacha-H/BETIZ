@@ -166,6 +166,8 @@
     {"id":{"name":"Vallee_2","path":"rooms/Vallee_2/Vallee_2.yy",},},
     {"id":{"name":"Vallee_3","path":"rooms/Vallee_3/Vallee_3.yy",},},
     {"id":{"name":"Vallee_4","path":"rooms/Vallee_4/Vallee_4.yy",},},
+    {"id":{"name":"Vallee_5","path":"rooms/Vallee_5/Vallee_5.yy",},},
+    {"id":{"name":"Vallee_6","path":"rooms/Vallee_6/Vallee_6.yy",},},
     {"id":{"name":"ValleeDeKendrick","path":"rooms/ValleeDeKendrick/ValleeDeKendrick.yy",},},
     {"id":{"name":"__ChatterboxArrayCopyPart","path":"scripts/__ChatterboxArrayCopyPart/__ChatterboxArrayCopyPart.yy",},},
     {"id":{"name":"__ChatterboxArrayToString","path":"scripts/__ChatterboxArrayToString/__ChatterboxArrayToString.yy",},},
@@ -470,6 +472,8 @@
     {"roomId":{"name":"Vallee_2","path":"rooms/Vallee_2/Vallee_2.yy",},},
     {"roomId":{"name":"Vallee_3","path":"rooms/Vallee_3/Vallee_3.yy",},},
     {"roomId":{"name":"Vallee_4","path":"rooms/Vallee_4/Vallee_4.yy",},},
+    {"roomId":{"name":"Vallee_5","path":"rooms/Vallee_5/Vallee_5.yy",},},
+    {"roomId":{"name":"Vallee_6","path":"rooms/Vallee_6/Vallee_6.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

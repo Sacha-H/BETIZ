@@ -12,6 +12,8 @@ switch (index_zone) {
         break;
     case 6 : global.zone_name = "Vallee de Kendrick";
         break;
+    case 7 : global.zone_name = "Tour amicale";
+        break;
 }
 
 
