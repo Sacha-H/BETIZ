@@ -3,13 +3,20 @@ if Chatterbox {
     global.move_speed = ChatterboxVariableGet("moveSpeed")
     global.hashat = ChatterboxVariableGet("hashat")
     global.player_level = ChatterboxVariableGet("playerLevel")
+    global.player_hp = ChatterboxVariableGet("playerhp")
+    
     global.combat_final = ChatterboxVariableGet("combatfinal")
     
     if instance_exists(Obj_npc_portail){
     Obj_npc_portail.portal_open = ChatterboxVariableGet("portalopen")
     }
+    
     if instance_exists(Obj_npc_combat){
     Obj_npc_combat.combat = ChatterboxVariableGet("npccombat")
+    }
+    
+    if instance_exists(Obj_npc_combat){
+    Obj_npc_transform.transformation = ChatterboxVariableGet("transformation")
     }
 
     

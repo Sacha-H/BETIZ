@@ -53,17 +53,19 @@ title: Option voler
 REVIENS ICI CHENAPAN !!!
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: -2369,-1703
+__PrivCrochet_position: -2382,-1666
 __PrivCrochet_tags: 
 title: Declaration
 ---
 <<set $moveSpeed to 10>>
 <<set $playerLevel to 0>>
+<<set $playerhp to 0>>
 <<set $combatfinal to false>>
 <<set $hashat to false>>
 <<set $pnjhashat to false>>
 <<set $pnjhashatequiped to false>>
 <<set $portalopen to false>>
+<<set $transformation to false>>
 <<set $npccombat to false>>
 <<set $anakinpere to false>>
 <<set $derogationquantique to false>>
@@ -125,7 +127,7 @@ __PrivCrochet_position: -784,-1142
 __PrivCrochet_tags: 
 title: Option Fight
 ---
-Mais non voyons ! tu peux faire autant de bétiz que tu veux dans bétiz
+Mais non voyons ! tu peux faire autant de betiz que tu veux dans betiz
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -1189,-1598
@@ -231,7 +233,7 @@ title: WallaceStart2
 <<if visited("WallaceStart2") == 1 || visited("WallaceQuestion") >= 3 >>
 <<random option>>
     -> 
-        T'as deja essaye de mettre de la maizena à la place de la farine ? Ça donne un rendu completement different !
+        T'as deja essaye de mettre de la maizena a la place de la farine ? ca donne un rendu completement different !
     -> 
         J'aspire a un mode de vie alternatif.
 <<else>>
@@ -273,7 +275,7 @@ title: WallaceQuestion
         <<jump WallacePerdu>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 131,1104
+__PrivCrochet_position: 538,1171
 __PrivCrochet_tags: 
 title: Anakin
 ---
@@ -284,7 +286,7 @@ Bah regarde, tu veux quoi ?
     -> Derogation quantique pour baiser meme si on fait du kung-fu <<set $derogationquantique to true>>
     -> Un ami imaginaire piranhaconda <<set $piranhaconda to true>>
 Ca marche !
-    -> Quoi c’est tout ?
+    -> Quoi c'est tout ?
         <<jump AnakinTout>>
     -> Merci mille fois !
         <<jump AnakinMerci>>
@@ -353,7 +355,7 @@ title: GussReflechis
 Gobeli... reflechis...
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1540,3972
+__PrivCrochet_position: -2166,4067
 __PrivCrochet_tags: 
 title: ChienVagabond
 ---
@@ -364,7 +366,7 @@ Salut mec ! Pas facile de se promener ici en ce moment pas vrai ?
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -739,3967
+__PrivCrochet_position: -1365,4062
 __PrivCrochet_tags: 
 title: ChienVagabonQuestion
 ---
@@ -377,29 +379,29 @@ title: ChienVagabonQuestion
         <<jump ChienVagabonCelib>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1287,3967
+__PrivCrochet_position: -1913,4062
 __PrivCrochet_tags: 
 title: ChienVagabonStart2
 ---
 << if visited("ChienVagabondStart2") == 1>>
-Alors comme ça tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
+Alors comme ca tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
 <<else>>
 <<jump ChienVagabonStart3>>
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1009,3966
+__PrivCrochet_position: -1635,4061
 __PrivCrochet_tags: 
 title: ChienVagabonStart3
 ---
 << if visited("ChienVagabondStart3") == 1>>
-Alors comme ça tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
+Alors comme ca tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
 <<else>>
 <<jump ChienVagabonQuestion>>
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -385,3410
+__PrivCrochet_position: -1011,3505
 __PrivCrochet_tags: 
 title: ChienVagabonHobbys
 ---
@@ -407,7 +409,7 @@ J'aime bien trainer a Leroy Merlin pour me renseigner sur les prix de porte-sauc
 <<jump ChienVagabonHobbys2>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -426,3964
+__PrivCrochet_position: -1052,4059
 __PrivCrochet_tags: 
 title: ChienVagabonAstrologique
 ---
@@ -415,14 +417,14 @@ Mon signe ? Pourquoi tu me demandes ?
 <<jump ChienVagabonCelib2>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -426,4285
+__PrivCrochet_position: -1052,4380
 __PrivCrochet_tags: 
 title: ChienVagabonCelib
 ---
 *** long soupire *** C'est complique en ce moment...
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -72,3965
+__PrivCrochet_position: -698,4060
 __PrivCrochet_tags: 
 title: ChienVagabonCelib2
 ---
@@ -433,21 +435,21 @@ title: ChienVagabonCelib2
         <<jump ChienVagabonConnaitre>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 226,3820
+__PrivCrochet_position: -400,3915
 __PrivCrochet_tags: 
 title: ChienVagabonInteresse
 ---
 Dis lui que je ne suis pas interesse. Mais c'est gentil.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 233,4103
+__PrivCrochet_position: -393,4198
 __PrivCrochet_tags: 
 title: ChienVagabonConnaitre
 ---
 Ca Ca me fait plaisir. Je suis content. Passe une bonne journee.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -85,3411
+__PrivCrochet_position: -711,3506
 __PrivCrochet_tags: 
 title: ChienVagabonHobbys2
 ---
@@ -458,21 +460,21 @@ title: ChienVagabonHobbys2
         <<jump ChienVagabonCool>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 213,3228
+__PrivCrochet_position: -413,3323
 __PrivCrochet_tags: 
 title: ChienVagabonEnnuyeux
 ---
 Moi j'aime bien.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 217,3553
+__PrivCrochet_position: -409,3648
 __PrivCrochet_tags: 
 title: ChienVagabonCool
 ---
 Tu... tu trouves...? Haha.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1596,4887
+__PrivCrochet_position: -2222,4982
 __PrivCrochet_tags: 
 title: Neanphedralius
 ---
@@ -483,7 +485,7 @@ Ca alors.... un etranger... tu... tu es vraiment la ? Ou tu es le fruit de mon i
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1260,4886
+__PrivCrochet_position: -1886,4981
 __PrivCrochet_tags: 
 title: NeanphedraliusQuestion
 ---
@@ -498,7 +500,7 @@ Dis moi, etranger... voyages-tu avec le coeur...? Ou bien avec ton instinct ?
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -896,4727
+__PrivCrochet_position: -1522,4822
 __PrivCrochet_tags: 
 title: NeanphedraliusCoeur
 ---
@@ -506,7 +508,7 @@ C'est noble. Interessant.
 <<jump NeanphedraliusQuestion2>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -901,5115
+__PrivCrochet_position: -1527,5210
 __PrivCrochet_tags: 
 title: NeanphedraliusPif
 ---
@@ -514,7 +516,7 @@ Au pif... tu cherches a m'insulter ?
 <<jump NeanphedraliusQuestion2>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -605,4906
+__PrivCrochet_position: -1231,5001
 __PrivCrochet_tags: 
 title: NeanphedraliusQuestion2
 ---
@@ -529,7 +531,7 @@ Parfois je me demande si on peut mettre tous les cheveux de la Terre dans un seu
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -328,4640
+__PrivCrochet_position: -954,4735
 __PrivCrochet_tags: 
 title: NeanphedraliusBocal
 ---
@@ -537,7 +539,7 @@ title: NeanphedraliusBocal
 <<jump NeanphedraliusQuestion3>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -316,5142
+__PrivCrochet_position: -942,5237
 __PrivCrochet_tags: 
 title: NeanphedraliusEtrange
 ---
@@ -545,7 +547,7 @@ Il n'y a pas d'etranges questions. Il n'y a que d'etranges reponses.
 <<jump NeanphedraliusQuestion3>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -45,4906
+__PrivCrochet_position: -671,5001
 __PrivCrochet_tags: 
 title: NeanphedraliusQuestion3
 ---
@@ -556,24 +558,24 @@ Tu preferes l'oeuf ou la poule ? Et si tu preferes la poule, pourquoi ?
         <<jump NeanphedraliusPartir>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 283,4644
+__PrivCrochet_position: -343,4739
 __PrivCrochet_tags: 
 title: NeanphedraliusPersonnellement
 ---
 Je vois, tres malin... tu m'as bien eu...  Tu es un philosophe accompli maintenant. Mais ce n'est que le debut. Les vrais philosophes connaissent tous au moins l'une de ces techniques. Laisse moi te les enseigner...
 Ecole des techniques de manipulation avec le maitre : 
-CTn 1 : “Au moment ou vous sentez que quelqu’un prend part avec insouciance a une situation sociale agreable, vous lui glissez en aparte et avec assertion la construction semantique suivante : “Tu vois, la tu devrais avoir plus confiance en toi par exemple.”. On cree ainsi le doute la ou il y avait la confiance et la sensation est tres plaisante. La personne se soumet à votre jugement ou se rebelle,
-mais pensera longtemps à ce que vous lui avez dit. Continuez ainsi jusqu’a ouvrir une breche significative. ”
-CTn 2 : Technique du TUNNEL INSIPIDE (ou monotone) “Pour commencer à instaurer la gene, une facon consiste a raconter une histoire avec un rythme plutot piano, et en glissant le plus de details que vous pouvez ajouter. Racontez chacun d’eux comme un evenement à part entiere, avec une intensité dramatique plus elevee qu’a l’habitude. Plus les details sont implicites, plus l’effet sera au rendez-vous.
-Vous passerez alors à coup sûr pour une personne profondément ennuyeuse. Une variante veut qu’on hausse le ton et que l’on cherche le regard dès que l’intérêt de l’interlocuteur commence à décliner. 
-Une autre, (dite “du LABYRINTHE” et qui peut être considérée comme une technique à part entière) nous dit qu’il faut cultiver subtilement l’impression que l’histoire ne va nulle part, et que vous avez vous-même oublié la chute en passant d’une idée à l’autre. La détresse de votre interlocuteur sera alors si grande qu’il risque de chercher à s'échapper.
-Maintenez alors bien son attention en conservant un air innocent et sincèrement enthousiaste. Le risque augmente mais la victime sera tenue par la bienséance si elle vous perçoit comme bienveillante, ayant un statut important, ou si elle a un intérêt caché dans votre relation. À double tranchant donc.”
-CT n°3 : “Demandez l’autorisation de faire une plaisanterie à chaque fois que vient l’envie, l’effet de celle-ci en sera alors tellement diminué que vous obtiendrez au mieux un rire forcé de votre adversaire. Attaquez-le alors de toutes vos forces avec la phrase suivante : “T’es pas obligé de rire si tu trouves pas ça drôle.” Vous aurez alors l’ascendant sur lui.
-CT n°4 : “Technique simple. Expliquer à quelqu’un des choses qu’il ou elle sait déjà très bien. Apprenez-lui des faits qu’il ou elle connait parfaitement, renseignez-le/la sur des sujets de notoriété commune. Le/la voilà dans un dilemme : Veut-il/elle faire savoir sa compétence mais risquer de paraître arrogant.e ? Ou va t’il/elle se taire et supporter votre discours, affichant par là son ouverture et son humilité ?
-Assénez-lui dans un cas comme dans l’autre un coup mémorable qui convient.
+CTn 1 : "Au moment ou vous sentez que quelqu'un prend part avec insouciance a une situation sociale agreable, vous lui glissez en aparte et avec assertion la construction semantique suivante : "Tu vois, la tu devrais avoir plus confiance en toi par exemple.". On cree ainsi le doute la ou il y avait la confiance et la sensation est tres plaisante. La personne se soumet a votre jugement ou se rebelle,
+mais pensera longtemps a ce que vous lui avez dit. Continuez ainsi jusqu'a ouvrir une breche significative. "
+CTn 2 : Technique du TUNNEL INSIPIDE (ou monotone) "Pour commencer a instaurer la gene, une facon consiste a raconter une histoire avec un rythme plutot piano, et en glissant le plus de details que vous pouvez ajouter. Racontez chacun d'eux comme un evenement a part entiere, avec une intensite dramatique plus elevee qu'a l'habitude. Plus les details sont implicites, plus l'effet sera au rendez-vous.
+Vous passerez alors a coup sur pour une personne profondement ennuyeuse. Une variante veut qu'on hausse le ton et que l'on cherche le regard des que l'interet de l'interlocuteur commence a decliner. 
+Une autre, (dite "du LABYRINTHE" et qui peut etre consideree comme une technique a part entiere) nous dit qu'il faut cultiver subtilement l'impression que l'histoire ne va nulle part, et que vous avez vous-meme oublie la chute en passant d'une idee a l'autre. La detresse de votre interlocuteur sera alors si grande qu'il risque de chercher a s'echapper.
+Maintenez alors bien son attention en conservant un air innocent et sincerement enthousiaste. Le risque augmente mais la victime sera tenue par la bienseance si elle vous percoit comme bienveillante, ayant un statut important, ou si elle a un interet cache dans votre relation. a double tranchant donc."
+CT n 3 : "Demandez l'autorisation de faire une plaisanterie a chaque fois que vient l'envie, l'effet de celle-ci en sera alors tellement diminue que vous obtiendrez au mieux un rire force de votre adversaire. Attaquez-le alors de toutes vos forces avec la phrase suivante : "T'es pas oblige de rire si tu trouves pas ca drôle." Vous aurez alors l'ascendant sur lui.
+CT n 4 : "Technique simple. Expliquer a quelqu'un des choses qu'il ou elle sait deja tres bien. Apprenez-lui des faits qu'il ou elle connait parfaitement, renseignez-le/la sur des sujets de notoriete commune. Le/la voila dans un dilemme : Veut-il/elle faire savoir sa competence mais risquer de paraitre arrogant.e ? Ou va t'il/elle se taire et supporter votre discours, affichant par la son ouverture et son humilite ?
+Assenez-lui dans un cas comme dans l'autre un coup memorable qui convient.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 288,5156
+__PrivCrochet_position: -338,5251
 __PrivCrochet_tags: 
 title: NeanphedraliusPartir
 ---
@@ -587,7 +589,7 @@ title: Node_2
 Empty Text
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1599,5821
+__PrivCrochet_position: -2225,5916
 __PrivCrochet_tags: 
 title: PlusFort
 ---
@@ -598,7 +600,7 @@ Ah ! En voila un qui est probablement MOINS FORT que moi ! Ca s'annonce interess
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1178,5831
+__PrivCrochet_position: -1804,5926
 __PrivCrochet_tags: 
 title: PlusFortQuestion1
 ---
@@ -611,28 +613,28 @@ Alors comme ca... Tu essayes de retrouver quelqu'un...? Je paris que tu n'y arri
         <<jump PlusFortQuestion2>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -843,6062
+__PrivCrochet_position: -1469,6157
 __PrivCrochet_tags: 
 title: PlusFortPlace
 ---
 Deja, je commencerai par chercher des monstres a tuer. Tu vois de quoi je parle...? Au cas ou tu ne sais pas ce que sont les monstres, essaye d'ouvrir les yeux et de faire attention a des formes de vies hostiles. Ca prendra peut etre un peu de temps mais ca viendra a force. Ensuite... tu n'es probablement pas au courant, car tu debutes dans le milieu, et c'est normal... mais il faut TUER les monstres pour gagner des niveaux.
-Plus tu as de niveaux, plus tu es fort. Tu saisis ? Personne n'a jamais depasse le niveau 30, mais bon, moi je n'ai pas besoin de niveaux pour être fort. Je suis avant tout un guerrier rockeur. Bref, il faudra que tu trouves une cle pour libérer ton ami. J'imagine que tu ne savais pas ça non plus, pas vrai ? Tu me remercieras plus tard pour le temps que je t'ai fait gagner en t'expliquant tout ça. C'est normal que les plus forts aident les plus faibles.
+Plus tu as de niveaux, plus tu es fort. Tu saisis ? Personne n'a jamais depasse le niveau 30, mais bon, moi je n'ai pas besoin de niveaux pour etre fort. Je suis avant tout un guerrier rockeur. Bref, il faudra que tu trouves une cle pour liberer ton ami. J'imagine que tu ne savais pas ca non plus, pas vrai ? Tu me remercieras plus tard pour le temps que je t'ai fait gagner en t'expliquant tout ca. C'est normal que les plus forts aident les plus faibles.
 <<jump PlusFortQuestion2>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -871,5676
+__PrivCrochet_position: -1497,5771
 __PrivCrochet_tags: 
 title: PlusFortPasFort
 ---
-Tu fais erreur. Je suis bien plus fort que toi. Ça se voit quand meme, mais un débutant ne pourrait pas s'en rendre compte tout de suite, je comprend.
+Tu fais erreur. Je suis bien plus fort que toi. ca se voit quand meme, mais un debutant ne pourrait pas s'en rendre compte tout de suite, je comprend.
 <<jump PlusFortQuestion2>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -482,5836
+__PrivCrochet_position: -1108,5931
 __PrivCrochet_tags: 
 title: PlusFortQuestion2
 ---
-Tu veux que je t'explique quelque chose ? Je sens que tu as beaucoup à apprendre de moi. 
+Tu veux que je t'explique quelque chose ? Je sens que tu as beaucoup a apprendre de moi. 
     -> Comment on fait ses lacets ?
         <<jump PlusFortLacet>>
     -> Comment faire pour etre aussi fort que toi ? 
@@ -641,39 +643,39 @@ Tu veux que je t'explique quelque chose ? Je sens que tu as beaucoup à apprendr
         <<jump PlusFortMerci>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -114,5573
+__PrivCrochet_position: -740,5668
 __PrivCrochet_tags: 
 title: PlusFortLacet
 ---
 Question facile pour moi. Commence par trouver des chaussures, ca sera un bon debut. Je te montrerai.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -108,5824
+__PrivCrochet_position: -734,5919
 __PrivCrochet_tags: 
 title: PlusFortAussiFort
 ---
 Alors ca, ca va te prendre du temps. Moi, j'ai appris assez vite, je suis un peu en avance par rapport a tout le monde. Toi tu auras besoin de t'entrainer, mais garde espoir.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -114,6116
+__PrivCrochet_position: -740,6211
 __PrivCrochet_tags: 
 title: PlusFortMerci
 ---
 Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 607,-1273
+__PrivCrochet_position: 1014,-1206
 __PrivCrochet_tags: 
 title: PraireVouivreQuete
 ---
 <<if $playerLevel == 30 >>
 <<jump CombatFinal>>
 <<else>>
-Va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une recompense !
+Va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 266,-1270
+__PrivCrochet_position: 673,-1203
 __PrivCrochet_tags: 
 title: PraireVouivre
 ---
@@ -681,16 +683,16 @@ title: PraireVouivre
 Ah mince, pour le golem de smegma il fallait que je lui preleve le...  Ahem !
 (Qu'est-ce que je vais en faire de celui-la)
 Bienvenue dans mon repaire, jeune sbire !
-Tu n'es pas tout à fait ce que j'attendais mais tu feras l'affaire.
-Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d’a cote
-Ne lui parle pas surtout, il a tendance à mordre.
-Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fossé...
-Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh… 30 monstres et revient me voir pour une recompense !
+Tu n'es pas tout a fait ce que j'attendais mais tu feras l'affaire.
+Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d'a cote
+Ne lui parle pas surtout, il a tendance a mordre.
+Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fosse...
+Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
 <<endif>>
 <<jump PraireVouivreQuete>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1204,-1433
+__PrivCrochet_position: 1611,-1366
 __PrivCrochet_tags: 
 title: Option donner_2
 ---
@@ -700,7 +702,7 @@ title: Option donner_2
 Merci !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1202,-933
+__PrivCrochet_position: 1609,-866
 __PrivCrochet_tags: 
 title: Option voler_2
 ---
@@ -709,14 +711,14 @@ title: Option voler_2
 REVIENS ICI CHENAPAN !!!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1240,-1713
+__PrivCrochet_position: 1647,-1646
 __PrivCrochet_tags: 
 title: Option pourquoi_2
 ---
 mange mon chapeau !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1037,-1199
+__PrivCrochet_position: 1444,-1132
 __PrivCrochet_tags: 
 title: CombatFinal
 ---
@@ -724,7 +726,7 @@ title: CombatFinal
 TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 859,-337
+__PrivCrochet_position: 1266,-270
 __PrivCrochet_tags: 
 title: portailQuestion
 ---
@@ -735,7 +737,7 @@ veux tu ouvrir le portail
         <<jump poratilNon>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 593,-339
+__PrivCrochet_position: 1000,-272
 __PrivCrochet_tags: 
 title: portail
 ---
@@ -743,7 +745,7 @@ je suis un portail
 <<jump portailQuestion>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1147,-508
+__PrivCrochet_position: 1554,-441
 __PrivCrochet_tags: 
 title: PortailOuvrir
 ---
@@ -751,30 +753,30 @@ title: PortailOuvrir
 le portail s'ouvre
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1155,-141
+__PrivCrochet_position: 1562,-74
 __PrivCrochet_tags: 
 title: poratilNon
 ---
 Bon d'accord
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 312,288
+__PrivCrochet_position: 719,355
 __PrivCrochet_tags: 
 title: Marsouin
 ---
 <<if visited("Marsouin") == 1>>
 Bonzour ze me prezente ze suis une ssauf-souris mutante adolescente
-Ze ssuis le rezultat d’une EXPERRIANSS SIANTIFFIKK
+Ze ssuis le rezultat d'une EXPERRIANSS SIANTIFFIKK
 Depuis ze me passionne moi-meme pour les essperianss scientiffiquent
 Par egzample celle de la muzique de bouche voyez plutot :
 POUSSH TCHAKK POUSSHpouSHHH TchaKKKKK !!
 et ca continue :
 PISH TCHOUKK pichTOUKKK pouish toukk TOUKFF !!!!!
-Si vous voulez apprendre c’est simple ze peux vous zensaigner les bazes
-Il suffit de dire : «  PATOPESTO KICHEEE KICHKICHE ALACREMMmmeee.. »
+Si vous voulez apprendre c'est simple ze peux vous zensaigner les bazes
+Il suffit de dire : "  PATOPESTO KICHEEE KICHKICHE ALACREMMmmeee.. "
 et en suite : PATALAKICH ALAKREMEEE POTOTOPOESTOU kiche...
 Et ce genre de choses.
-Demandez à mes freres zadolescents-mutants ze suis spessialize dans tousse ce qui est TAM-TAM 
+Demandez a mes freres zadolescents-mutants ze suis spessialize dans tousse ce qui est TAM-TAM 
 Mais avec la bouche
 Mais aussi sans la bouche
 <<else>>
@@ -782,14 +784,14 @@ Mais aussi sans la bouche
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 694,287
+__PrivCrochet_position: 1101,354
 __PrivCrochet_tags: 
 title: MarsouinTamTam
 ---
-Demandez à mes freres zadolescents-mutants ze suis spessialize dans tousse ce qui est TAM-TAM
+Demandez a mes freres zadolescents-mutants ze suis spessialize dans tousse ce qui est TAM-TAM
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 300,662
+__PrivCrochet_position: 707,729
 __PrivCrochet_tags: 
 title: James
 ---
@@ -801,17 +803,17 @@ salut...
 Euh...
     -> oui
 Tu preferes la soupe de serpent ou les vermicelles de mycelium ?
-    ->Euh c'est à dire que..
+    ->Euh c'est a dire que..
 Tu veux bien etre mon ami ?
     -> Euh.. oui ?
     -> Euh...
-Moi c’est James
-    -> Enchante James, moi c’est...
+Moi c'est James
+    -> Enchante James, moi c'est...
 Tu connais le comble pour un James ?
     -> Bonder ?
-    -> S’envoler avec sa meuf et son chat vers d’autre cieux ?
+    -> S'envoler avec sa meuf et son chat vers d'autre cieux ?
     -> Je donne ma langue au chat
-Non perdu !!! C’est de diner dans un self.
+Non perdu !!! C'est de diner dans un self.
     -> Ah okay.
 Quel est ton type de pisse prefere ?
     -> Oulah..
@@ -823,21 +825,21 @@ NON PERDU !!!!!
 <<jump JamesPisse>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 659,659
+__PrivCrochet_position: 1066,726
 __PrivCrochet_tags: 
 title: JamesPisse
 ---
-Moi c’est la pisse and love que je prefere
+Moi c'est la pisse and love que je prefere
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 844,907
+__PrivCrochet_position: 1251,974
 __PrivCrochet_tags: 
 title: AnakinTelechargement
 ---
-Ok je lance le téléchargement supraluminique, ça devrait arriver vers votre chakra
+Ok je lance le telechargement supraluminique, ca devrait arriver vers votre chakra
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 321,1681
+__PrivCrochet_position: 728,1748
 __PrivCrochet_tags: 
 title: DarkVador
 ---
@@ -858,28 +860,28 @@ Piii piii piiiii !
         <<jump PipiPipi>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 867,1338
+__PrivCrochet_position: 1274,1405
 __PrivCrochet_tags: 
 title: PipiPopo
 ---
-Ouais je déconne avec toi tu m’as capté.
+Ouais je deconne avec toi tu m'as capte.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 866,1561
+__PrivCrochet_position: 1273,1628
 __PrivCrochet_tags: 
 title: PipiPipo
 ---
-C’est carre t’as vu.
+C'est carre t'as vu.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 869,1805
+__PrivCrochet_position: 1276,1872
 __PrivCrochet_tags: 
 title: PipiPapa
 ---
-Oui. C’est bien moi.
+Oui. C'est bien moi.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 875,2019
+__PrivCrochet_position: 1282,2086
 __PrivCrochet_tags: 
 title: PipiPipi
 ---
@@ -887,52 +889,511 @@ title: PipiPipi
 EN GARDE !!!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 451,2358
+__PrivCrochet_position: 795,2441
 __PrivCrochet_tags: 
 title: Gaston
 ---
 Bonjour Voyageur. Je cherche mon petit frere Pipi, l'auriez-vous vu ?
-Il se fait appeler « Dark Vador » et fait semblant de pas savoir parler avant d’attaquer les gens. 
-Ça vous dit quelque chose ?
+Il se fait appeler " Dark Vador " et fait semblant de pas savoir parler avant d'attaquer les gens. 
+ca vous dit quelque chose ?
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 240,-106
+__PrivCrochet_position: 647,-39
 __PrivCrochet_tags: 
 title: Node
 ---
 Empty Text
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 412,1200
+__PrivCrochet_position: 819,1267
 __PrivCrochet_tags: 
 title: AnakinMerci
 ---
-Attends si tu payes pas ça marchera jamais !!
-*Vous sentez une puissance nouvelle déferler en vous.*
+Attends si tu payes pas ca marchera jamais !!
+*Vous sentez une puissance nouvelle deferler en vous.*
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 409,916
+__PrivCrochet_position: 816,983
 __PrivCrochet_tags: 
 title: AnakinTout
 ---
-Ça fera 65 unités
-*Vous tendez toutes vos unités restantes à Anakin.*
+ca fera 65 unites
+*Vous tendez toutes vos unites restantes a Anakin.*
  <<jump AnakinTelechargement>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 456,2619
+__PrivCrochet_position: 763,2780
 __PrivCrochet_tags: 
 title: Niark
 ---
-Mmmh.. Je sens sur toi…
+Mmmh.. Je sens sur toi...
 Euhan ?!! 
 <<if $anakinpere == true>>
-L’amour d’un pere ?!!!!
+L'amour d'un pere ?!!!!
 <<endif>>
 <<if $derogationquantique == true>>
-Boah, c’est bon, j’en ai plein deja..
+Boah, c'est bon, j'en ai plein deja..
 <<endif>>
 <<if $piranhaconda == true>>
-T'as qu'a demander a mes potes ils savent très bien eux comment j’en ai... 
+T'as qu'a demander a mes potes ils savent tres bien eux comment j'en ai... 
 <<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 766,3011
+__PrivCrochet_tags: 
+title: Arnard
+---
+Salutations, vous chercher l'aventure ?
+Moi mon reve c'est de devenir un grand guerrier-chevalier !
+L'ecole des guerriers-chevaliers est pas donnee et c'est pas la porte a cote, mais bon ..
+Je vais economiser pour y aller avec mon copain-collegue !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 772,3263
+__PrivCrochet_tags: 
+title: Tomash
+---
+Bonjour monsieur le champignon, vous voulez gouter mon ragout ?
+Je n'y ai mis que des ingredients qui n'eprouvent ni douleur ni sentiments !
+Un jour je prouverai qu'on peut manger plein de trucs delicieux sans avoir besoin de tuer-trucider ses amis-voisins !
+Et j'irai me perfectionner a la capitale pour faire connaitre ma cuisine-gentille !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 772,3505
+__PrivCrochet_tags: 
+title: Eugaznog
+---
+Je sens que je suis en train.. de muter...
+Si seulement je pouvais m'evoluer en un beau chenipan...
+GARZZZZGHH !!!
+GOuRZZZZZE
+GOURZUUUGE
+GONZAGue !!!!!
+<<set $transformation to true>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 781,4030
+__PrivCrochet_tags: 
+title: R1
+---
+<<if !visted("R1Demasque")>>
+Hum bonjour hum c'est moi alexis miaou...
+    -> Je t'ai demasque.<<if !visted("R1Demasque")>>
+        <<jump R1Demasque>>
+    -> Oh Alexis je te cherchais justement !! <<if !visted("R1Alexis")>>
+        <<jump R1Alexis>>
+<<else>>
+Je n'ai plus rien a t'enseigner. Passe ton chemin.
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1211,3826
+__PrivCrochet_tags: 
+title: R1Demasque
+---
+Raaah oui c'est bien moi AirForceWan Kenobi ...
+<<set $transformation to true>>
+Je suis le maitre de Alexis
+Lui et moi on est maitre et disciple..
+Et lui, c'est mon disciple.
+Je devais lui apprendre plein de trucs et tout mais il s'est fait capturer.
+Je voulais le sauver mais je me suis dit que ca allait le renforcer, lui faire la bite comme on dit chez nous au Bignon.
+Bref
+Et sinon astuce de pro :
+Lorsque tu rencontres un ennemi, appuie sur la barre " ESPACE " pour lui assener un coup d'epee !
+Voila tu sais tout.
+Non pas besoin d'epee bien sur ! Il suffit d'avoir une barre " ESPACE " !
+Ah et j'oubliais : 
+Lorsqu'un monstre meurt sous les coups de ta barre espace en fin je veux dire de ton epee, tu gagne un " NIVEAU " !
+Essaye de gagner plus de " NIVEAUX " si tu veux devenir digne de respect !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1200,4215
+__PrivCrochet_tags: 
+title: R1Alexis
+---
+Oui c'est moi !! Va vite me delivrer de prison !!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 770,4524
+__PrivCrochet_tags: 
+title: Zebi
+---
+STARFOULLA PSARTEKK MON REUF
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 785,4802
+__PrivCrochet_tags: 
+title: Doug
+---
+The average amount of skeletons in a body is technically more than one.
+Whenever I feel dead inside, I like to go outside.
+I just hate people who take drugs...
+Airport security for example ..
+If being sexy is a crime, let me tell you that I am breaking the law sir...
+" La maitresse de Tonton l'interroge sur la derniere lecon de geographie : " Peux-tu me dire quels sont les pays frontaliers de la France, Tonton ?
+Tonton reste muet, la maitresse le sermonne,
+– Tu n'as toujours pas revu le cours de geographie !
+Tonton repond :
+– Si, mais a force de me creuser la tete, j'ai un trou de memoire ! "
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 748,5107
+__PrivCrochet_tags: 
+title: Gonorrhee De Balzac
+---
+Je cherche un nom pour le fontaine... Tu saurais pas m'aider des fois ?
+Comment voulez-vous nommer la fontaine ?
+    -> " Claire "
+    -> " Jean de la "
+    -> " a la claire "
+Ok........... merci........... 
+    -> Kesskisspass ?
+ Mon pain .... On me l'a vole.....
+Il etait bien imbibe...
+    -> J'ai du pain
+        <<jump Gonorrhee De BalzacPain>>
+    -> G pa du p1
+        <<jump Gonorrhee De BalzacPasPain>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1136,4905
+__PrivCrochet_tags: 
+title: Gonorrhee De BalzacPain
+---
+Youpi !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1132,5227
+__PrivCrochet_tags: 
+title: Gonorrhee De BalzacPasPain
+---
+Ouin...
+Je vais devoir retourner en chercher dans la Chapelle Cystite...
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 742,5536
+__PrivCrochet_tags: 
+title: Alexis
+---
+Snif Snif ouin ouin onche onche
+gna gna gna blabla
+nanani nananaaa ...
+bref..
+Je suis enferme alors que c'est mon anniversaire, c'est trop injuste !
+Crois moi bien que ce maudit Praire-Vouivre me revaudra ca !!
+Ma vengeance sera terrib' enfet
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 750,5842
+__PrivCrochet_tags: 
+title: Patate
+---
+Yo mec t'a vus ce puis la ?
+Si tu saute dedans y'a la zone secrete du sanctuaire !
+Avec genre tous un level avec des nouveux mobs des nouvelles armes et un boss.
+Vas-y saute dedans je te jure !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 699,6167
+__PrivCrochet_tags: 
+title: Masse Windows
+---
+Tu as apporte une lampe ?
+    -> Oui
+        <<jump Masse WindowsOuiNon>>
+    -> non
+        <<jump Masse WindowsOuiNon>>
+    -> " Non ! :o "
+         <<jump Masse WindowsNon!>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1056,6091
+__PrivCrochet_tags: 
+title: Masse WindowsOuiNon
+---
+<<set $playerhp to ($playerhp - 1) >>
+aie !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1033,6436
+__PrivCrochet_tags: 
+title: Masse WindowsNon!
+---
+Haha tu le fais trop bien
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 671,6780
+__PrivCrochet_tags: 
+title: Maitre Yodle
+---
+Ceci est une conversation privee entre moi et ma MST, ayez l'obligeance d'aller trainer votre chapeau ailleurs.
+Ahlala ..
+Bon je disais quoi deja ? 
+    -Tu parlais de ton.. 
+Mon quoi ?
+    -Ton petit probleme...
+Hein ?? mais de quoi tu parles enfin ?
+    -De ton petit probleme tu sais bien...
+Mais non enfin j'ai pas de probleme c'est quoi ces histoires ?
+    -Tu as honte devant le monsieur ?
+Pffff n'importe quoi
+    -C'est sur que le monsieur n'a pas ce genre de probleme, lui.. Comme on dit grand nez gran..
+Mais arrete enfin ! Tu vois bien que tu genes le monsieur ca ne l'interesse pas du tout !
+    -Bah si regarde il reste plante la c'est pas pour faire de la photosynthese..
+ca suffit je vais te refiler a quelqu'un d'autre si tu continue !
+    -Bah vas-y je demande que ca mais si tu refuses de parler de ton probleme on s'en sortira jamais !! 
+Je veux pas parler je dois juste me rapprocher suffisamment et..
+*Avoir ecoute cette conversation intime vous empli de la determination de ne pas oublier de sortir couvert.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2800,-1225
+__PrivCrochet_tags: 
+title: Gomuscus
+---
+Je sens meilleur que toi.
+    -> JE sens meilleur que toi
+Mon odeur est mieux
+    -> J'ai une meilleure odeur
+En terme d'odeur je suis superieur.
+    -> Mon parfum est plus malin.
+Les senteurs que je degage sont plus agreables.
+    -> Si tu parles de ce qu'on sent avec le nez, je te ferai dire que je domine.
+J'attire ton attention sur le fait que je sens tres tres bon... plus que toi.
+    -> C'est pas un concours en fait.
+Olfactivement je te baise.
+    -> Je degage un de ces gaz parfois..
+Embrasse-moi.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2518,-720
+__PrivCrochet_tags: 
+title: Boboxeur
+---
+<<if !visited("BoboxeurText")>>
+Le saviais-tu ?
+    -> Oui
+        <<jump BoboxeurOui1>>
+    -> Non
+        <<jump BoboxeurNon1>>
+<<else>>
+Maintenant tu le sais
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2920,-944
+__PrivCrochet_tags: 
+title: BoboxeurOui1
+---
+Mince... Je peux te dire quand meme ?
+    -> Oui
+        <<jump BoboxeurText>>
+    -> Non
+        <<jump BoboxeurNon1>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2918,-573
+__PrivCrochet_tags: 
+title: BoboxeurNon1
+---
+Mince.. Tu es sur ?
+    -> Oui
+        <<jump BoboxeurText>>
+    -> Non
+        <<jump BoboxeurNon1>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3324,-579
+__PrivCrochet_tags: 
+title: BoboxeurText
+---
+Les champignons sont des eucaryotes pluricellulaires ou unicellulaires. Le taxon " champignon " est devenu ambigu et considere par la science actuelle comme obsolete car il ne designe pas un groupe monophyletique mais plusieurs taxons distincts. Il a en effet ete divise en eumycetes, oomycetes, chytridiomycetes et mycetozoaires. Leurs cellules, pourvues d'une paroi chitineuse ou cellulosique, sont immobiles et se nourrissent par l'absorption des molecules organiques directement dans le milieu. La cellule ou les cellules sont depourvues de chlorophylles ou de plastes car ces organismes sont heterotrophes vis-a-vis du carbone. Ils n'appartiennent donc pas au regne des plantes. Leur appareil vegetatif est un thalle : ce sont donc des thallophytes qui adoptent un mode de vie filamenteux (l'ensemble des filaments appeles hyphes formant le mycelium). Ces caracteristiques, qui peuvent etre perdues secondairement dans certains taxons, permettent de regrouper des organismes appartenant a des groupes distincts dans la phylogenie.
+Tous les veritables champignons appartiennent au groupe des eumycetes et se repartissent au sein des basidiomycetes, comme les amanites ou, pour quelques-uns, parmi les ascomycetes, a l'exemple des morilles ou des truffes. Deux groupes sont communement appeles " champignons " mais n'en sont pas au sens strict du terme : les oomycetes (plus proches genetiquement des algues brunes) et les myxomycetes.
+
+Presents dans le registre fossile depuis 450 millions d'annees, soit le Silurien, ils ont colonise presque tous les milieux terrestres et meme aquatiques en eaux douce, saumâtre et meme marine (1500 especes au moins, qui ont un rôle ecologique important[2] ; via des symbioses avec des algues parfois).
+
+Les premiers champignons mycorhiziens de type glomeromycetes ont vraisemblablement aide les premieres plantes terrestres a coloniser les terres emergees[3].
+
+Ce qu'on appelle couramment " champignon " n'est en fait que la " fructification " temporaire et visible, le sporophore (autrefois appele " carpophore "), d'un organisme a caractere plus durable et plus discret, le macromycete, dont la structure habituellement filamenteuse constitue le mycelium, forme de filaments generalement invisibles a l'œil nu lorsqu'ils sont isoles. Le sporophore se presente souvent sous forme d'un pied portant un chapeau. D'autres silhouettes de sporophores sont bien connues : en forme de petits buissons comme les clavaires, de langues sur le tronc des arbres comme les fistulines, de coupes comme les pezizes, de spheres comme les vesses-de-loup, etc.
+
+L'etude des champignons, la mycologie, est pratiquee par des mycologues.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2569,-233
+__PrivCrochet_tags: 
+title: Plectrude Austreberthe de Casmelothes
+---
+<<if !visited("Plectrude Austreberthe de CasmelothesPortail")>>
+" J'estois en la connaissance de quelque amusade en toustes point supesrieur. " 
+" Bigre ! " 
+" Plustôt que de m'acagnarder couardisement en ceste salissonne contree, il seroit bien plust gente de vous convoier a ma plaisante destination. "
+" Il ne s'agiste point d'un attrapoir, pour j'estois en habitus de laisser les balivernes aux gredins. J'apercois derechef que vous n'estoyez point un vil gueux, vous courir en malopportunite me plonsgerait en envergogne. "
+" Gardez-vous bonnement toutefois de la mesaventure lorsque vous pietonnerez ; on entendit la rumeur qu'un malcreant fol dingo s'employ par temps de lunage a mortir les manants par sa Lycanthropie. "
+"  Ainsi je m'acoisse ! " " Faites place ! "
+<<jump Plectrude Austreberthe de CasmelothesPortail>>
+<<else>>
+" Franchissez vitement !  Je n'estoy pas une garcelette, mais ma magie est bellement ranconniere ! " 
+<<endiff>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2899,-209
+__PrivCrochet_tags: 
+title: Plectrude Austreberthe de CasmelothesPortail
+---
+" AJOURDANCE GIRATOIRE !!!! "
+<<set $portalopen to true>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2562,85
+__PrivCrochet_tags: 
+title: Biblically accurate fairy
+---
+You feel kinda.. naked.
+But in you soul ?
+
+Someone finally sees your TRUE potential.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2551,377
+__PrivCrochet_tags: 
+title: Dofus1
+---
+Merci pour les dofus :p
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2558,632
+__PrivCrochet_tags: 
+title: Dofus2
+---
+ki pr xp ?
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2553,862
+__PrivCrochet_tags: 
+title: Dofus3
+---
+no arnak no noob
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2552,1118
+__PrivCrochet_tags: 
+title: Dofus4
+---
+ki pr dj ?
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2541,1375
+__PrivCrochet_tags: 
+title: Dofus5
+---
+bvn
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2534,1616
+__PrivCrochet_tags: 
+title: Dofus6
+---
+je te pl stv
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2530,1883
+__PrivCrochet_tags: 
+title: Dofus7
+---
+tu ve sortir ac moi ?
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2514,2132
+__PrivCrochet_tags: 
+title: Dofus8
+---
+c ta chanson lol
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2517,2386
+__PrivCrochet_tags: 
+title: Dofus9
+---
+gg le rox :)
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2514,2651
+__PrivCrochet_tags: 
+title: Dofus10
+---
+je suis modo suce moi
+c t mon cousin dsl^^^
+serieuseman je suis modo passe ton mdp je dois juste verifier un truc pr te passer tou les dofus 
+jarete de jouer je te transfer tous mes obj
+no hack no arnak srx...
+aprer si tu ve pas je donne a qqun dautr
+san ton conte je pe rien fer ces un secret de modo je sui plu modo si jle dis 
+si tu dis non je detrui le dofus tanpi.
+mais tu conais mn secrer mtn je v devoir te ban :/ domage je voulai que tu soi modo 
+sauf si tu accepte je te passe tou les dofus
+je peu te mettre un niv 200 sur tn conte opir.
+je prend mon lvl 200 t mor
+Je te report pour ignorer un modo t mor
+Mtn sauf si je fais qqchhose anakam va suppr ton conte xD
+suce moi
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2511,2925
+__PrivCrochet_tags: 
+title: Dofus11
+---
+<  3
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2492,3213
+__PrivCrochet_tags: 
+title: Mini-Idefix
+---
+Je poursuivroye mienne rechercherie jusqu'a desnicher ce fichtru mage. Cela-ci seulemenst apaisantira mon rageux courroux...
+Flairement joue de son parti, ce menestrel foimenteur m'a tourne en nuiteux Lougarol.
+Il paye bellement de sa minaude mais reellement il possede un cuer de jouvencelle. Nulle chevaslerie ne demeure en sien poitrail.
+J'espoyr l'estroupier avant peu, l'auryez-voustes entrapercu au viron des parages ? Tapis en detour d'une buissonade ?
+    -> Un MaJ ? Vous avez un lien particulier ? Frere peut-etre ?
+Ouis.. C'estuit mien fraternel.....
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2489,3515
+__PrivCrochet_tags: 
+title: Toturiel Danbutte
+---
+T'es un bleu toi, nan ?
+L'aventure c'est pas si facile
+Alexis, Mathieu
+et Charlie !
+(Pourquoi je dis ca moi ?) 
+Bref n'oublie pas de cliquer sur les boutons !
+Clic-clic ! Clic-clic ! Touche pas a ma clique !
+<<set $transformation to true>>
+Bique, bic, chic, j'ai gagne 100 briques !
+J'arrive au pic-nic, ta daronne a la Trique !
+Pas de panique, j'ai mon alambique! (yo)
+Fantomatique, automatique, j'te Nique !
+hemorragique, gastro-enterique, y'a un hic !
+T'es comique, c'est de la tektonik ?
+Empirique, Vampirique, chuis d'la Rome Antique !
+Romantique, chic, c'est pas une critique !
+Couic-couic, scouik-scouik, 
+T'ES TROP RACHITIQUE !!!!
+Ahh... ca fait du bien de s'exprimer par l'art...
+Ne t'inquiete pas, j'ai moi aussi ete nul un jour. 
+Meme le grand Chene Mou a un jour ete un gland !
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2977,2614
+__PrivCrochet_tags: 
+title: Node_3
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -2231,4061
+__PrivCrochet_tags: 
+title: Node_4
+---
+Empty Text
 ===
