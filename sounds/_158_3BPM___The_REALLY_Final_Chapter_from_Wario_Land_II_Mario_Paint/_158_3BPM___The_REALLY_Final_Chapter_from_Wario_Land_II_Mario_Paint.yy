@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"_158_3BPM___The_REALLY_Final_Chapter_from_Wario_Land_II_Mario_Paint",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":213.83257,
+  "exportDir":"",
+  "name":"_158_3BPM___The_REALLY_Final_Chapter_from_Wario_Land_II_Mario_Paint",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"_158_3BPM___The_REALLY_Final_Chapter_from_Wario_Land_II_Mario_Paint.mp3",
+  "volume":1.0,
+}

@@ -70,9 +70,7 @@ title: Declaration
 <<set $anakinpere to false>>
 <<set $derogationquantique to false>>
 <<set $piranhaconda to false>>
-<<set $Sabluss1 to false>>
-<<set $Sabluss2 to false>>
-<<set $Sabluss3 to false>>
+<<set $pouvoirdelamitier to false>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -1680,-281
@@ -589,9 +587,9 @@ title: Node_2
 Empty Text
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -2225,5916
+__PrivCrochet_position: -2226,5915
 __PrivCrochet_tags: 
-title: PlusFort
+title: Plus for que toi
 ---
 <<if visited("PlusFort") == 1>>
 Ah ! En voila un qui est probablement MOINS FORT que moi ! Ca s'annonce interessant.
@@ -1014,11 +1012,15 @@ title: R1Alexis
 Oui c'est moi !! Va vite me delivrer de prison !!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 770,4524
+__PrivCrochet_position: 729,4450
 __PrivCrochet_tags: 
 title: Zebi
 ---
+<<if visited("Zebi") == 1>>
 STARFOULLA PSARTEKK MON REUF
+<<else>>
+<<jump ZebiMed>>
+<<endif>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 785,4802
@@ -1255,70 +1257,70 @@ Someone finally sees your TRUE potential.
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2551,377
 __PrivCrochet_tags: 
-title: Dofus1
+title: Shirley
 ---
 Merci pour les dofus :p
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2558,632
 __PrivCrochet_tags: 
-title: Dofus2
+title: LegendaireXGladiateur
 ---
 ki pr xp ?
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2553,862
+__PrivCrochet_position: 2552,861
 __PrivCrochet_tags: 
-title: Dofus3
+title: Sombre_Sniper
 ---
 no arnak no noob
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2552,1118
+__PrivCrochet_position: 2551,1116
 __PrivCrochet_tags: 
-title: Dofus4
+title: OmegaPhenix
 ---
 ki pr dj ?
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2541,1375
 __PrivCrochet_tags: 
-title: Dofus5
+title: Piafabec
 ---
 bvn
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2534,1616
 __PrivCrochet_tags: 
-title: Dofus6
+title: Fortune-lenutrof
 ---
 je te pl stv
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2530,1883
+__PrivCrochet_position: 2530,1881
 __PrivCrochet_tags: 
-title: Dofus7
+title: Totally-a-girl
 ---
-tu ve sortir ac moi ?
+t'a pas un object ?
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2514,2132
 __PrivCrochet_tags: 
-title: Dofus8
+title: Mestre Donge Huant
 ---
 c ta chanson lol
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2517,2386
+__PrivCrochet_position: 2516,2386
 __PrivCrochet_tags: 
-title: Dofus9
+title: Mestre Donge-Huant
 ---
 gg le rox :)
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2514,2651
 __PrivCrochet_tags: 
-title: Dofus10
+title: Xoxo-laurentleroxxor-Xoxo
 ---
 je suis modo suce moi
 c t mon cousin dsl^^^
@@ -1339,14 +1341,14 @@ suce moi
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2511,2925
 __PrivCrochet_tags: 
-title: Dofus11
+title: Shirley <3
 ---
 <  3
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2492,3213
 __PrivCrochet_tags: 
-title: Mini-Idefix
+title: Giga-Idefix
 ---
 Je poursuivroye mienne rechercherie jusqu'a desnicher ce fichtru mage. Cela-ci seulemenst apaisantira mon rageux courroux...
 Flairement joue de son parti, ce menestrel foimenteur m'a tourne en nuiteux Lougarol.
@@ -1383,17 +1385,27 @@ Ne t'inquiete pas, j'ai moi aussi ete nul un jour.
 Meme le grand Chene Mou a un jour ete un gland !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2977,2614
-__PrivCrochet_tags: 
-title: Node_3
----
-Empty Text
-===
-__PrivCrochet_colorID: 0
 __PrivCrochet_position: 760,3576
 __PrivCrochet_tags: 
 title: EugaznogTransform
 ---
 <<set $transformation to true>>
 GONZAGue !!!!!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1037,4435
+__PrivCrochet_tags: 
+title: ZebiMed
+---
+J'ai rendez-vous chez le toubib
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2437,3971
+__PrivCrochet_tags: 
+title: Pouvoir de l'amitier
+---
+<<set $pouvoirdelamitier to true>>
+Ramasse moi, ensemble nous pouvons deliver le vrai hero de cette histoire
+    -> ok
+    -> daccord
 ===
