@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Chprowt_Putaind_ougah___",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":179.9082,
+  "exportDir":"",
+  "name":"Chprowt_Putaind_ougah___",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Chprowt_Putaind_ougah___.mp3",
+  "volume":1.0,
+}

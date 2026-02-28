@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Castlevania_Harmony_of_Dissonance_OST_9_Chapel_of_Dissonance",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":79.7141,
+  "exportDir":"",
+  "name":"Castlevania_Harmony_of_Dissonance_OST_9_Chapel_of_Dissonance",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Castlevania_Harmony_of_Dissonance_OST_9_Chapel_of_Dissonance.mp3",
+  "volume":1.0,
+}

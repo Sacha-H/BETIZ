@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"autre_lugubre",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":58.25306,
+  "exportDir":"",
+  "name":"autre_lugubre",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"autre_lugubre.mp3",
+  "volume":1.0,
+}
