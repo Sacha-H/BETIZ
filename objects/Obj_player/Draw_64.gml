@@ -10,7 +10,12 @@ var _barh = 32
 draw_set_font(fnt_text)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
-
+    
+    //texte zone
+    draw_sprite_stretched(spr_box, 0, _dx, (_dy + 700), _barw+300, _barh)
+draw_text(_dx +150+ _barw/2, (_dy + 700) + _barh/2, global.zone_name)
+//
+    
 var _health_barw = _barw * (global.player_hp / global.player_hp_total)
 
 draw_sprite_stretched(spr_box, 0, _dx, _dy, _barw, _barh)
@@ -26,7 +31,8 @@ draw_sprite_stretched(spr_box, 0, _dx, _dy, _barw, _barh)
 draw_sprite_stretched_ext(spr_box, 1, _dx, _dy, _xp_barw, _barh, c_blue, 0.6)
 
 draw_text(_dx +_barw / 2, _dy + _barh / 2, $"LEVEL {global.player_level}")
-
+    
+    
 // Reset Proporties
 
 draw_set_halign(fa_left)
