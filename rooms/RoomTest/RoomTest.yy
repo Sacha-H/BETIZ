@@ -26,7 +26,7 @@
     {"name":"inst_117DC142","path":"rooms/RoomTest/RoomTest.yy",},
     {"name":"inst_3DB9CF38","path":"rooms/RoomTest/RoomTest.yy",},
     {"name":"inst_5FE773E","path":"rooms/RoomTest/RoomTest.yy",},
-    {"name":"inst_77567899","path":"rooms/RoomTest/RoomTest.yy",},
+    {"name":"inst_6B23FDD3","path":"rooms/RoomTest/RoomTest.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -79,7 +79,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40597805,"scaleY":0.40597808,"x":4160.0,"y":1440.0,},
         {"$GMRInstance":"v4","%Name":"inst_76892ABD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76892ABD","objectId":{"name":"Obj_npc_portail","path":"objects/Obj_npc_portail/Obj_npc_portail.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3488.0,"y":1312.0,},
         {"$GMRInstance":"v4","%Name":"inst_3DB9CF38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DB9CF38","objectId":{"name":"Obj_npc_combat","path":"objects/Obj_npc_combat/Obj_npc_combat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4640.0,"y":1024.0,},
-        {"$GMRInstance":"v4","%Name":"inst_77567899","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77567899","objectId":{"name":"Obj_npc_transform","path":"objects/Obj_npc_transform/Obj_npc_transform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1760.0,"y":1856.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6B23FDD3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B23FDD3","objectId":{"name":"Obj_npc_transform","path":"objects/Obj_npc_transform/Obj_npc_transform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1888.0,"y":1952.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":128,"SerialiseWidth":393,"TileCompressedData":[
           -11,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-41,-2147483648,

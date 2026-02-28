@@ -16,7 +16,8 @@ if Chatterbox {
     }
     
     if instance_exists(Obj_npc_combat){
-    Obj_npc_transform.transformation = ChatterboxVariableGet("transformation")
+        Obj_npc_transform.transformation = ChatterboxVariableGet("transformation") 
+        show_debug_message(ChatterboxVariableGet("hashat"))
     }
 
     
@@ -35,7 +36,7 @@ if ChatterboxIsWaiting(Chatterbox) and keyboard_check_pressed(vk_space){
     chatterbox_update()
 }
 else if _count {
-	var _key = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)
+	var _key = keyboard_check_pressed(ord("S")) - keyboard_check_pressed((ord("Z")))
     
     repeat (1 + (ChatterboxGetOptionConditionBool(Chatterbox, warp(option_index + _key, 0, _count-1))== false)){
         option_index = warp(option_index + _key, 0, _count-1)

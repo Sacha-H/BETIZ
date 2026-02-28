@@ -53,7 +53,7 @@ title: Option voler
 REVIENS ICI CHENAPAN !!!
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: -2382,-1666
+__PrivCrochet_position: -2395,-1669
 __PrivCrochet_tags: 
 title: Declaration
 ---
@@ -675,7 +675,7 @@ Va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 673,-1203
+__PrivCrochet_position: 671,-1205
 __PrivCrochet_tags: 
 title: PraireVouivre
 ---
@@ -959,7 +959,7 @@ Un jour je prouverai qu'on peut manger plein de trucs delicieux sans avoir besoi
 Et j'irai me perfectionner a la capitale pour faire connaitre ma cuisine-gentille !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 772,3505
+__PrivCrochet_position: 380,3574
 __PrivCrochet_tags: 
 title: Eugaznog
 ---
@@ -968,8 +968,7 @@ Si seulement je pouvais m'evoluer en un beau chenipan...
 GARZZZZGHH !!!
 GOuRZZZZZE
 GOURZUUUGE
-GONZAGue !!!!!
-<<set $transformation to true>>
+<<jump EugaznogTransform>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 781,4030
@@ -1085,9 +1084,9 @@ Crois moi bien que ce maudit Praire-Vouivre me revaudra ca !!
 Ma vengeance sera terrib' enfet
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 750,5842
+__PrivCrochet_position: 749,5840
 __PrivCrochet_tags: 
-title: Patate
+title: Manuss The 1st
 ---
 Yo mec t'a vus ce puis la ?
 Si tu saute dedans y'a la zone secrete du sanctuaire !
@@ -1391,9 +1390,10 @@ title: Node_3
 Empty Text
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -2231,4061
+__PrivCrochet_position: 760,3576
 __PrivCrochet_tags: 
-title: Node_4
+title: EugaznogTransform
 ---
-Empty Text
+<<set $transformation to true>>
+GONZAGue !!!!!
 ===
