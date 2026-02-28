@@ -12,8 +12,8 @@ draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
     
     //texte zone
-    draw_sprite_stretched(spr_box, 0, _dx, (_dy + 700), _barw+300, _barh)
-draw_text(_dx +150+ _barw/2, (_dy + 700) + _barh/2, global.zone_name)
+    draw_sprite_stretched(spr_box, 0, 1280-_dx-_barw-190, _dy, _barw+260, _barh)
+draw_text(1280-_dx -95- _barw/2, _dy + _barh/2, global.zone_name)
 //
     
 var _health_barw = _barw * (global.player_hp / global.player_hp_total)
