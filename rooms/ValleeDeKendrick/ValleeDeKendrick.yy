@@ -183,8 +183,8 @@
   ],
   "name":"ValleeDeKendrick",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"Vallee de Kendrick",
+    "path":"folders/Room/Vallee de Kendrick.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

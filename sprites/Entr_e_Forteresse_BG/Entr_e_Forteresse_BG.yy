@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Room",
-    "path":"folders/Sprite/Room.yy",
+    "name":"Forteresse de sexe",
+    "path":"folders/Sprite/Room/Forteresse de sexe.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

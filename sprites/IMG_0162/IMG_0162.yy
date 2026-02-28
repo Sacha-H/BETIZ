@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Room",
-    "path":"folders/Sprite/Room.yy",
+    "name":"Notre Anar",
+    "path":"folders/Sprite/Room/Notre Anar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

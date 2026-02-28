@@ -91,8 +91,8 @@
   ],
   "name":"Schlag_Couloir_2",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"Domaine de Schlag",
+    "path":"folders/Room/Domaine de Schlag.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

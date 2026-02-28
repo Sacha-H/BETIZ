@@ -9,6 +9,9 @@ if(instance_exists(Obj_text)) exit;
     //}
     //])
 //}
+
+global.move_speed = moveSpeed
+
 if (can_move)
 {
     horizontalValue = keyboard_check(ord("D")) - keyboard_check((ord("Q")));

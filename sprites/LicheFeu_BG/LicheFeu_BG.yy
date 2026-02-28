@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Room",
-    "path":"folders/Sprite/Room.yy",
+    "name":"Sanitaires",
+    "path":"folders/Sprite/Room/Sanitaires.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -68,8 +68,8 @@
   ],
   "name":"NwordLimbes_4",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"Nword-Limbes",
+    "path":"folders/Room/Nword-Limbes.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Room",
-    "path":"folders/Sprite/Room.yy",
+    "name":"Nword Limbes",
+    "path":"folders/Sprite/Room/Nword Limbes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

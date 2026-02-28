@@ -205,8 +205,8 @@
   ],
   "name":"LesSanitaireDeLicheEnFeu",
   "parent":{
-    "name":"Room",
-    "path":"folders/Room.yy",
+    "name":"Sanitaires de Chaude-Liche",
+    "path":"folders/Room/Sanitaires de Chaude-Liche.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
