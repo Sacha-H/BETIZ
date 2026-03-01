@@ -16,3 +16,5 @@ event_inherited();
 function get_random_sfx(){
     return sfx[irandom_range(0, array_length(sfx)-1)]
 }
+
+dooncesoundfinal = false

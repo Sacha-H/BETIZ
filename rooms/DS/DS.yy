@@ -8,6 +8,8 @@
   "instanceCreationOrder":[
     {"name":"inst_7C23001C1_4","path":"rooms/DS/DS.yy",},
     {"name":"inst_36747905_3","path":"rooms/DS/DS.yy",},
+    {"name":"inst_628CCD65","path":"rooms/DS/DS.yy",},
+    {"name":"inst_5FFD3F88","path":"rooms/DS/DS.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +18,10 @@
         {"$GMRInstance":"v4","%Name":"inst_36747905_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36747905_3","objectId":{"name":"Obj_room","path":"objects/Obj_room/Obj_room.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_room","path":"objects/Obj_room/Obj_room.yy",},"propertyId":{"name":"snd_room","path":"objects/Obj_room/Obj_room.yy",},"resource":{"name":"msc_Intro_Village","path":"sounds/msc_Intro_Village/msc_Intro_Village.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"msc_Intro_Village",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
+        {"$GMRInstance":"v4","%Name":"inst_628CCD65","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_628CCD65","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":910.0,"y":1239.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5FFD3F88","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FFD3F88","objectId":{"name":"Obj_enemyPraireVouivre","path":"objects/Obj_enemyPraireVouivre/Obj_enemyPraireVouivre.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"hp","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2923.0,"y":1278.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":128,"SerialiseWidth":393,"TileCompressedData":[
           -11,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-391,-2147483648,-2,2,-41,-2147483648,
@@ -162,7 +168,7 @@
           -110,-2147483648,-76,34,-114,-2147483648,-88,34,-3,-2147483648,-2,34,-110,-2147483648,-76,34,-126,-2147483648,
           -2,34,-4,-2147483648,-67,34,-320,-2147483648,-2,34,-4,-2147483648,-66,34,-1205,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"LicheFeu_BG","path":"sprites/LicheFeu_BG/LicheFeu_BG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"IMG_0259","path":"sprites/IMG_0259/IMG_0259.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"DS",
   "parent":{

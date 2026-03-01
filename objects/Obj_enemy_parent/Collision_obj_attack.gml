@@ -1,6 +1,6 @@
 if (alarm[1] < 0){
     hp -= other.damage
-    audio_play_sound(sfx_PRAIRE_VOUIVRE_1,1,false)
+    audio_play_sound(snd_enemy,1,false)
     image_blend = c_red
     
     kb_x = sign(x - other.x)

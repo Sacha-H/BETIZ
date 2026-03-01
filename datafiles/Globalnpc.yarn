@@ -273,7 +273,7 @@ title: WallaceQuestion
         <<jump WallacePerdu>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 538,1171
+__PrivCrochet_position: 537,1169
 __PrivCrochet_tags: 
 title: Anakin
 ---
@@ -662,7 +662,7 @@ title: PlusFortMerci
 Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 1010,-1208
+__PrivCrochet_position: 1009,-1209
 __PrivCrochet_tags: 
 title: PraireVouivreQuete
 ---
@@ -716,11 +716,11 @@ title: Option pourquoi_2
 mange mon chapeau !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1356,-1202
+__PrivCrochet_position: 1355,-1203
 __PrivCrochet_tags: 
 title: CombatFinal
 ---
-<<set $portalopen to true>>
+<<set $combatfinal to true>>
 TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
 ===
 __PrivCrochet_colorID: 8
@@ -1432,4 +1432,11 @@ title: pouvoirdelamitierobtenu
 ---
 <<set $transformation to true>>
 * Vous avez obtenue Le Pouvoir de l'amitier *
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -1816,6
+__PrivCrochet_tags: 
+title: Node
+---
+Empty Text
 ===

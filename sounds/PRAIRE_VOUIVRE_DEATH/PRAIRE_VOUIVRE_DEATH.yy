@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"PRAIRE_VOUIVRE_DEATH",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.0542405,
+  "exportDir":"",
+  "name":"PRAIRE_VOUIVRE_DEATH",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"PRAIRE_VOUIVRE_DEATH.wav",
+  "volume":1.0,
+}

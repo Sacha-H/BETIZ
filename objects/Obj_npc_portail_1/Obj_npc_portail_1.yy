@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Plectrude_Austreberthe_de_Casmelothes_idle",
-    "path":"sprites/spr_Plectrude_Austreberthe_de_Casmelothes_idle/spr_Plectrude_Austreberthe_de_Casmelothes_idle.yy",
+    "name":"spr_Pierre_Vouivre_sourire_1",
+    "path":"sprites/spr_Pierre_Vouivre_sourire_1/spr_Pierre_Vouivre_sourire_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
