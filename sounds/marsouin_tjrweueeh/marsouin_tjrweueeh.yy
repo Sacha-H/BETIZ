@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"ffffhmmmh__",
+  "%Name":"marsouin_tjrweueeh",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.6569841,
+  "duration":0.60099775,
   "exportDir":"",
-  "name":"ffffhmmmh__",
+  "name":"marsouin_tjrweueeh",
   "parent":{
     "name":"Sfx",
     "path":"folders/Sound/Sfx.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"ffffhmmmh__.mp3",
-  "volume":1.0,
+  "soundFile":"marsouin_tjrweueeh.mp3",
+  "volume":0.54,
 }

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"euhruehruheuhruheurhuehera",
+  "%Name":"james_euhruehruheuhruheurhuehera",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":2.136984,
   "exportDir":"",
-  "name":"euhruehruheuhruheurhuehera",
+  "name":"james_euhruehruheuhruheurhuehera",
   "parent":{
     "name":"Sfx",
     "path":"folders/Sound/Sfx.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"euhruehruheuhruheurhuehera.mp3",
+  "soundFile":"james_euhruehruheuhruheurhuehera.mp3",
   "volume":1.0,
 }

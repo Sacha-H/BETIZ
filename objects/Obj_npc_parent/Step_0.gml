@@ -13,6 +13,8 @@ if (distance_to_object(Obj_player) < 80 ) {
                 audio_play_sound(npc_snd,1,false,7);
             if (instance_exists(inst_2BF5626D))
                 audio_play_sound(npc_snd,1,false,9);
+            if (npc_snd = lechion)
+                audio_play_sound(npc_snd,1,false,9);
             else audio_play_sound(npc_snd,1,false,6)
             dooncesound = true
         }

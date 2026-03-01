@@ -12,6 +12,9 @@
     {"name":"inst_69E41977_2_3","path":"rooms/ChaudeLiche_2/ChaudeLiche_2.yy",},
     {"name":"inst_2123A0C3_2_4","path":"rooms/ChaudeLiche_2/ChaudeLiche_2.yy",},
     {"name":"inst_28F199B8_2_1","path":"rooms/ChaudeLiche_2/ChaudeLiche_2.yy",},
+    {"name":"inst_4FB3354C","path":"rooms/ChaudeLiche_2/ChaudeLiche_2.yy",},
+    {"name":"inst_5AE09180","path":"rooms/ChaudeLiche_2/ChaudeLiche_2.yy",},
+    {"name":"inst_17C3B43B","path":"rooms/ChaudeLiche_2/ChaudeLiche_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,6 +37,15 @@
         {"$GMRInstance":"v4","%Name":"inst_28F199B8_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28F199B8_2_1","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25000003,"scaleY":0.4,"x":1113.2,"y":1082.9421,},
+        {"$GMRInstance":"v4","%Name":"inst_4FB3354C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4FB3354C","objectId":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},"previewSprite":{"name":"IMG_9994","path":"sprites/IMG_9994/IMG_9994.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"snd_enemy","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resource":{"name":"squelette_bhoohhrh_","path":"sounds/squelette_bhoohhrh_/squelette_bhoohhrh_.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"squelette_bhoohhrh_",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.14553016,"scaleY":0.14553013,"x":1284.5154,"y":1063.2955,},
+        {"$GMRInstance":"v4","%Name":"inst_5AE09180","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5AE09180","objectId":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},"previewSprite":{"name":"IMG_9994","path":"sprites/IMG_9994/IMG_9994.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"snd_enemy","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resource":{"name":"squelette_bhoohhrh_","path":"sounds/squelette_bhoohhrh_/squelette_bhoohhrh_.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"squelette_bhoohhrh_",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.14553016,"scaleY":0.14553013,"x":1685.1322,"y":899.158,},
+        {"$GMRInstance":"v4","%Name":"inst_17C3B43B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17C3B43B","objectId":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},"previewSprite":{"name":"IMG_9994","path":"sprites/IMG_9994/IMG_9994.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"snd_enemy","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resource":{"name":"squelette_bhoohhrh_","path":"sounds/squelette_bhoohhrh_/squelette_bhoohhrh_.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"squelette_bhoohhrh_",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.14553016,"scaleY":0.14553013,"x":1451.0,"y":1004.28296,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":110,"SerialiseWidth":163,"TileCompressedData":[
           -29,0,-4,-2147483648,-49,0,-81,-2147483648,-82,0,-81,-2147483648,-82,0,-81,-2147483648,-82,0,-81,-2147483648,

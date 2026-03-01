@@ -13,6 +13,7 @@
     {"name":"inst_2123A0C3_2_4_1_1_1_1","path":"rooms/ChaudeLiche_6/ChaudeLiche_6.yy",},
     {"name":"inst_28F199B8_2_1_2_1_1_1","path":"rooms/ChaudeLiche_6/ChaudeLiche_6.yy",},
     {"name":"inst_4861E351","path":"rooms/ChaudeLiche_6/ChaudeLiche_6.yy",},
+    {"name":"inst_1CEDCA22","path":"rooms/ChaudeLiche_6/ChaudeLiche_6.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,7 +40,12 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40000004,"scaleY":0.63,"x":2108.6294,"y":1074.8718,},
         {"$GMRInstance":"v4","%Name":"inst_4861E351","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4861E351","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"spr_Neanphedralius","path":"sprites/spr_Neanphedralius/spr_Neanphedralius.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Neanphedralius",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.55052334,"scaleY":0.55052334,"x":1302.7527,"y":1057.5552,},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"npc_snd","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resource":{"name":"New_Song__1_","path":"sounds/New_Song__1_/New_Song__1_.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"New_Song__1_",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4962621,"scaleY":0.49626204,"x":1344.0,"y":1056.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1CEDCA22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CEDCA22","objectId":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},"previewSprite":{"name":"IMG_0001","path":"sprites/IMG_0001/IMG_0001.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"snd_enemy","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resource":{"name":"hwahwa","path":"sounds/hwahwa/hwahwa.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"hwahwa",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"hp","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-5.0073466,"scaleX":-0.58706796,"scaleY":0.587068,"x":2237.486,"y":1541.0623,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":110,"SerialiseWidth":163,"TileCompressedData":[
           -29,0,-4,-2147483648,-49,0,-47,-2147483648,-116,0,-46,-2147483648,-117,0,-37,-2147483648,-160,0,-3,-2147483648,
