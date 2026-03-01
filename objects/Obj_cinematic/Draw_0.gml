@@ -31,6 +31,14 @@ if (can_draw_video == true){
         camera_destroy(cam)
         if (instance_exists(inst_7C55D1F9))
         instance_destroy(inst_7C55D1F9)
+            
+        if (instance_exists(inst_6828A056)) {
+            inst_5D75C24A2_5.x = 700
+            inst_5D75C24A2_5.y = 400
+            inst_5D75C24A2_5.visible = true
+            }
+            
+        
         instance_destroy()
         
     }

@@ -152,6 +152,7 @@
     {"id":{"name":"ChaudeLiche_6","path":"rooms/ChaudeLiche_6/ChaudeLiche_6.yy",},},
     {"id":{"name":"ChaudeLiche_7","path":"rooms/ChaudeLiche_7/ChaudeLiche_7.yy",},},
     {"id":{"name":"EntreeForteresse","path":"rooms/EntreeForteresse/EntreeForteresse.yy",},},
+    {"id":{"name":"Forteresse_clip","path":"rooms/Forteresse_clip/Forteresse_clip.yy",},},
     {"id":{"name":"ForteresseDeSexe","path":"rooms/ForteresseDeSexe/ForteresseDeSexe.yy",},},
     {"id":{"name":"LesSanitaireDeLicheEnFeu","path":"rooms/LesSanitaireDeLicheEnFeu/LesSanitaireDeLicheEnFeu.yy",},},
     {"id":{"name":"NotreAnar_1","path":"rooms/NotreAnar_1/NotreAnar_1.yy",},},
@@ -519,6 +520,7 @@
     {"roomId":{"name":"ChaudeLiche_5","path":"rooms/ChaudeLiche_5/ChaudeLiche_5.yy",},},
     {"roomId":{"name":"ChaudeLiche_6","path":"rooms/ChaudeLiche_6/ChaudeLiche_6.yy",},},
     {"roomId":{"name":"ChaudeLiche_7","path":"rooms/ChaudeLiche_7/ChaudeLiche_7.yy",},},
+    {"roomId":{"name":"Forteresse_clip","path":"rooms/Forteresse_clip/Forteresse_clip.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
