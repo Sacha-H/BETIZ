@@ -41,6 +41,14 @@ if (can_draw_video == true){
             Obj_player.x = 50
             Obj_player.y = 50
             }
+        if (instance_exists(inst_6828A056_1_2)) {
+            Obj_player.x = 50
+            Obj_player.y = 50
+            }
+        if (instance_exists(inst_6828A056_1_1)) {
+            Obj_player.x = 50
+            Obj_player.y = 50
+            }
         
         instance_destroy()
         

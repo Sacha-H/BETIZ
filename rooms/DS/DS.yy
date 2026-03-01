@@ -122,8 +122,8 @@
   ],
   "name":"DS",
   "parent":{
-    "name":"Sanitaires de Chaude-Liche",
-    "path":"folders/Room/Sanitaires de Chaude-Liche.yy",
+    "name":"ze Final",
+    "path":"folders/Room/ze Final.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -143,7 +143,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":1600,"hport":720,"hspeed":-10,"hview":2048,"inherit":false,"objectId":null,"vborder":900,"visible":true,"vspeed":-10,"wport":1280,"wview":4270,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":1600,"hport":720,"hspeed":-10,"hview":2048,"inherit":false,"objectId":null,"vborder":900,"visible":true,"vspeed":-10,"wport":1280,"wview":3640,"xport":0,"xview":250,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
