@@ -43,7 +43,9 @@
     {"$GMFolder":"","%Name":"Sanitaires","folderPath":"folders/Sprite/Room/Sanitaires.yy","name":"Sanitaires","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Vallee de Kendrick","folderPath":"folders/Sprite/Room/Vallee de Kendrick.yy","name":"Vallee de Kendrick","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"chatterbox_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"chatterbox_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Cinematic_end_forteresse.mov","CopyToMask":-1,"filePath":"datafiles","name":"Cinematic_end_forteresse.mov","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -107,10 +109,14 @@
   },
   "name":"BETIZ-rebuilt",
   "resources":[
+    {"id":{"name":"fnt_BlockCraft","path":"fonts/fnt_BlockCraft/fnt_BlockCraft.yy",},},
     {"id":{"name":"fnt_dungeon","path":"fonts/fnt_dungeon/fnt_dungeon.yy",},},
+    {"id":{"name":"fnt_Gothicbyte","path":"fonts/fnt_Gothicbyte/fnt_Gothicbyte.yy",},},
     {"id":{"name":"fnt_name","path":"fonts/fnt_name/fnt_name.yy",},},
+    {"id":{"name":"fnt_Pixel","path":"fonts/fnt_Pixel/fnt_Pixel.yy",},},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
+    {"id":{"name":"fnt_yosterIsland","path":"fonts/fnt_yosterIsland/fnt_yosterIsland.yy",},},
     {"id":{"name":"ReadMe","path":"notes/ReadMe/ReadMe.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
     {"id":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},},

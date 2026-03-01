@@ -31,6 +31,15 @@
     {"$GMObjectProperty":"v2","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"PngDefault","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"hp","filters":[],"listItems":[],"multiselect":false,"name":"hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"npc_snd","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"npc_snd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_PRAIRE_VOUIVRE_1","path":"sounds/sfx_PRAIRE_VOUIVRE_1/sfx_PRAIRE_VOUIVRE_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_PRAIRE_VOUIVRE_1","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"font_text","filters":[
+        "GMFont",
+      ],"listItems":[],"multiselect":false,"name":"font_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_BlockCraft","path":"fonts/fnt_BlockCraft/fnt_BlockCraft.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_BlockCraft","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"font_name","filters":[
+        "GMFont",
+      ],"listItems":[],"multiselect":false,"name":"font_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_BlockCraft","path":"fonts/fnt_BlockCraft/fnt_BlockCraft.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_BlockCraft","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

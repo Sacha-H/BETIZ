@@ -15,7 +15,7 @@ if Chatterbox {
     Obj_npc_combat.combat = ChatterboxVariableGet("npccombat")
     }
     
-    if instance_exists(Obj_npc_combat){
+    if instance_exists(Obj_npc_transform){
         Obj_npc_transform.transformation = ChatterboxVariableGet("transformation") 
         show_debug_message(ChatterboxVariableGet("hashat"))
     }

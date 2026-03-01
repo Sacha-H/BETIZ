@@ -12,6 +12,8 @@
     {"name":"inst_69E41977_2_2_2_1_1_1_2","path":"rooms/NotreAnar_4/NotreAnar_4.yy",},
     {"name":"inst_2123A0C3_2_3_1_1_1_1_2","path":"rooms/NotreAnar_4/NotreAnar_4.yy",},
     {"name":"inst_319DE75A1_1_1_2","path":"rooms/NotreAnar_4/NotreAnar_4.yy",},
+    {"name":"inst_333D8F1C","path":"rooms/NotreAnar_4/NotreAnar_4.yy",},
+    {"name":"inst_55C2BFFD","path":"rooms/NotreAnar_4/NotreAnar_4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -33,6 +35,10 @@
         {"$GMRInstance":"v4","%Name":"inst_319DE75A1_1_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_319DE75A1_1_1_2","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.48125002,"scaleY":0.74,"x":1626.7822,"y":1476.0,},
+        {"$GMRInstance":"v4","%Name":"inst_333D8F1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_333D8F1C","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"spr_Chauve_pas_sourire","path":"sprites/spr_Chauve_pas_sourire/spr_Chauve_pas_sourire.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Chauve Pas Sourire",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.51114,"scaleY":2.5111399,"x":381.44257,"y":1059.7993,},
+        {"$GMRInstance":"v4","%Name":"inst_55C2BFFD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55C2BFFD","objectId":{"name":"Obj_npc_combat","path":"objects/Obj_npc_combat/Obj_npc_combat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1826.2822,"y":1099.1569,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":110,"SerialiseWidth":171,"TileCompressedData":[
           -29,0,-4,-2147483648,-75,0,-63,-2147483648,-108,0,-63,-2147483648,-108,0,-63,-2147483648,-108,0,-63,

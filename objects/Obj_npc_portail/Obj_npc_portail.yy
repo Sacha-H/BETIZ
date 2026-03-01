@@ -9,7 +9,7 @@
   "managed":true,
   "name":"Obj_npc_portail",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"portail",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Plectrude Austreberthe de Casmelothes",},
   ],
   "parent":{
     "name":"Dialogue",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"IMG_0095",
-    "path":"sprites/IMG_0095/IMG_0095.yy",
+    "name":"spr_Plectrude_Austreberthe_de_Casmelothes_idle",
+    "path":"sprites/spr_Plectrude_Austreberthe_de_Casmelothes_idle/spr_Plectrude_Austreberthe_de_Casmelothes_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

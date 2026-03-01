@@ -1,3 +1,3 @@
-input_key = vk_space;
+input_key = ord("E")
 can_talk = false;
-
+dooncesound = false

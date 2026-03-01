@@ -1,9 +1,9 @@
-function create_text(name){
+function create_text(name,font_name,font_text,){
     if (instance_exists(Obj_text)) 
     {return}
   
     
-    var _inst = instance_create_depth(0,0,0,Obj_text,{name : name})
+    var _inst = instance_create_depth(0,0,0,Obj_text,{name : name, font_name : font_name, font_text : font_text })
     
 }
 

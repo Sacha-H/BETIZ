@@ -29,6 +29,8 @@ if (can_draw_video == true){
         audio_resume_sound(global.background_music)
         video_close()
         camera_destroy(cam)
+        if (instance_exists(inst_7C55D1F9))
+        instance_destroy(inst_7C55D1F9)
         instance_destroy()
         
     }

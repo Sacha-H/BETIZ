@@ -3,4 +3,5 @@ event_inherited();
 
 transformation = false
 cangoportal = false
+doonce = false
 

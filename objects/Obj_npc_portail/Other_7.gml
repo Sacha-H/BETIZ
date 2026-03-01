@@ -1,5 +1,5 @@
-if (sprite_index == IMG_98 ){
+if (sprite_index == spr_Plectrude_Austreberthe_de_Casmelothes_transform ){
     cangoportal = true
-    image_index = image_number-1
-    image_speed = 0
+    sprite_index = spr_portal
+    
 }

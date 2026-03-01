@@ -7,3 +7,5 @@ do_once = false
 
 //video = video_open(video_name);
 //video = video_open("Cinematic_RingDown.mov");
+if (global.index_entrence != 0)
+instance_destroy()

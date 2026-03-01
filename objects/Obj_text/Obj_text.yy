@@ -30,6 +30,12 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"start_node","filters":[],"listItems":[],"multiselect":false,"name":"start_node","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"font_text","filters":[
+        "GMFont",
+      ],"listItems":[],"multiselect":false,"name":"font_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_BlockCraft","path":"fonts/fnt_BlockCraft/fnt_BlockCraft.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_BlockCraft","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"font_name","filters":[
+        "GMFont",
+      ],"listItems":[],"multiselect":false,"name":"font_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_BlockCraft","path":"fonts/fnt_BlockCraft/fnt_BlockCraft.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_BlockCraft","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

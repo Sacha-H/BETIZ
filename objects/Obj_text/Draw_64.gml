@@ -12,12 +12,12 @@ if IsChatterbox(Chatterbox) and text != undefined{
     _dx += 16;
     _dy += 16;
     
-    draw_set_font(fnt_name);
+    draw_set_font(font_name);
     draw_text(_dx, _dy, name);
     
     _dx += 16;
     _dy += 40;
-     draw_set_font(fnt_text);
+     draw_set_font(font_text);
      //draw_text(_dx, _dy, text);
    
      draw_text_ext(_dx, _dy, text, 30 ,1300);

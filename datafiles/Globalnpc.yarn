@@ -568,7 +568,7 @@ CTn 2 : Technique du TUNNEL INSIPIDE (ou monotone) "Pour commencer a instaurer l
 Vous passerez alors a coup sur pour une personne profondement ennuyeuse. Une variante veut qu'on hausse le ton et que l'on cherche le regard des que l'interet de l'interlocuteur commence a decliner. 
 Une autre, (dite "du LABYRINTHE" et qui peut etre consideree comme une technique a part entiere) nous dit qu'il faut cultiver subtilement l'impression que l'histoire ne va nulle part, et que vous avez vous-meme oublie la chute en passant d'une idee a l'autre. La detresse de votre interlocuteur sera alors si grande qu'il risque de chercher a s'echapper.
 Maintenez alors bien son attention en conservant un air innocent et sincerement enthousiaste. Le risque augmente mais la victime sera tenue par la bienseance si elle vous percoit comme bienveillante, ayant un statut important, ou si elle a un interet cache dans votre relation. a double tranchant donc."
-CT n 3 : "Demandez l'autorisation de faire une plaisanterie a chaque fois que vient l'envie, l'effet de celle-ci en sera alors tellement diminue que vous obtiendrez au mieux un rire force de votre adversaire. Attaquez-le alors de toutes vos forces avec la phrase suivante : "T'es pas oblige de rire si tu trouves pas ca drôle." Vous aurez alors l'ascendant sur lui.
+CT n 3 : "Demandez l'autorisation de faire une plaisanterie a chaque fois que vient l'envie, l'effet de celle-ci en sera alors tellement diminue que vous obtiendrez au mieux un rire force de votre adversaire. Attaquez-le alors de toutes vos forces avec la phrase suivante : "T'es pas oblige de rire si tu trouves pas ca drole." Vous aurez alors l'ascendant sur lui.
 CT n 4 : "Technique simple. Expliquer a quelqu'un des choses qu'il ou elle sait deja tres bien. Apprenez-lui des faits qu'il ou elle connait parfaitement, renseignez-le/la sur des sujets de notoriete commune. Le/la voila dans un dilemme : Veut-il/elle faire savoir sa competence mais risquer de paraitre arrogant.e ? Ou va t'il/elle se taire et supporter votre discours, affichant par la son ouverture et son humilite ?
 Assenez-lui dans un cas comme dans l'autre un coup memorable qui convient.
 ===
@@ -735,7 +735,7 @@ veux tu ouvrir le portail
         <<jump poratilNon>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1000,-272
+__PrivCrochet_position: 912,-267
 __PrivCrochet_tags: 
 title: portail
 ---
@@ -855,20 +855,20 @@ Piii piii piiiii !
     -> papa ?
          <<jump PipiPapa>>
     -> pipi.
-        <<jump PipiPipi>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1274,1405
+__PrivCrochet_position: 1275,1403
 __PrivCrochet_tags: 
 title: PipiPopo
 ---
-Ouais je deconne avec toi tu m'as capte.
+pipi
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1273,1628
+__PrivCrochet_position: 1277,1620
 __PrivCrochet_tags: 
 title: PipiPipo
 ---
+Ouais je deconne avec toi tu m'as capte.
 C'est carre t'as vu.
 ===
 __PrivCrochet_colorID: 0
@@ -877,17 +877,11 @@ __PrivCrochet_tags:
 title: PipiPapa
 ---
 Oui. C'est bien moi.
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1282,2086
-__PrivCrochet_tags: 
-title: PipiPipi
----
 <<set $npccombat to true>>
 EN GARDE !!!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 795,2441
+__PrivCrochet_position: 817,2278
 __PrivCrochet_tags: 
 title: Gaston
 ---
@@ -896,11 +890,11 @@ Il se fait appeler " Dark Vador " et fait semblant de pas savoir parler avant d'
 ca vous dit quelque chose ?
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 647,-39
+__PrivCrochet_position: 1139,1
 __PrivCrochet_tags: 
-title: Node
+title: PortalFranchissez
 ---
-Empty Text
+Franchissez vitement !  Je n'estoy pas une garcelette, mais ma magie est bellement ranconniere !
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 819,1267
@@ -920,7 +914,7 @@ ca fera 65 unites
  <<jump AnakinTelechargement>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 763,2780
+__PrivCrochet_position: 785,2617
 __PrivCrochet_tags: 
 title: Niark
 ---
@@ -937,7 +931,7 @@ T'as qu'a demander a mes potes ils savent tres bien eux comment j'en ai...
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 766,3011
+__PrivCrochet_position: 788,2848
 __PrivCrochet_tags: 
 title: Arnard
 ---
@@ -947,7 +941,7 @@ L'ecole des guerriers-chevaliers est pas donnee et c'est pas la porte a cote, ma
 Je vais economiser pour y aller avec mon copain-collegue !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 772,3263
+__PrivCrochet_position: 794,3100
 __PrivCrochet_tags: 
 title: Tomash
 ---
@@ -957,16 +951,20 @@ Un jour je prouverai qu'on peut manger plein de trucs delicieux sans avoir besoi
 Et j'irai me perfectionner a la capitale pour faire connaitre ma cuisine-gentille !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 380,3574
+__PrivCrochet_position: 798,3398
 __PrivCrochet_tags: 
 title: Eugaznog
 ---
+<<if visited("Eugaznog") == 1>>
 Je sens que je suis en train.. de muter...
 Si seulement je pouvais m'evoluer en un beau chenipan...
 GARZZZZGHH !!!
 GOuRZZZZZE
 GOURZUUUGE
 <<jump EugaznogTransform>>
+<<else>>
+<<jump EugaznogAttack>>
+<<endif>>>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 781,4030
@@ -1034,9 +1032,9 @@ Airport security for example ..
 If being sexy is a crime, let me tell you that I am breaking the law sir...
 " La maitresse de Tonton l'interroge sur la derniere lecon de geographie : " Peux-tu me dire quels sont les pays frontaliers de la France, Tonton ?
 Tonton reste muet, la maitresse le sermonne,
-– Tu n'as toujours pas revu le cours de geographie !
+- Tu n'as toujours pas revu le cours de geographie !
 Tonton repond :
-– Si, mais a force de me creuser la tete, j'ai un trou de memoire ! "
+- Si, mais a force de me creuser la tete, j'ai un trou de memoire ! "
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 748,5107
@@ -1211,7 +1209,7 @@ title: BoboxeurText
 Les champignons sont des eucaryotes pluricellulaires ou unicellulaires. Le taxon " champignon " est devenu ambigu et considere par la science actuelle comme obsolete car il ne designe pas un groupe monophyletique mais plusieurs taxons distincts. Il a en effet ete divise en eumycetes, oomycetes, chytridiomycetes et mycetozoaires. Leurs cellules, pourvues d'une paroi chitineuse ou cellulosique, sont immobiles et se nourrissent par l'absorption des molecules organiques directement dans le milieu. La cellule ou les cellules sont depourvues de chlorophylles ou de plastes car ces organismes sont heterotrophes vis-a-vis du carbone. Ils n'appartiennent donc pas au regne des plantes. Leur appareil vegetatif est un thalle : ce sont donc des thallophytes qui adoptent un mode de vie filamenteux (l'ensemble des filaments appeles hyphes formant le mycelium). Ces caracteristiques, qui peuvent etre perdues secondairement dans certains taxons, permettent de regrouper des organismes appartenant a des groupes distincts dans la phylogenie.
 Tous les veritables champignons appartiennent au groupe des eumycetes et se repartissent au sein des basidiomycetes, comme les amanites ou, pour quelques-uns, parmi les ascomycetes, a l'exemple des morilles ou des truffes. Deux groupes sont communement appeles " champignons " mais n'en sont pas au sens strict du terme : les oomycetes (plus proches genetiquement des algues brunes) et les myxomycetes.
 
-Presents dans le registre fossile depuis 450 millions d'annees, soit le Silurien, ils ont colonise presque tous les milieux terrestres et meme aquatiques en eaux douce, saumâtre et meme marine (1500 especes au moins, qui ont un rôle ecologique important[2] ; via des symbioses avec des algues parfois).
+Presents dans le registre fossile depuis 450 millions d'annees, soit le Silurien, ils ont colonise presque tous les milieux terrestres et meme aquatiques en eaux douce, saumâtre et meme marine (1500 especes au moins, qui ont un role ecologique important[2] ; via des symbioses avec des algues parfois).
 
 Les premiers champignons mycorhiziens de type glomeromycetes ont vraisemblablement aide les premieres plantes terrestres a coloniser les terres emergees[3].
 
@@ -1220,29 +1218,29 @@ Ce qu'on appelle couramment " champignon " n'est en fait que la " fructification
 L'etude des champignons, la mycologie, est pratiquee par des mycologues.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2569,-233
+__PrivCrochet_position: 2540,-234
 __PrivCrochet_tags: 
 title: Plectrude Austreberthe de Casmelothes
 ---
 <<if !visited("Plectrude Austreberthe de CasmelothesPortail")>>
 " J'estois en la connaissance de quelque amusade en toustes point supesrieur. " 
 " Bigre ! " 
-" Plustôt que de m'acagnarder couardisement en ceste salissonne contree, il seroit bien plust gente de vous convoier a ma plaisante destination. "
+" Plustot que de m'acagnarder couardisement en ceste salissonne contree, il seroit bien plust gente de vous convoier a ma plaisante destination. "
 " Il ne s'agiste point d'un attrapoir, pour j'estois en habitus de laisser les balivernes aux gredins. J'apercois derechef que vous n'estoyez point un vil gueux, vous courir en malopportunite me plonsgerait en envergogne. "
 " Gardez-vous bonnement toutefois de la mesaventure lorsque vous pietonnerez ; on entendit la rumeur qu'un malcreant fol dingo s'employ par temps de lunage a mortir les manants par sa Lycanthropie. "
 "  Ainsi je m'acoisse ! " " Faites place ! "
 <<jump Plectrude Austreberthe de CasmelothesPortail>>
 <<else>>
 " Franchissez vitement !  Je n'estoy pas une garcelette, mais ma magie est bellement ranconniere ! " 
-<<endiff>>
+<<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2899,-209
+__PrivCrochet_position: 2970,-236
 __PrivCrochet_tags: 
 title: Plectrude Austreberthe de CasmelothesPortail
 ---
-" AJOURDANCE GIRATOIRE !!!! "
 <<set $portalopen to true>>
+" AJOURDANCE GIRATOIRE !!!! "
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2562,85
@@ -1385,7 +1383,7 @@ Ne t'inquiete pas, j'ai moi aussi ete nul un jour.
 Meme le grand Chene Mou a un jour ete un gland !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 760,3576
+__PrivCrochet_position: 1294,3592
 __PrivCrochet_tags: 
 title: EugaznogTransform
 ---
@@ -1400,12 +1398,27 @@ title: ZebiMed
 J'ai rendez-vous chez le toubib
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2437,3971
+__PrivCrochet_position: 2436,3970
 __PrivCrochet_tags: 
-title: Pouvoir de l'amitier
+title: Le Pouvoir de l'amitier
 ---
 <<set $pouvoirdelamitier to true>>
 Ramasse moi, ensemble nous pouvons deliver le vrai hero de cette histoire
     -> ok
     -> daccord
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1287,3303
+__PrivCrochet_tags: 
+title: EugaznogAttack
+---
+CHENAPAAAAAN !!!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2347,4442
+__PrivCrochet_tags: 
+title: Chauve Pas Sourire
+---
+tu t'es jamais dit que le soleil c'etait une explosion nucleaire mais dans le ciel ?
+J'essaye de retrouver ma grotte
 ===

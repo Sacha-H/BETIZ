@@ -6,12 +6,18 @@ if (distance_to_object(Obj_player) < 80 ) {
 	can_talk = true;
     if (keyboard_check_pressed(input_key)){
       //  create_dialogue(Dialog)
-        create_text(name)
+        create_text(name,font_text,font_name) 
+        
+        if (dooncesound == false){
+        audio_play_sound(npc_snd,1,false)
+            dooncesound = true
+        }
         
     }
 }
 else {
 	can_talk = false
+    dooncesound = false
   
    
 }
