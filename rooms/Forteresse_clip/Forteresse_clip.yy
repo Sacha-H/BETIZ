@@ -32,7 +32,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6828A056","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6828A056","objectId":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"propertyId":{"name":"video_name","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cinematic_end_forteresse.mov",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.328125,"scaleY":3.296875,"x":800.0,"y":145.5,},
-      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":57,"SerialiseWidth":100,"TileCompressedData":[
           -93,34,-7,-2147483648,-93,34,-7,-2147483648,-2,34,-82,0,-5,-2147483648,-8,34,-3,-2147483648,-2,34,-83,
           0,-4,-2147483648,-8,34,-3,-2147483648,-2,34,-86,0,-7,-2147483648,-4,34,3,-2147483648,34,34,-87,0,-6,
@@ -67,7 +67,7 @@
           -2,0,-4,34,-57,0,-8,-2147483648,-18,34,-11,-2147483648,-4,0,-6,34,-14,0,-40,34,-7,-2147483648,-18,34,
           -11,-2147483648,-4,0,-6,34,-14,0,-49,34,-27,-2147483648,-8,0,-18,34,-12,0,-4,34,-7,-2147483648,-24,34,
           -27,-2147483648,-8,0,-18,34,-12,0,-4,34,-7,-2147483648,-15,34,-34,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Forteresse_clip",
