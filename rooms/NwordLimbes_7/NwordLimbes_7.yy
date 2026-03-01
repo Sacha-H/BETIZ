@@ -14,6 +14,7 @@
     {"name":"inst_3F057FFC1_1_1","path":"rooms/NwordLimbes_7/NwordLimbes_7.yy",},
     {"name":"inst_56915F9C1_1","path":"rooms/NwordLimbes_7/NwordLimbes_7.yy",},
     {"name":"inst_50AC9FEE","path":"rooms/NwordLimbes_7/NwordLimbes_7.yy",},
+    {"name":"inst_2D626228","path":"rooms/NwordLimbes_7/NwordLimbes_7.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,6 +40,11 @@
         {"$GMRInstance":"v4","%Name":"inst_50AC9FEE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50AC9FEE","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"PlayerCollision","path":"sprites/PlayerCollision/PlayerCollision.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Fortune-lenutrof",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.72,"x":316.0,"y":249.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2D626228","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D626228","objectId":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},"previewSprite":{"name":"IMG_9998","path":"sprites/IMG_9998/IMG_9998.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"moveSpeed","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"hp","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"propertyId":{"name":"snd_enemy","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"resource":{"name":"chien_agagaragagahk","path":"sounds/chien_agagaragagahk/chien_agagaragagahk.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"chien_agagaragagahk",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-0.04768631,"scaleY":0.047686316,"x":502.24127,"y":474.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":63,"TileCompressedData":[
           -706,0,-3,25,-58,0,-11,25,-51,0,-2,25,-2,0,-2,25,-3,0,-4,25,-50,0,1,25,-3,0,-2,25,-6,0,-2,25,-49,0,1,

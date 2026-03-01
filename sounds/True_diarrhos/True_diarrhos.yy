@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"True_diarrhos",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.8169841,
+  "exportDir":"",
+  "name":"True_diarrhos",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"True_diarrhos.mp3",
+  "volume":1.0,
+}

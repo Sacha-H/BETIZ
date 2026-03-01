@@ -9,7 +9,11 @@ if (distance_to_object(Obj_player) < 80 ) {
         create_text(name,font_text,font_name) 
         
         if (dooncesound == false){
-        audio_play_sound(npc_snd,1,false)
+            if (instance_exists(inst_58056EDB))
+                audio_play_sound(npc_snd,1,false,7);
+            if (instance_exists(inst_2BF5626D))
+                audio_play_sound(npc_snd,1,false,9);
+            else audio_play_sound(npc_snd,1,false,6)
             dooncesound = true
         }
         

@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"msc_Intro_Village.mp3",
-  "volume":1.0,
+  "volume":0.51,
 }

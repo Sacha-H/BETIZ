@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Megaidefix_aouuuuu__",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.6809977,
+  "exportDir":"",
+  "name":"Megaidefix_aouuuuu__",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Megaidefix_aouuuuu__.mp3",
+  "volume":1.0,
+}

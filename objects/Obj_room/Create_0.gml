@@ -6,7 +6,7 @@ audio_get_name(global.background_music)
 if (global.background_music) != (snd_room){
 
     audio_stop_sound(global.background_music)
-    audio_play_sound(snd_room,0,true,1)
+    audio_play_sound(snd_room,0,true,1,1.5)
     global.background_music = snd_room
 
 }

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"tjrweueeh",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.60099775,
+  "exportDir":"",
+  "name":"tjrweueeh",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"tjrweueeh.mp3",
+  "volume":0.54,
+}

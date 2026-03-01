@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"creauarbeau",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.3449659,
+  "exportDir":"",
+  "name":"creauarbeau",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"creauarbeau.mp3",
+  "volume":0.55,
+}

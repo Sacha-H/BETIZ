@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Chprowt_Putaind_ougah___.mp3",
-  "volume":1.0,
+  "volume":0.56,
 }

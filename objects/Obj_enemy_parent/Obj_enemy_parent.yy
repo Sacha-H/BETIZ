@@ -37,7 +37,7 @@
     {"$GMObjectProperty":"v2","%Name":"xp_value","filters":[],"listItems":[],"multiselect":false,"name":"xp_value","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"snd_enemy","filters":[
         "GMSound",
-      ],"listItems":[],"multiselect":false,"name":"snd_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_PRAIRE_VOUIVRE_1","path":"sounds/sfx_PRAIRE_VOUIVRE_1/sfx_PRAIRE_VOUIVRE_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_PRAIRE_VOUIVRE_1","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"snd_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"ererere","path":"sounds/ererere/ererere.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ererere","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

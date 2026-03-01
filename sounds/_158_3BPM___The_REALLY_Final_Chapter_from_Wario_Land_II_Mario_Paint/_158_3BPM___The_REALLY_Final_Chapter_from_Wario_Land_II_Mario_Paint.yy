@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"_158_3BPM___The_REALLY_Final_Chapter_from_Wario_Land_II_Mario_Paint.mp3",
-  "volume":1.0,
+  "volume":0.26,
 }

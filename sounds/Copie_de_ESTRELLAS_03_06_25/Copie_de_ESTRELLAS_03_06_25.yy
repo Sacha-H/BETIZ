@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Copie_de_ESTRELLAS_03_06_25.mp3",
-  "volume":1.0,
+  "volume":0.74,
 }

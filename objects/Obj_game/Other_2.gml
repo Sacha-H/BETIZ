@@ -36,7 +36,7 @@ global.player_hp = 10 ;
 global.player_hp_total = global.player_hp
 global.player_damage = 1
 
-global.player_level = 30
+global.player_level = 1
 global.player_xp = 0
 global.player_xp_require = 100
 

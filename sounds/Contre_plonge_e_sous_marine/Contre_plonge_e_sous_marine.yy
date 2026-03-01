@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Contre_plonge_e_sous_marine.wav",
-  "volume":1.0,
+  "volume":0.64,
 }

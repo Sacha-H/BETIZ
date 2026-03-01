@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"plufor_enffet__",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.1289796,
+  "exportDir":"",
+  "name":"plufor_enffet__",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"plufor_enffet__.mp3",
+  "volume":1.0,
+}

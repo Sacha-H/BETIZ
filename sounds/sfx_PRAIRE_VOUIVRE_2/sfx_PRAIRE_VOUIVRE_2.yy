@@ -14,13 +14,13 @@
   "exportDir":"",
   "name":"sfx_PRAIRE_VOUIVRE_2",
   "parent":{
-    "name":"Sfx",
-    "path":"folders/Sound/Sfx.yy",
+    "name":"praire vouivre",
+    "path":"folders/Sound/Sfx/praire vouivre.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sfx_PRAIRE_VOUIVRE_2.ogg",
-  "volume":1.0,
+  "volume":0.35,
 }

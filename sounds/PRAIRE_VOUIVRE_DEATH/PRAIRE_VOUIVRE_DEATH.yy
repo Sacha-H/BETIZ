@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"PRAIRE_VOUIVRE_DEATH",
   "parent":{
-    "name":"Sfx",
-    "path":"folders/Sound/Sfx.yy",
+    "name":"praire vouivre",
+    "path":"folders/Sound/Sfx/praire vouivre.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

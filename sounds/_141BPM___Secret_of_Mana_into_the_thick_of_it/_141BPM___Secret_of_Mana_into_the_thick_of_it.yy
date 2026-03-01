@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"_141BPM___Secret_of_Mana_into_the_thick_of_it.mp3",
-  "volume":1.0,
+  "volume":0.41,
 }

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"medieval_eboler_ahibu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.4649659,
+  "exportDir":"",
+  "name":"medieval_eboler_ahibu",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"medieval_eboler_ahibu.mp3",
+  "volume":1.0,
+}

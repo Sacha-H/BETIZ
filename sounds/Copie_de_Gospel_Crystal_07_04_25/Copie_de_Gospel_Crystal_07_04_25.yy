@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Copie_de_Gospel_Crystal_07_04_25.mp3",
-  "volume":1.0,
+  "volume":0.81,
 }

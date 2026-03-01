@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"alexis_enfett___enfet__",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.1129932,
+  "exportDir":"",
+  "name":"alexis_enfett___enfet__",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/Sound/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"alexis_enfett___enfet__.mp3",
+  "volume":1.0,
+}
