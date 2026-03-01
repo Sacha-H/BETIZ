@@ -14,6 +14,7 @@
     {"name":"inst_72BF4DF0","path":"rooms/Sanitaires/Sanitaires.yy",},
     {"name":"inst_3FCC8ABD","path":"rooms/Sanitaires/Sanitaires.yy",},
     {"name":"inst_156FCA8A","path":"rooms/Sanitaires/Sanitaires.yy",},
+    {"name":"inst_5BB4B1ED","path":"rooms/Sanitaires/Sanitaires.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,6 +25,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_room","path":"objects/Obj_room/Obj_room.yy",},"propertyId":{"name":"snd_room","path":"objects/Obj_room/Obj_room.yy",},"resource":{"name":"DelfinoPlaza","path":"sounds/DelfinoPlaza/DelfinoPlaza.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"DelfinoPlaza",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_35E5A08B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35E5A08B","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3584.0,"y":1088.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5BB4B1ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BB4B1ED","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3168.0,"y":1664.0,},
         {"$GMRInstance":"v4","%Name":"inst_4F00A3D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F00A3D4","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_room","path":"objects/Obj_exit/Obj_exit.yy",},"resource":{"name":"Prison","path":"rooms/Prison/Prison.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Prison",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_exit/Obj_exit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
@@ -183,7 +187,7 @@
           0,-3,-2147483648,-13,0,-3,-2147483648,-15,0,-2,-2147483648,-49,0,-2,-2147483648,-13,0,-48,-2147483648,
           -128,26,-49,0,-5,-2147483648,-10,0,-48,-2147483648,-127,26,-26,34,-9,0,-10,34,-4,0,-6,-2147483648,-10,
           0,-48,-2147483648,-127,26,-45,34,-4,0,-64,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"SanitairesFond","path":"sprites/SanitairesFond/SanitairesFond.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Sanitaires",

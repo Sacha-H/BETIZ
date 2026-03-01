@@ -205,7 +205,7 @@
           -5,34,-55,-2147483648,1,35,-24,34,-108,-2147483648,-76,34,-4,-2147483648,-9,34,-2,-2147483648,-2,34,
           -110,-2147483648,-76,34,-114,-2147483648,-88,34,-3,-2147483648,-2,34,-110,-2147483648,-76,34,-126,-2147483648,
           -2,34,-4,-2147483648,-67,34,-320,-2147483648,-2,34,-4,-2147483648,-66,34,-1205,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"LicheFeu_BG","path":"sprites/LicheFeu_BG/LicheFeu_BG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"LesSanitaireDeLicheEnFeu",
