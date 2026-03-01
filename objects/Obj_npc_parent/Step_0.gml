@@ -14,9 +14,16 @@ if (distance_to_object(Obj_player) < 80 ) {
             if (instance_exists(inst_2BF5626D))
                 audio_play_sound(npc_snd,1,false,9);
             if (npc_snd = lechion)
-                audio_play_sound(npc_snd,1,false,9);
+                audio_play_sound(npc_snd,1,false,15);
             if (npc_snd = alexis_enfett___enfet__)
                 audio_play_sound(npc_snd,1,false,9);
+            if (npc_snd = anakin_kwakrieugrekhu)
+                audio_play_sound(npc_snd,1,false,10);
+            if (npc_snd = bobe_bo_)
+                audio_play_sound(npc_snd,1,false,20);
+            if (npc_snd = gaston_fmmh_)
+                audio_play_sound(npc_snd,1,false,30);
+            
             else audio_play_sound(npc_snd,1,false,6)
             dooncesound = true
         }

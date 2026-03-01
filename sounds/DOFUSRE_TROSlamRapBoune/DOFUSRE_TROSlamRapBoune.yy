@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"DOFUSRE_TROSlamRapBoune.mp3",
-  "volume":0.49,
+  "volume":0.7,
 }

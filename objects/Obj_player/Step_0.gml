@@ -10,7 +10,7 @@ if(instance_exists(Obj_text)) exit;
     //])
 //}
 
-global.move_speed = moveSpeed
+global.move_speed = moveSpeed*1.5
 
 if (can_move)
 {

@@ -14,6 +14,8 @@
     {"name":"inst_3F057FFC","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
     {"name":"inst_41CF4155","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
     {"name":"inst_3C0279AB","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
+    {"name":"inst_27BB204E","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
+    {"name":"inst_56B9D6E8","path":"rooms/NwordLimbes_3/NwordLimbes_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -40,6 +42,8 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Mestre Donge Huant",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"npc_snd","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"noone",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2375,"scaleY":0.72,"x":596.0,"y":285.0,},
+        {"$GMRInstance":"v4","%Name":"inst_27BB204E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27BB204E","objectId":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},"previewSprite":{"name":"IMG_0003","path":"sprites/IMG_0003/IMG_0003.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09252236,"scaleY":0.09252235,"x":206.48259,"y":355.6902,},
+        {"$GMRInstance":"v4","%Name":"inst_56B9D6E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56B9D6E8","objectId":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},"previewSprite":{"name":"IMG_0003","path":"sprites/IMG_0003/IMG_0003.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09252236,"scaleY":0.09252235,"x":269.0,"y":413.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":63,"TileCompressedData":[
           -27,0,1,34,-62,0,-2,34,-55,0,1,34,-6,0,1,34,-5,0,1,34,-49,0,-2,34,-5,0,-2,34,-2,0,-5,34,-2,0,-3,34,-43,
