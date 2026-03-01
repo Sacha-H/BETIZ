@@ -9,6 +9,8 @@
   "name":"Obj_npc_combat",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"DarkVador",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"npc_snd","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resource":{"name":"pipi_mh_","path":"sounds/pipi_mh_/pipi_mh_.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"pipi_mh_",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"hp","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Dialogue",
@@ -31,7 +33,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"ennemy_snd","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"ennemy_snd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"pipi_bouhaaahm","path":"sounds/pipi_bouhaaahm/pipi_bouhaaahm.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pipi_bouhaaahm","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
