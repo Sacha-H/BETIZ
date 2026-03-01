@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"FinalDestination_SuperSmashBros_Melee_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":210.30313,
+  "exportDir":"",
+  "name":"FinalDestination_SuperSmashBros_Melee_",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"FinalDestination_SuperSmashBros_Melee_.mp3",
+  "volume":0.65,
+}
