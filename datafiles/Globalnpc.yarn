@@ -100,17 +100,11 @@ Non Alexis tu est trop vieux pour faire des betiz
         <<jump Option Fight>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1641,-1308
+__PrivCrochet_position: -1643,-1309
 __PrivCrochet_tags: 
 title: PngDefault
 ---
-Bienvenue dans Betiz ! Que viens tu faire ici ?
-    -> Decouvrir le monde de betiz
-        <<jump Option A>>
-    -> Faire des betiz
-        <<jump Option B>>
-    -> Speedrun <<if visited("Option Speedrun") == false>>
-        <<jump Option Speedrun>>
+Felicitation ! et bon anniversaire !
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -767,-1440
@@ -280,9 +274,9 @@ title: Anakin
 Je peux te degotter plein de trucs si tu veux !
     -> T'as quoi en magasin ?
 Bah regarde, tu veux quoi ?
-    -> L'amour d'un pere <<set $anakinpere to true>>
-    -> Derogation quantique pour baiser meme si on fait du kung-fu <<set $derogationquantique to true>>
-    -> Un ami imaginaire piranhaconda <<set $piranhaconda to true>>
+    -> L'amour d'un pere
+    -> Derogation quantique pour baiser meme si on fait du kung-fu
+    -> Un ami imaginaire piranhaconda
 Ca marche !
     -> Quoi c'est tout ?
         <<jump AnakinTout>>
@@ -357,7 +351,7 @@ __PrivCrochet_position: -2166,4067
 __PrivCrochet_tags: 
 title: Chien Vagabond
 ---
-<< if visited("ChienVagabond") == 1>>
+<< if visited("Chien Vagabond") == 1>>
 Salut mec ! Pas facile de se promener ici en ce moment pas vrai ?
 <<else>>
 <<jump ChienVagabonStart2>>
@@ -381,7 +375,7 @@ __PrivCrochet_position: -1913,4062
 __PrivCrochet_tags: 
 title: ChienVagabonStart2
 ---
-<< if visited("ChienVagabondStart2") == 1>>
+<< if visited("ChienVagabonStart2") == 1>>
 Alors comme ca tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
 <<else>>
 <<jump ChienVagabonStart3>>
@@ -392,7 +386,7 @@ __PrivCrochet_position: -1635,4061
 __PrivCrochet_tags: 
 title: ChienVagabonStart3
 ---
-<< if visited("ChienVagabondStart3") == 1>>
+<< if visited("ChienVagabonStart3") == 1>>
 Alors comme ca tu... tu aimes les gros nez ? C'est cool, c'est cool... pas de jugements...
 <<else>>
 <<jump ChienVagabonQuestion>>
@@ -686,8 +680,9 @@ Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d'a 
 Ne lui parle pas surtout, il a tendance a mordre.
 Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fosse...
 Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
-<<endif>>
+<<else>>
 <<jump PraireVouivreQuete>>
+<<endif>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1611,-1366

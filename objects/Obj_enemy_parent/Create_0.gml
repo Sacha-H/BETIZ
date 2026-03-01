@@ -1,3 +1,6 @@
+object_verify_is_used()
+initialX = x;
+initialY = y;
 targetX = x;
 targetY = y;
 
