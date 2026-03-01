@@ -100,11 +100,19 @@ Non Alexis tu est trop vieux pour faire des betiz
         <<jump Option Fight>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -1643,-1309
+__PrivCrochet_position: -1723,-1299
 __PrivCrochet_tags: 
 title: PngDefault
 ---
-Felicitation ! et bon anniversaire !
+<<random option>>
+->
+    Felicitation ! et bon anniversaire !
+->
+    Trop bien t'es trop fort
+->
+    Bravo !
+->
+    Ah Praire-Vrouivre le meritais bien !
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -767,-1440
@@ -1068,10 +1076,11 @@ Ouin...
 Je vais devoir retourner en chercher dans la Chapelle Cystite...
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 742,5536
+__PrivCrochet_position: 741,5535
 __PrivCrochet_tags: 
 title: Alexis
 ---
+<<if $combatfinal == false>>
 Snif Snif ouin ouin onche onche
 gna gna gna blabla
 nanani nananaaa ...
@@ -1079,6 +1088,9 @@ bref..
 Je suis enferme alors que c'est mon anniversaire, c'est trop injuste !
 Crois moi bien que ce maudit Praire-Vouivre me revaudra ca !!
 Ma vengeance sera terrib' enfet
+<<else>>
+alors la merci
+<<endif>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 749,5840
@@ -1432,6 +1444,13 @@ __PrivCrochet_colorID: 0
 __PrivCrochet_position: -1816,6
 __PrivCrochet_tags: 
 title: Node
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -179,-689
+__PrivCrochet_tags: 
+title: Node_3
 ---
 Empty Text
 ===

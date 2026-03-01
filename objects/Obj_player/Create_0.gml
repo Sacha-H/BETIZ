@@ -35,10 +35,10 @@ function add_xp(_xp_to_add){
         global.player_xp -= global.player_xp_require
         //global.player_xp_require += global.player_xp_require
         
-        global.player_hp_total += 2
-        global.player_hp += 2
+        global.player_hp_total += 1
+        global.player_hp += 1
         
-        global.player_damage += 0.2
+        
     }
 }
 
