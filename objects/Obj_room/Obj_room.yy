@@ -30,6 +30,7 @@
     {"$GMObjectProperty":"v2","%Name":"snd_room","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"snd_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"index_zone","filters":[],"listItems":[],"multiselect":false,"name":"index_zone","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -8,7 +8,7 @@ ChatterboxLoadFromFile("Globalnpc.yarn")
 // ROOM
 global.index_entrence = 0
 global.background_music = noone
-global.zone_name = "Sanitaires de Chaude-Liche"
+global.zone_name = "Bienvenue !"
 
 // OBJECT
 global.inst_list = ds_list_create()

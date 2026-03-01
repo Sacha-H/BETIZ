@@ -37,7 +37,10 @@ if (can_draw_video == true){
             inst_5D75C24A2_5.y = 400
             inst_5D75C24A2_5.visible = true
             }
-            
+        if (instance_exists(inst_6828A056_1)) {
+            Obj_player.x = 50
+            Obj_player.y = 50
+            }
         
         instance_destroy()
         

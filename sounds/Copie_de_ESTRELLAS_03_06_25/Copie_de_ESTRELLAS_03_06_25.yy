@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Copie_de_ESTRELLAS_03_06_25",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":952.776,
+  "exportDir":"",
+  "name":"Copie_de_ESTRELLAS_03_06_25",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sound/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Copie_de_ESTRELLAS_03_06_25.mp3",
+  "volume":1.0,
+}
