@@ -12,6 +12,7 @@
     {"name":"inst_2123A0C3_2_3_1_1_1_3_1_2","path":"rooms/ChaudeLiche_1/ChaudeLiche_1.yy",},
     {"name":"inst_319DE75A1_1_3_1_2","path":"rooms/ChaudeLiche_1/ChaudeLiche_1.yy",},
     {"name":"inst_21360264","path":"rooms/ChaudeLiche_1/ChaudeLiche_1.yy",},
+    {"name":"inst_3B973372","path":"rooms/ChaudeLiche_1/ChaudeLiche_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -33,6 +34,9 @@
         {"$GMRInstance":"v4","%Name":"inst_21360264","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21360264","objectId":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_cinematic","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"propertyId":{"name":"video_name","path":"objects/Obj_cinematic/Obj_cinematic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cinematic_RingUp.mov",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0390625,"scaleY":3.4958744,"x":1269.5,"y":667.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3B973372","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B973372","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"IMG_9976","path":"sprites/IMG_9976/IMG_9976.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Gomuscus",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40645152,"scaleY":0.40645152,"x":4913.4126,"y":1404.7927,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":244,"SerialiseWidth":374,"TileCompressedData":[
           -29,0,-4,-2147483648,-56,0,-285,-2147483648,-89,0,-285,-2147483648,-89,0,-3882,-2147483648,1,34,-373,

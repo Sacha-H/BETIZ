@@ -12,6 +12,7 @@
     {"name":"inst_69E41977_2_3_1_1_1","path":"rooms/ChaudeLiche_5/ChaudeLiche_5.yy",},
     {"name":"inst_2123A0C3_2_4_1_1_1","path":"rooms/ChaudeLiche_5/ChaudeLiche_5.yy",},
     {"name":"inst_28F199B8_2_1_2_1_1","path":"rooms/ChaudeLiche_5/ChaudeLiche_5.yy",},
+    {"name":"inst_7A1A0E4C","path":"rooms/ChaudeLiche_5/ChaudeLiche_5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -33,6 +34,9 @@
         {"$GMRInstance":"v4","%Name":"inst_28F199B8_2_1_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28F199B8_2_1_2_1_1","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"propertyId":{"name":"index_entrence","path":"objects/Obj_entrence/Obj_entrence.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40000004,"scaleY":0.63,"x":2215.9583,"y":642.79724,},
+        {"$GMRInstance":"v4","%Name":"inst_7A1A0E4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A1A0E4C","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"previewSprite":{"name":"spr_Chien_vagabon","path":"sprites/spr_Chien_vagabon/spr_Chien_vagabon.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_npc_parent","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"propertyId":{"name":"name","path":"objects/Obj_npc_parent/Obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Chien Vagabond",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-0.30080974,"scaleY":0.29119027,"x":951.0241,"y":427.7585,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":110,"SerialiseWidth":163,"TileCompressedData":[
           -29,0,-4,-2147483648,-49,0,-47,-2147483648,-116,0,-46,-2147483648,-117,0,-37,-2147483648,-126,0,-37,

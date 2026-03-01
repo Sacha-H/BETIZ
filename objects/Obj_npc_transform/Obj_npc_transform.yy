@@ -37,8 +37,8 @@
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"animation_transform","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_Eugaznog_transform","path":"sprites/spr_Eugaznog_transform/spr_Eugaznog_transform.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_Eugaznog_transform","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"animation_end","filters":[
-        "GMObject",
-      ],"listItems":[],"multiselect":false,"name":"animation_end","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_Chenapan","path":"sprites/spr_Chenapan/spr_Chenapan.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_Chenapan","varType":5,},
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"animation_end","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Sprite156","path":"sprites/Sprite156/Sprite156.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Sprite156","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

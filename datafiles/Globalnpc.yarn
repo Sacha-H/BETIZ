@@ -355,7 +355,7 @@ Gobeli... reflechis...
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: -2166,4067
 __PrivCrochet_tags: 
-title: ChienVagabond
+title: Chien Vagabond
 ---
 << if visited("ChienVagabond") == 1>>
 Salut mec ! Pas facile de se promener ici en ce moment pas vrai ?
@@ -662,7 +662,7 @@ title: PlusFortMerci
 Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 1014,-1206
+__PrivCrochet_position: 1010,-1208
 __PrivCrochet_tags: 
 title: PraireVouivreQuete
 ---
@@ -716,11 +716,11 @@ title: Option pourquoi_2
 mange mon chapeau !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1444,-1132
+__PrivCrochet_position: 1356,-1202
 __PrivCrochet_tags: 
 title: CombatFinal
 ---
-<<set $combatfinal to true>>
+<<set $portalopen to true>>
 TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
 ===
 __PrivCrochet_colorID: 8
@@ -758,9 +758,9 @@ title: poratilNon
 Bon d'accord
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 719,355
+__PrivCrochet_position: 718,354
 __PrivCrochet_tags: 
-title: Marsouin
+title: YESFERATU
 ---
 <<if visited("Marsouin") == 1>>
 Bonzour ze me prezente ze suis une ssauf-souris mutante adolescente
@@ -918,16 +918,18 @@ __PrivCrochet_position: 785,2617
 __PrivCrochet_tags: 
 title: Niark
 ---
+<<if visited("Niark") == 1>>
 Mmmh.. Je sens sur toi...
 Euhan ?!! 
-<<if $anakinpere == true>>
-L'amour d'un pere ?!!!!
-<<endif>>
-<<if $derogationquantique == true>>
+    -> L'amour d'un pere 
+    -> Derogation quantique pour baiser meme si on fait du kung-fu 
+    -> Un ami imaginaire piranhaconda
 Boah, c'est bon, j'en ai plein deja..
-<<endif>>
-<<if $piranhaconda == true>>
-T'as qu'a demander a mes potes ils savent tres bien eux comment j'en ai... 
+T'as qu'a demander a mes potes ils savent tres bien eux comment j'en ai plein
+Donc bon.
+<<else>>
+Si seulment j'avais ...
+Mais heureusement j'ai tous ce qu'il me faut.
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
@@ -971,11 +973,11 @@ __PrivCrochet_position: 781,4030
 __PrivCrochet_tags: 
 title: R1
 ---
-<<if !visted("R1Demasque")>>
+<<if !visited("R1Demasque")>>
 Hum bonjour hum c'est moi alexis miaou...
-    -> Je t'ai demasque.<<if !visted("R1Demasque")>>
+    -> Je t'ai demasque.<<if !visited("R1Demasque")>>
         <<jump R1Demasque>>
-    -> Oh Alexis je te cherchais justement !! <<if !visted("R1Alexis")>>
+    -> Oh Alexis je te cherchais justement !! <<if !visited("R1Alexis")>>
         <<jump R1Alexis>>
 <<else>>
 Je n'ai plus rien a t'enseigner. Passe ton chemin.
@@ -1010,7 +1012,7 @@ title: R1Alexis
 Oui c'est moi !! Va vite me delivrer de prison !!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 729,4450
+__PrivCrochet_position: 728,4448
 __PrivCrochet_tags: 
 title: Zebi
 ---
@@ -1023,7 +1025,7 @@ STARFOULLA PSARTEKK MON REUF
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 785,4802
 __PrivCrochet_tags: 
-title: Doug
+title: Morpheus
 ---
 The average amount of skeletons in a body is technically more than one.
 Whenever I feel dead inside, I like to go outside.
@@ -1167,7 +1169,7 @@ Embrasse-moi.
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 2518,-720
 __PrivCrochet_tags: 
-title: Boboxeur
+title: Christophe
 ---
 <<if !visited("BoboxeurText")>>
 Le saviais-tu ?
@@ -1391,14 +1393,14 @@ title: EugaznogTransform
 GONZAGue !!!!!
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1037,4435
+__PrivCrochet_position: 1046,4453
 __PrivCrochet_tags: 
 title: ZebiMed
 ---
 J'ai rendez-vous chez le toubib
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2436,3970
+__PrivCrochet_position: 2264,3928
 __PrivCrochet_tags: 
 title: Le Pouvoir de l'amitier
 ---
@@ -1406,6 +1408,7 @@ title: Le Pouvoir de l'amitier
 Ramasse moi, ensemble nous pouvons deliver le vrai hero de cette histoire
     -> ok
     -> daccord
+<<jump pouvoirdelamitierobtenu>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1287,3303
@@ -1421,4 +1424,12 @@ title: Chauve Pas Sourire
 ---
 tu t'es jamais dit que le soleil c'etait une explosion nucleaire mais dans le ciel ?
 J'essaye de retrouver ma grotte
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2638,3931
+__PrivCrochet_tags: 
+title: pouvoirdelamitierobtenu
+---
+<<set $transformation to true>>
+* Vous avez obtenue Le Pouvoir de l'amitier *
 ===

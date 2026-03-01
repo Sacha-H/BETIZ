@@ -29,6 +29,9 @@ function add_xp(_xp_to_add){
     global.player_xp += _xp_to_add
     while(global.player_xp >= global.player_xp_require){
         global.player_level++
+        if (global.player_level >= 30 ){
+            global.player_level = 30
+        }
         global.player_xp -= global.player_xp_require
         //global.player_xp_require += global.player_xp_require
         

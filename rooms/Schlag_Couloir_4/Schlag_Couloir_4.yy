@@ -11,7 +11,6 @@
     {"name":"inst_5D75C24A2_2_1_1_1_1","path":"rooms/Schlag_Couloir_4/Schlag_Couloir_4.yy",},
     {"name":"inst_69E41977_2_2_1_1_1_1","path":"rooms/Schlag_Couloir_4/Schlag_Couloir_4.yy",},
     {"name":"inst_28F199B8_2_1_1_1_1_1","path":"rooms/Schlag_Couloir_4/Schlag_Couloir_4.yy",},
-    {"name":"inst_66FEA0F3","path":"rooms/Schlag_Couloir_4/Schlag_Couloir_4.yy",},
     {"name":"inst_5D93644","path":"rooms/Schlag_Couloir_4/Schlag_Couloir_4.yy",},
   ],
   "isDnd":false,
@@ -87,9 +86,9 @@
           -11,0,-63,-2147483648,-50,0,-28,-2147483648,-6,0,-47,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"IMG_0198","path":"sprites/IMG_0198/IMG_0198.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
-    {"$GMRInstanceLayer":"","%Name":"FondDuTrou","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_66FEA0F3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66FEA0F3","objectId":{"name":"Obj_npc_1","path":"objects/Obj_npc_1/Obj_npc_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-1.9393675,"scaleX":1.6318557,"scaleY":1.6318557,"x":757.0,"y":-35.0,},
-      ],"layers":[],"name":"FondDuTrou","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_25A2F57C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_25A2F57C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.8230609,"scaleY":1.8230608,"spriteId":{"name":"IMG_0197","path":"sprites/IMG_0197/IMG_0197.yy",},"x":617.0,"y":0.0,},
+      ],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"FondDuTrouNoir","animationFPS":15.0,"animationSpeedType":0,"colour":4279505940,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FondDuTrouNoir","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Schlag_Couloir_4",
