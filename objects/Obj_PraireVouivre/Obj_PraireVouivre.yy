@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Pierre_Vouivre",
-    "path":"sprites/spr_Pierre_Vouivre/spr_Pierre_Vouivre.yy",
+    "name":"spr_Pierre_Vouivre_sourire",
+    "path":"sprites/spr_Pierre_Vouivre_sourire/spr_Pierre_Vouivre_sourire.yy",
   },
   "spriteMaskId":null,
   "visible":true,

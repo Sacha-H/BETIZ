@@ -4,6 +4,7 @@ event_inherited();
 
 
 if (portal_open == true && !instance_exists(Obj_text) ){
+    global.index_entrence =0
     room_goto(DS)
     
 }

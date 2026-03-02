@@ -53,7 +53,7 @@ title: Option voler
 REVIENS ICI CHENAPAN !!!
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: -2413,-2295
+__PrivCrochet_position: -2395,-2142
 __PrivCrochet_tags: 
 title: Declaration
 ---
@@ -664,60 +664,6 @@ title: PlusFortMerci
 Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1611,-1366
-__PrivCrochet_tags: 
-title: Option donner_2
----
-<<set $hashat to false>>
-<<set $pnjhashat to true>>
-<<set $pnjhashatequiped to false>>
-Merci !
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1609,-866
-__PrivCrochet_tags: 
-title: Option voler_2
----
-<< set $pnjhashat to false >>
-<<set $hashat to true >>
-REVIENS ICI CHENAPAN !!!
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1647,-1646
-__PrivCrochet_tags: 
-title: Option pourquoi_2
----
-mange mon chapeau !
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 107,-250
-__PrivCrochet_tags: 
-title: Praire Vouivre
----
-<<if visited("Praire Vouivre") == 1>>
-Ah mince
-<<else>>
-<<jump PortailOuvrir>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 422,-255
-__PrivCrochet_tags: 
-title: PortailOuvrir
----
-<<if $playerLevel == 30 >>
-<<jump combatfinal>>
-<<else>>
-Va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
-<<endif>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1562,-74
-__PrivCrochet_tags: 
-title: poratilNon
----
-Bon d'accord
-===
-__PrivCrochet_colorID: 0
 __PrivCrochet_position: 718,354
 __PrivCrochet_tags: 
 title: YESFERATU
@@ -850,7 +796,7 @@ Il se fait appeler " Dark Vador " et fait semblant de pas savoir parler avant d'
 ca vous dit quelque chose ?
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1318,220
+__PrivCrochet_position: 1449,-49
 __PrivCrochet_tags: 
 title: PortalFranchissez
 ---
@@ -993,9 +939,6 @@ Whenever I feel dead inside, I like to go outside.
 I just hate people who take drugs...
 Airport security for example ..
 If being sexy is a crime, let me tell you that I am breaking the law sir... "
-"Hunter X Hunter is the story about a young boy whose father left one day to buy cigarettes and never came back,
-and so now the boy is determined to head out on a grand quest, not to find his father,
-but to find out what's so awsome about cigarettes."
 " La maitresse de Tonton l'interroge sur la derniere lecon de geographie : " Peux-tu me dire quels sont les pays frontaliers de la France, Tonton ?
 Tonton reste muet, la maitresse le sermonne,
 - Tu n'as toujours pas revu le cours de geographie !
@@ -1188,7 +1131,7 @@ Ce qu'on appelle couramment " champignon " n'est en fait que la " fructification
 L'etude des champignons, la mycologie, est pratiquee par des mycologues.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2540,-235
+__PrivCrochet_position: 2487,-241
 __PrivCrochet_tags: 
 title: Plectrude Austreberthe de Casmelothes
 ---
@@ -1205,7 +1148,7 @@ title: Plectrude Austreberthe de Casmelothes
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2970,-236
+__PrivCrochet_position: 2913,-246
 __PrivCrochet_tags: 
 title: Plectrude Austreberthe de CasmelothesPortail
 ---
@@ -1213,7 +1156,7 @@ title: Plectrude Austreberthe de CasmelothesPortail
 " AJOURDANCE GIRATOIRE !!!! "
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2562,85
+__PrivCrochet_position: 2686,233
 __PrivCrochet_tags: 
 title: Biblically accurate fairy
 ---
@@ -1223,14 +1166,14 @@ But in you soul ?
 Someone finally sees your TRUE potential.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2551,377
+__PrivCrochet_position: 2473,509
 __PrivCrochet_tags: 
 title: Shirley
 ---
 Merci pour les dofus :p
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2558,632
+__PrivCrochet_position: 2536,707
 __PrivCrochet_tags: 
 title: LegendaireXGladiateur
 ---
@@ -1409,10 +1352,28 @@ title: Node
 Empty Text
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 815,-290
+__PrivCrochet_position: 1860,123
 __PrivCrochet_tags: 
-title: combatfinal
+title: Praire Vouivre
+---
+<<if $combatfinal == true>>
+TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
+<<jump Plectrude Austreberthe de CasmelothesPortail_2>>
+<<else>>
+Ah mince, pour le golem de smegma il fallait que je lui preleve le...  Ahem !
+(Qu'est-ce que je vais en faire de celui-la)
+Bienvenue dans mon repaire, jeune sbire !
+Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d'en-dessous.
+Ne lui parle pas surtout, il a tendance a mordre.
+Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fossé...
+Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2284,117
+__PrivCrochet_tags: 
+title: Plectrude Austreberthe de CasmelothesPortail_2
 ---
 <<set $portalopen to true>>
-TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
+* Praire Vouivre vous teleporte *
 ===

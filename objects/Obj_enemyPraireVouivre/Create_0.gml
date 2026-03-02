@@ -1,5 +1,6 @@
 // Inherit the parent event
 event_inherited();
+
     sfx = [sfx_PRAIRE_VOUIVRE_1,
             sfx_PRAIRE_VOUIVRE_10,
             sfx_PRAIRE_VOUIVRE_11,

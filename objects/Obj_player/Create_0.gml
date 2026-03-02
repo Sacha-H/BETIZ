@@ -31,6 +31,7 @@ function add_xp(_xp_to_add){
         global.player_level++
         if (global.player_level >= 30 ){
             global.player_level = 30
+            global.combat_final = true
         }
         global.player_xp -= global.player_xp_require
         //global.player_xp_require += global.player_xp_require
