@@ -53,7 +53,7 @@ title: Option voler
 REVIENS ICI CHENAPAN !!!
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: -2395,-1669
+__PrivCrochet_position: -2413,-2295
 __PrivCrochet_tags: 
 title: Declaration
 ---
@@ -663,35 +663,6 @@ title: PlusFortMerci
 ---
 Tu devrais apprendre a etre plus humble, j'ai beaucoup de choses a t'apporter.
 ===
-__PrivCrochet_colorID: 8
-__PrivCrochet_position: 1009,-1209
-__PrivCrochet_tags: 
-title: PraireVouivreQuete
----
-<<if $playerLevel == 30 >>
-<<jump CombatFinal>>
-<<else>>
-Va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
-<<endif>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 671,-1205
-__PrivCrochet_tags: 
-title: PraireVouivre
----
-<<if visited("PraireVouivre") == 1>>
-Ah mince, pour le golem de smegma il fallait que je lui preleve le...  Ahem !
-(Qu'est-ce que je vais en faire de celui-la)
-Bienvenue dans mon repaire, jeune sbire !
-Tu n'es pas tout a fait ce que j'attendais mais tu feras l'affaire.
-Comme tu peux le voir j'ai enferme Alexis sans faire expres dans la cellule d'a cote
-Ne lui parle pas surtout, il a tendance a mordre.
-Pourrais-tu aller te faire cogner par tous les monstres du coin et crever dans un fosse...
-Enfin je veux dire : va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
-<<else>>
-<<jump PraireVouivreQuete>>
-<<endif>>
-===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1611,-1366
 __PrivCrochet_tags: 
@@ -719,39 +690,25 @@ title: Option pourquoi_2
 mange mon chapeau !
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1355,-1203
+__PrivCrochet_position: 107,-250
 __PrivCrochet_tags: 
-title: CombatFinal
+title: Praire Vouivre
 ---
-<<set $combatfinal to true>>
-TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
-===
-__PrivCrochet_colorID: 8
-__PrivCrochet_position: 1266,-270
-__PrivCrochet_tags: 
-title: portailQuestion
----
-veux tu ouvrir le portail
-    -> Oui
-        <<jump PortailOuvrir>>
-    -> Non
-        <<jump poratilNon>>
+<<if visited("Praire Vouivre") == 1>>
+Ah mince
+<<else>>
+<<jump PortailOuvrir>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 912,-267
-__PrivCrochet_tags: 
-title: portail
----
-je suis un portail
-<<jump portailQuestion>>
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1554,-441
+__PrivCrochet_position: 422,-255
 __PrivCrochet_tags: 
 title: PortailOuvrir
 ---
-<<set $portalopen to true>>
-le portail s'ouvre
+<<if $playerLevel == 30 >>
+<<jump combatfinal>>
+<<else>>
+Va chercher la gloire jeune champion, tue au moins euh... 30 monstres et revient me voir pour une recompense !
+<<endif>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 1562,-74
@@ -893,7 +850,7 @@ Il se fait appeler " Dark Vador " et fait semblant de pas savoir parler avant d'
 ca vous dit quelque chose ?
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1139,1
+__PrivCrochet_position: 1318,220
 __PrivCrochet_tags: 
 title: PortalFranchissez
 ---
@@ -1030,11 +987,15 @@ __PrivCrochet_position: 785,4802
 __PrivCrochet_tags: 
 title: Morpheus
 ---
-The average amount of skeletons in a body is technically more than one.
+Merde, ou est-ce que j'ai mis cette liste deja ? Ah, la voila
+" The average amount of skeletons in a body is technically more than one.
 Whenever I feel dead inside, I like to go outside.
 I just hate people who take drugs...
 Airport security for example ..
-If being sexy is a crime, let me tell you that I am breaking the law sir...
+If being sexy is a crime, let me tell you that I am breaking the law sir... "
+"Hunter X Hunter is the story about a young boy whose father left one day to buy cigarettes and never came back,
+and so now the boy is determined to head out on a grand quest, not to find his father,
+but to find out what's so awsome about cigarettes."
 " La maitresse de Tonton l'interroge sur la derniere lecon de geographie : " Peux-tu me dire quels sont les pays frontaliers de la France, Tonton ?
 Tonton reste muet, la maitresse le sermonne,
 - Tu n'as toujours pas revu le cours de geographie !
@@ -1227,7 +1188,7 @@ Ce qu'on appelle couramment " champignon " n'est en fait que la " fructification
 L'etude des champignons, la mycologie, est pratiquee par des mycologues.
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2540,-234
+__PrivCrochet_position: 2540,-235
 __PrivCrochet_tags: 
 title: Plectrude Austreberthe de Casmelothes
 ---
@@ -1448,9 +1409,10 @@ title: Node
 Empty Text
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -179,-689
+__PrivCrochet_position: 815,-290
 __PrivCrochet_tags: 
-title: Node_3
+title: combatfinal
 ---
-Empty Text
+<<set $portalopen to true>>
+TU PENSAIS FAIRE QUOI, LIBERER ALEXIS ? SEUL MOI DECIDE SANS FAIRE EXPRES SI ALEXIS RENTRE OU SORT !
 ===

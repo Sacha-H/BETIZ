@@ -19,6 +19,10 @@ if instance_exists(Obj_npc_portail){
 ChatterboxVariableSet("portalopen",Obj_npc_portail.portal_open)
 }
 
+if instance_exists(Obj_npc_portail_1){
+ChatterboxVariableSet("portalopen",Obj_npc_portail_1.portal_open)
+}
+
 if instance_exists(Obj_npc_combat){
 ChatterboxVariableSet("npccombat",Obj_npc_combat.combat)
 }

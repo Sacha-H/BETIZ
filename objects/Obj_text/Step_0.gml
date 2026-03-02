@@ -7,9 +7,16 @@ if Chatterbox {
     
     global.combat_final = ChatterboxVariableGet("combatfinal")
     
+    
     if instance_exists(Obj_npc_portail){
     Obj_npc_portail.portal_open = ChatterboxVariableGet("portalopen")
     }
+    
+        if instance_exists(Obj_npc_portail_1){
+    Obj_npc_portail_1.portal_open = ChatterboxVariableGet("portalopen")
+            show_debug_message(ChatterboxVariableGet("portalopen"))
+    }
+    
     
     if instance_exists(Obj_npc_combat){
     Obj_npc_combat.combat = ChatterboxVariableGet("npccombat")

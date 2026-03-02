@@ -3,7 +3,7 @@ event_inherited();
 
 
 
-if (global.combat_final && !instance_exists(Obj_text) ){
+if (portal_open == true && !instance_exists(Obj_text) ){
     room_goto(DS)
     
 }
