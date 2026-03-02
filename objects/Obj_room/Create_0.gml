@@ -26,4 +26,5 @@ switch (index_zone) {
         break;
     case 7 : global.zone_name = "Tour amicale (et lahique)";
         break;
+    case 8 : global.zone_name = "Lieu Ultime"
 }
